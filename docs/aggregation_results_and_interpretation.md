@@ -27,6 +27,8 @@ The script prints each pipeline's result count and up to three result documents.
 | 9 | Use `$push` and `$addToSet` | `11. Unique statuses and trip IDs by route` | Explain that `$push` preserves each trip ID in a list, while `$addToSet` collects distinct status values. |
 | 10 | Use `$lookup` to combine two related collections | `5. Trips joined with buses` (also pipelines 6 and 7) | Explain the join keys and identify the joined bus registration, route, or driver fields in the resulting report. |
 
+Additional implemented coverage includes `$match` to filter completed trips and `$slice` to preview the first three stops of active routes.
+
 ## Additional useful pipelines
 
 - `9. Fuel cost by bus`: compares fuel consumption and cost by bus.
