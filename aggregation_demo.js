@@ -30,6 +30,17 @@ runPipeline("1. Trips grouped by status", "trips", [
   { $sort: { tripCount: -1 } }
 ]);
 
+// 1b. Identify the single largest trip-status group
+runPipeline("1b. Largest trip-status group", "trips", [
+  { $group: {
+      _id: "$status",
+      tripCount: { $sum: 1 }
+  }},
+  { $sort: { tripCount: -1, _id: 1 } },
+  { $limit: 1 },
+  { $project: { status: "$_id", tripCount: 1, _id: 0 } }
+]);
+
 // 2. Average passenger count by trip type
 runPipeline("2. Average passengers by trip type", "trips", [
   { $group: {
@@ -161,6 +172,22 @@ runPipeline("11. Unique statuses and trip IDs by route", "trips", [
   { $project: {
       tripCount: 1, statuses: 1,
       sampleTripIds: { $slice: ["$tripIds", 5] }
+  }}
+]);
+
+// 12b. Paginated trip report: page 2, 10 records per page
+runPipeline("12b. Paginated trip report (page 2)", "trips", [
+  { $sort: { scheduledStart: 1, tripId: 1 } },
+  { $skip: 10 },
+  { $limit: 10 },
+  { $project: {
+      _id: 0,
+      tripId: 1,
+      routeId: 1,
+      busId: 1,
+      driverId: 1,
+      scheduledStart: 1,
+      status: 1
   }}
 ]);
 
