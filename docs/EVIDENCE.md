@@ -8,7 +8,7 @@ The following results were observed during project validation. Re-run the releva
 - The final audit completed **42 checks with 0 failures** against the validated source database and migration target.
 - Unique business-key indexes were checked by the final audit.
 - Trip, maintenance, and fuel-record references to buses, drivers, and routes were checked.
-- The Node.js transaction demonstration passed its commit and rollback scenarios.
+- The earlier Node.js transaction demonstration passed commit and rollback checks. The transaction script has since been strengthened to update bus, driver, and trip state atomically; its revised version still needs a fresh local run.
 - The migration demonstration passed its count and reference-integrity checks.
 - All **709 route-stop rows** were preserved when stops were embedded into route documents.
 - The compound-index benchmark reduced documents examined from **600 to 128** for the tested trip-status/scheduled-start query. Execution time varies by run and environment.
@@ -23,7 +23,8 @@ Run these from the repository root after completing the database setup and impor
 | CRUD operations | `mongosh crud_demo.js` |
 | Query operators | `mongosh query_operators_demo.js` |
 | Aggregation pipelines | `mongosh aggregation_demo.js` |
-| Transaction commit/rollback | `node transaction_demo.cjs` |
+| Aggregation screenshot/interpretation guide | `docs/aggregation_results_and_interpretation.md` |
+| Atomic assignment transaction and rollback | `node transaction_demo.cjs` |
 | Simulated relational-style JSON migration | `node migration_demo.cjs` |
 | Final database audit | `mongosh final_project_audit.js` |
 
