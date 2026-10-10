@@ -1,7 +1,7 @@
 {
   "name": "bus-fleet-route-management",
   "version": "1.0.0",
-  "description": "**Student:** VIGNESH R   **USN:** 24BTRCL214   **Course:** NoSQL / MongoDB Project   **Project:** Bus Fleet & Route Management   **Advanced Feature:** RDBMS-to-MongoDB Migration",
+  "description": "MongoDB and Node.js project for bus fleet operations, indexing, transactions, and simulated relational-to-document migration.",
   "main": "aggregation_demo.js",
   "directories": {
     "doc": "docs"
