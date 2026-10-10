@@ -82,6 +82,6 @@ RDBMS-to-MongoDB migration:
 
 ## Scalability
 
-Replica set: `rs0` with one primary and secondaries.
+Local test deployment: `rs0` is a single-member replica set with one writable primary. Secondary replication and multi-member failover have not been tested; a multi-member replica set is a possible deployment design, not an implemented or verified feature.
 
 Sharding design: `mongos` routing to geographically distributed shard replica sets. Candidate shard keys will be evaluated against query/write distribution rather than selected arbitrarily.
