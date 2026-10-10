@@ -1,115 +1,212 @@
-# Bus Fleet & Route Management — Final Project Report
+# Bus Fleet & Route Management
+## Final Project Report
+
+**Project type:** MongoDB and Node.js academic database project  
+**Repository:** [bus-fleet-route-management](https://github.com/VigneshRethinaswamy/bus-fleet-route-management)  
+**Database:** `bus_fleet_management`  
+**Test environment:** MongoDB 8.3.7, `mongosh` 2.9.2, Node.js v24.14.0, MongoDB Node.js driver 7.7.0  
+**Dataset:** Synthetic; 2,010 documents across 10 collections
+
+---
 
 ## Abstract
 
-This project designs and implements a MongoDB-based bus fleet and route management database. It models users, master data, buses, drivers, routes, trips, maintenance, fuel records, transactions, and activities. The implementation demonstrates schema validation, embedding and referencing, CRUD operations, query operators, aggregation pipelines, indexes, a transaction commit/rollback demonstration, and an RDBMS-to-MongoDB migration simulation.
+The Bus Fleet & Route Management project implements a document-oriented database for managing buses, drivers, routes, trips, maintenance, fuel records, users, transactions, and audit activities. It demonstrates MongoDB schema design through embedding and referencing, data validation, CRUD operations, query operators, aggregation pipelines, indexes, multi-document transaction behavior, and a simulated relational-to-document migration.
 
-The main database contains 2,010 synthetic documents across 10 collections. The latest recorded final audit completed 42 checks with zero failures, including collection counts, unique indexes, source references, and a timestamped migration target. These are local test results, not a claim of production deployment.
+The latest recorded local validation reported **55 passed, 0 failed, and 0 warnings** across the database checks. The aggregation demonstration reported **16 passed and 0 failed**. The transaction demonstration passed its recorded commit, rollback, and cleanup checks. These results describe the tested local environment and synthetic dataset; they do not imply production deployment or untested high-availability behavior.
 
-## 1. Problem statement and objectives
+## 1. Problem statement
 
-The objective is to design a MongoDB-based system that supports core fleet records, operational transactions, analytical reporting, and a scalable data design. The project aims to:
-- Model buses, drivers, routes, trips, maintenance, and fuel records.
-- Demonstrate embedding for bounded child data and referencing for shared entities.
-- Support CRUD and common MongoDB query operators.
-- Answer analytical questions using aggregation stages.
-- Enforce business-key uniqueness and compare indexed query execution with a collection scan.
-- Demonstrate transactional commit and rollback behavior.
-- Transform relational-style JSON extracts into a document-oriented MongoDB structure.
-- Explain replication, CAP, sharding, and alternative NoSQL database models.
+Fleet operations involve related data about vehicles, drivers, routes, trips, servicing, fuel usage, and business activity. A database for this domain must preserve important relationships while supporting operational updates and useful summaries.
 
-## 2. Technology and dataset
+The project addresses this need by implementing a MongoDB data model and demonstrating how document storage, references, indexes, transactions, and aggregation can support a fleet-management workload.
 
-- Database: MongoDB 8.x; the tested local environment used MongoDB 8.3.7.
-- Shell: mongosh.
-- Runtime and driver: Node.js with the MongoDB Node.js driver.
-- Dataset: deterministic synthetic JSON data prepared for MongoDB import.
+## 2. Objectives
+
+- Model core fleet and operational records in MongoDB.
+- Use embedded subdocuments for bounded data owned by a parent document.
+- Use references for shared entities that are updated independently.
+- Demonstrate create, read, update, and delete operations.
+- Demonstrate query operators, projections, array queries, sorting, and pagination.
+- Build analytical reports using aggregation stages and joins.
+- Enforce unique business identifiers and compare query plans.
+- Demonstrate transaction commit and rollback behavior.
+- Simulate migration from relational-style JSON extracts to MongoDB documents.
+- Document design trade-offs, limitations, and possible future improvements.
+
+## 3. Technologies and environment
+
+| Component | Tested or used version |
+|---|---|
+| Database | MongoDB 8.3.7 |
+| Shell | mongosh 2.9.2 |
+| Runtime | Node.js v24.14.0 |
+| Driver | MongoDB Node.js driver 7.7.0 |
+| Deployment | Local single-member replica set, `rs0` |
+| Data | Synthetic JSON dataset |
+
+The transaction example requires replica-set transaction support. The local `rs0` configuration has one member and one writable primary.
+
+## 4. Database contents
+
+The primary database contains 2,010 documents across 10 collections.
 
 | Collection | Documents |
 |---|---:|
-| users | 60 |
-| masterData | 60 |
-| buses | 160 |
-| drivers | 120 |
-| routes | 120 |
-| trips | 600 |
-| maintenance | 180 |
-| fuelRecords | 360 |
-| transactions | 200 |
-| activities | 150 |
+| `users` | 60 |
+| `masterData` | 60 |
+| `buses` | 160 |
+| `drivers` | 120 |
+| `routes` | 120 |
+| `trips` | 600 |
+| `maintenance` | 180 |
+| `fuelRecords` | 360 |
+| `transactions` | 200 |
+| `activities` | 150 |
 | **Total** | **2,010** |
 
-The suggested `reports` collection is not persisted separately. Analytical reports are generated on demand through aggregation pipelines to avoid storing duplicate or stale report snapshots. A dedicated collection could be added if saved report definitions or historical snapshots become a requirement.
+The dataset is synthetic and is intended for academic demonstration, not as a record of real bus operations.
 
-## 3. Schema design: embedding and referencing
+## 5. Schema design: embedding and referencing
 
-Embedding is used for bounded information that is normally read with its parent, including bus depot/features, route stops/operating days, trip incidents, maintenance parts, and user permissions. Referencing is used for shared entities that are independently updated: trips refer to buses, drivers, and routes; maintenance and fuel records refer to buses; activities refer to users; transactions retain relevant bus, trip, driver, and actor IDs.
+### Embedding
 
-The schema diagram and detailed relationship rationale are in [architecture.md](architecture.md).
+The model embeds bounded data that is normally read with its parent:
 
-## 4. CRUD and query operations
+- Bus depot information and features
+- Route stops and operating days
+- Trip incidents
+- Maintenance parts
+- User permissions
 
-The project includes create, read, update, and delete examples, along with query operators and array queries. The CRUD demonstration creates temporary records, verifies reads and updates, deletes the test records, and checks that the original document total is restored. The query examples cover comparison and logical operators, projections, pagination, array matching, and slicing. Run mongosh scripts with the database name explicitly (`mongosh bus_fleet_management --file <script.js>`) so they operate on the intended database rather than the default `test` database.
+Embedding reduces the need to fetch separate documents for these closely related values.
 
-## 5. Aggregation and analytical reporting
+### Referencing
 
-The aggregation demonstration contains 16 pipelines, including trip counts by status, largest status group, average passengers by trip type, top routes by revenue, revenue statistics, joins with buses/routes/drivers, bus utilization, fuel cost, maintenance cost, grouped lists with `$push` and `$addToSet`, paginated trip reporting with `$skip` and `$limit`, and route-stop analysis with `$unwind`.
+The model uses business identifiers to connect shared entities:
 
-The current recorded aggregation run completed 16 pipelines with 16 passed and 0 failed. Actual outputs and interpretations are documented in [aggregation_results_and_interpretation.md](aggregation_results_and_interpretation.md), alongside the screenshot evidence checklist.
+- Trips reference buses, routes, and drivers.
+- Maintenance and fuel records reference buses.
+- Transactions retain relevant bus, trip, driver, and actor identifiers.
+- Activities reference users.
 
-## 6. Indexing and execution statistics
+These records can be maintained independently without duplicating all fields of the referenced entity. The complete relationship diagram and rationale are in [architecture.md](architecture.md).
 
-The project defines unique business-key indexes and supporting sparse, compound, and multikey indexes. In the recorded benchmark for a trip-status and scheduled-start query, the collection scan examined 600 documents while the compound-index plan examined 128. This is evidence for that query and dataset only; execution time varies with the environment and should not be generalized to every workload.
+## 6. CRUD and query operations
 
-## 7. Mandatory business transaction
+The CRUD demonstration exercises create, read, update, and delete operations using temporary records. It verifies the expected changes, removes the temporary records, and checks that the original total document count is restored.
 
-The transaction demonstration uses MongoDB sessions and a replica-set connection to select an available bus, available driver, scheduled trip, and active user. Its commit transaction updates bus status/driver assignment, driver status, and trip status/assignment, and inserts the transaction record and audit activity together. A second transaction performs the corresponding writes and aborts; the script verifies that the updates and inserted records do not persist. It restores the original operational state, removes temporary records, and checks that collection counts return to their initial values. The recorded local run completed with zero failed checks.
+The query-operator demonstration covers comparison and logical filters, projections, array matching, slicing, sorting, and pagination. The latest recorded run completed with **12 passed and 0 failed**.
 
-## 8. RDBMS-to-MongoDB migration
+Run scripts with the intended database name explicitly to avoid accidentally operating on the default `test` database.
 
-The advanced feature simulates a migration from relational-style JSON table extracts. It exports BUS, DRIVER, ROUTE, ROUTE_STOP, and TRIP tables, reconstructs route documents by embedding their stop records, loads a separate timestamped MongoDB target, and checks counts and references. The run validated 160 buses, 120 drivers, 120 routes, 600 trips, and preservation of all 709 route stops.
+## 7. Aggregation and reporting
 
-**Limitation:** This is not a live migration from a running MySQL or SQL Server database. The source is simulated through JSON extracts.
+The project includes 16 aggregation pipelines. They demonstrate grouping, filtering, sorting, limiting, arithmetic summaries, array operations, array unwinding, pagination, and `$lookup` joins.
 
-## 9. Replication, CAP, and sharding
+Examples of recorded results:
 
-The local MongoDB deployment uses a single-member replica set named `rs0`. It supports the demonstrated transaction workflow but does not demonstrate redundancy or multi-node failover. CAP is discussed conceptually; no multi-node network-partition experiment was performed. Sharding architecture is explained conceptually, but a live sharded cluster is not configured.
+| Analysis | Recorded result |
+|---|---|
+| Trips grouped by status | CANCELLED: 135; ASSIGNED: 128; SCHEDULED: 121 |
+| Average passengers by trip type | REGULAR: 28.50; CHARTER: 27.51; SPECIAL: 26.13 |
+| Total revenue in the analysed records | 859,322 |
+| Average revenue in the analysed records | 1,432.20 |
+| Revenue range | Minimum 150; maximum 4,730 |
+| Top displayed route by revenue | RT0068: 32,594 across 11 trips |
+| Maintenance with highest total cost | PREVENTIVE: 754,371 across 86 records |
+| Highest average maintenance cost | CORRECTIVE: 9,012.66 per record |
+| Page-two pagination example | 10 documents returned |
+| Route-stop occurrence example | Silk Board: 43; Electronic City: 42; Banashankari: 42 |
+| `$push` / `$addToSet` example | RT0054: 12 trips and 5 distinct statuses |
 
-## 10. Comparison with Cassandra and Neo4j
+Revenue and maintenance values are shown in the dataset's recorded units; no specific currency unit is asserted. Route-stop figures count occurrences in embedded arrays and do not necessarily represent unique physical locations. The route ranking above describes the recorded output, not a universal business-performance conclusion.
 
-MongoDB is selected for its document model, embedded data, rich queries, aggregation, and fit for the project's operational records. Cassandra is discussed as an alternative for high-volume distributed event/telemetry workloads, where partition-key and query-oriented design are important. Neo4j is discussed as an alternative for graph relationship analysis, such as route connectivity or connections among buses, drivers, trips, and incidents. The comparison is workload-dependent; neither alternative is universally superior.
+The latest recorded aggregation run passed **16 of 16 pipelines**. Detailed pipeline interpretations and the screenshot checklist are in [aggregation_results_and_interpretation.md](aggregation_results_and_interpretation.md).
 
-## 11. Testing and validation
+## 8. Indexing and query-plan comparison
 
-The recorded final audit checked:
-- Replica-set configuration and writable-primary status.
-- Expected collection names and document counts.
-- 13 unique business-key indexes.
-- References from trips, maintenance, and fuel records.
-- Presence and counts of the four migration target collections.
-- Preservation of 709 embedded route stops.
-- Migration trip references.
+The project creates **13 unique business-key indexes**, along with supporting indexes. For a query filtering on trip status and scheduled start, the recorded explain-plan comparison showed:
 
-The latest recorded final audit reported **42 checks executed, 0 failed**, and 2,010 source documents. A fresh database validation reported **55 passed, 0 failed, and 0 warnings**. The current recorded aggregation demonstration completed with 16 passed and 0 failed, and the revised transaction demonstration passed its commit, rollback, and cleanup checks. These are local test results; rerun the scripts after changing the database or code.
+| Query plan | Documents examined |
+|---|---:|
+| Collection scan | 600 |
+| Compound-index plan | 128 |
 
-## 12. Limitations and future work
+This demonstrates fewer examined documents for the tested query and dataset. It is not a guarantee that every query will be faster, and elapsed execution time can vary with the environment and data distribution.
 
-- Replace the simulated JSON source with an actual SQL export/import if a live RDBMS migration is required.
-- Test with a multi-member replica set before claiming failover or high availability.
-- Deploy a sharded cluster only if the assignment requires a live sharding demonstration.
-- Verify that the captured screenshots visibly support each required aggregation question and that the evidence checklist matches the submitted files.
-- Prepare the final presentation and individual viva separately.
-- Add persistent report snapshots only if the application requires historical saved reports.
+## 9. Multi-document transaction demonstration
+
+The transaction script selects eligible bus, driver, trip, and user records, then performs related changes within a MongoDB session. The commit path updates assignment/status fields and inserts transaction and audit records together. The rollback path performs test writes and aborts them, then verifies that the aborted changes did not persist.
+
+The script also restores the original test state and checks cleanup. The recorded local run passed its commit, rollback, and cleanup checks with zero failed checks.
+
+This demonstrates transaction behavior on the configured single-member replica set. It does **not** demonstrate multi-node replication, failover, or production resilience.
+
+## 10. Relational-to-document migration simulation
+
+The migration demonstration uses relational-style JSON extracts representing `BUS`, `DRIVER`, `ROUTE`, `ROUTE_STOP`, and `TRIP` source tables. It transforms the extracts into MongoDB documents, embeds route stops within route documents, retains references to shared entities, and validates counts and relationships in a separate timestamped target database.
+
+The recorded migration checked:
+
+- 160 buses
+- 120 drivers
+- 120 routes
+- 600 trips
+- 709 route-stop records preserved as embedded stops
+
+**Scope limitation:** The workflow is a simulated export-and-migration process using JSON files. It is not a live migration from a running MySQL, SQL Server, or other relational database.
+
+## 11. Validation and evidence
+
+The latest recorded verification results are:
+
+| Verification | Result |
+|---|---|
+| Database validation | **55 passed, 0 failed, 0 warnings** |
+| Aggregation demonstration | **16 passed, 0 failed** |
+| Query-operator demonstration | **12 passed, 0 failed** |
+| Final audit record | **42 checks, 0 failed** |
+| Source database size | **2,010 documents** |
+| Unique business-key indexes | **13** |
+| Indexed-query benchmark | **600 vs. 128 documents examined** |
+| Transaction demonstration | Commit, rollback, and cleanup checks passed |
+| Migration demonstration | Expected collection counts and 709 embedded stops checked |
+
+The validation, aggregation, and Git synchronization were run locally; the latest reported Git status was `main...origin/main` with a clean working tree. These are recorded test results, not an assertion that all scripts were rerun after every future code or dataset change. See [EVIDENCE.md](EVIDENCE.md) for the evidence map and verification notes.
+
+## 12. Replication, CAP, and sharding
+
+The tested MongoDB deployment uses a **single-member replica set named `rs0`** with one writable primary. A multi-member replica set, secondary replication, and failover behavior were not tested.
+
+CAP is discussed conceptually in the project documentation; no network-partition experiment was performed. Sharding is described as a possible architecture, but a live sharded cluster and shard-key benchmark are not implemented or verified.
+
+## 13. Comparison with Cassandra and Neo4j
+
+MongoDB suits this demonstration because the records combine document-shaped entities, bounded embedded arrays, references, flexible queries, and aggregation.
+
+Cassandra is discussed as a possible fit for high-volume distributed event or telemetry workloads where partition-key and query-driven modeling are important. Neo4j is discussed as a possible fit for graph-centric relationship analysis, such as route connectivity and relationship exploration among vehicles, drivers, trips, and incidents. The choice depends on workload and requirements; neither alternative is universally better.
+
+## 14. Limitations and future work
+
+1. Connect a real relational source and validate an actual SQL export/import if live migration is required.
+2. Test a multi-member replica set before claiming high availability or failover.
+3. Configure and test a sharded cluster only if the target requirements call for live sharding.
+4. Add application/API and authentication layers if the project is extended beyond database demonstrations.
+5. Add performance tests across larger and varied datasets, and measure both execution statistics and elapsed time.
+6. Persist reports only if saved report definitions or historical snapshots become a requirement; currently reports are generated through aggregation rather than stored in a separate `reports` collection.
 
 ## Conclusion
 
-The project demonstrates a substantial MongoDB implementation for fleet and route management, including data modeling, query and aggregation operations, indexing, transactions, and a validated simulated relational-to-document migration. Its evidence supports the implemented local features while explicitly documenting that live SQL migration, multi-node failover, and sharding experiments have not been performed.
+The project delivers a tested local MongoDB implementation for a synthetic bus fleet and route-management dataset. It demonstrates document modeling, CRUD and query operations, 16 analytical aggregation pipelines, business-key indexing, transaction commit/rollback behavior, and a validated JSON-based migration simulation. The evidence supports these implemented and recorded results while keeping the untested areas explicit: live SQL migration, multi-node failover, network-partition testing, and live sharding.
 
-## References within this repository
+## Repository references
 
-- [README](../README.md)
+- [Project README](../README.md)
 - [Architecture and schema diagram](architecture.md)
-- [Faculty requirement matrix](requirement_matrix.md)
-- [Aggregation results and interpretation guide](aggregation_results_and_interpretation.md)
+- [Requirement matrix](requirement_matrix.md)
+- [Aggregation results and interpretation](aggregation_results_and_interpretation.md)
 - [Database comparison, CAP, replication, sharding, and migration](database_comparison_cap_migration.md)
 - [Evidence and validation](EVIDENCE.md)
+- [Viva preparation](viva_questions.md)
+- [Presentation outline](presentation_outline.md)
