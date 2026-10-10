@@ -4,6 +4,29 @@
 
 Build a MongoDB-first fleet and route operations system that naturally demonstrates the faculty's required NoSQL features.
 
+## Schema and relationship diagram
+
+```mermaid
+flowchart LR
+  users[users] -->|userId| activities[activities]
+  users -->|performedBy| transactions[transactions]
+  buses[buses] -->|busId reference| trips[trips]
+  routes[routes] -->|routeId reference| trips
+  drivers[drivers] -->|driverId reference| trips
+  buses -->|busId reference| maintenance[maintenance]
+  buses -->|busId reference| fuelRecords[fuelRecords]
+  buses -->|busId reference| transactions
+  trips -->|tripId reference| transactions
+  buses -. embeds depot and features .-> buses
+  routes -. embeds ordered stops and operatingDays .-> routes
+  trips -. embeds incidents .-> trips
+  maintenance -. embeds parts .-> maintenance
+  users -. embeds permissions .-> users
+  masterData[masterData]
+```
+
+The diagram separates shared operational entities (referenced by business IDs) from bounded subdocuments and arrays stored with their parent. `masterData` supplies controlled values such as statuses and categories. Aggregation reports are computed from operational collections when requested rather than persisted as duplicate report snapshots.
+
 ## Embedding
 
 Embedded:
