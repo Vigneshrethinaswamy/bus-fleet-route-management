@@ -19,10 +19,10 @@ Run these from the repository root after completing the database setup and impor
 
 | Evidence | Command |
 |---|---|
-| Database validation | `mongosh validate_database.js` |
-| CRUD operations | `mongosh crud_demo.js` |
-| Query operators | `mongosh query_operators_demo.js` |
-| Aggregation pipelines (16 current pipelines) | `mongosh aggregation_demo.js` |
+| Database validation | `mongosh bus_fleet_management --file validate_database.js` |
+| CRUD operations | `mongosh bus_fleet_management --file crud_demo.js` |
+| Query operators | `mongosh bus_fleet_management --file query_operators_demo.js` |
+| Aggregation pipelines (16 current pipelines) | `mongosh bus_fleet_management --file aggregation_demo.js` |
 | Aggregation screenshot/interpretation guide | `docs/aggregation_results_and_interpretation.md` |
 | Atomic assignment transaction and rollback | `node transaction_demo.cjs` |
 | Simulated relational-style JSON migration | `node migration_demo.cjs` |
