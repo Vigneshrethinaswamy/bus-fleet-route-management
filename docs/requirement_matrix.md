@@ -12,15 +12,15 @@
 | Comparison operators | `$gt`, `$gte`, `$lt`, `$lte`, `$in` |
 | Logical operators | `$and`, `$or` |
 | Projection | Bus report |
-| limit / skip | CRUD + aggregation pagination |
+| limit / skip | Aggregation demo: paginated trip report uses `$skip` + `$limit` |
 | `$elemMatch` | Trip incidents |
 | `$slice` | Route first 3 stops |
-| Aggregations | 12 implemented and tested in `aggregation_demo.js` |
+| Aggregations | 14 pipelines in `aggregation_demo.js`; run locally to verify all pass |
 | `$match` | Aggregation filters |
 | `$group` | Fleet/route/trip metrics |
 | `$project` | Final report shaping |
 | `$sort` | Ranking |
-| `$limit` / `$skip` | Ranking + pagination |
+| `$limit` / `$skip` | Top-N ranking, largest status group, and paginated trip report |
 | `$sum` | Distance/revenue/cost |
 | `$avg` | Passenger/stop/fuel metrics |
 | `$min` / `$max` | Revenue/distance ranges |
