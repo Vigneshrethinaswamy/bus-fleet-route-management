@@ -191,6 +191,31 @@ runPipeline("12b. Paginated trip report (page 2)", "trips", [
   }}
 ]);
 
+// 12a. Filter completed trips before grouping by route
+runPipeline("12a. Completed trips by route", "trips", [
+  { $match: { status: "COMPLETED" } },
+  { $group: {
+      _id: "$routeId",
+      completedTrips: { $sum: 1 },
+      totalRevenue: { $sum: "$revenue" }
+  }},
+  { $sort: { completedTrips: -1, totalRevenue: -1 } },
+  { $limit: 5 }
+]);
+
+// 12c. Preview each active route with its first three embedded stops
+runPipeline("12c. Active route first three stops", "routes", [
+  { $match: { status: "ACTIVE" } },
+  { $project: {
+      _id: 0,
+      routeId: 1,
+      routeName: 1,
+      firstThreeStops: { $slice: ["$stops", 3] }
+  }},
+  { $sort: { routeId: 1 } },
+  { $limit: 5 }
+]);
+
 // 12. Unwind route stops and count routes per stop name
 runPipeline("12. Route stops grouped by name", "routes", [
   { $unwind: "$stops" },
