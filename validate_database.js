@@ -1,4 +1,4 @@
-﻿const expectedCounts = {
+const expectedCounts = {
   users: 60,
   masterData: 60,
   buses: 160,
@@ -13,7 +13,7 @@
 
 const idCandidates = {
   users: ["userId"],
-  masterData: ["masterDataId", "masterId", "dataId"],
+  masterData: ["category", "code"],
   buses: ["busId"],
   drivers: ["driverId"],
   routes: ["routeId"],
@@ -61,6 +61,7 @@ for (const [name, expected] of Object.entries(expectedCounts)) {
   }
 
   const candidates = idCandidates[name] || [];
+  const isCompoundKey = name === "masterData";
   const sample = cache[name][0] || {};
   const idField = candidates.find(field =>
     Object.prototype.hasOwnProperty.call(sample, field)
@@ -68,6 +69,32 @@ for (const [name, expected] of Object.entries(expectedCounts)) {
 
   if (cache[name].length === 0) {
     report("FAIL", name + ": no documents available to validate");
+  } else if (isCompoundKey) {
+    const fields = ["category", "code"];
+    const missing = cache[name].filter(doc =>
+      fields.some(field =>
+        doc[field] === undefined || doc[field] === null || doc[field] === ""
+      )
+    ).length;
+
+    const seen = new Set();
+    let duplicates = 0;
+
+    for (const doc of cache[name]) {
+      if (fields.some(field =>
+        doc[field] === undefined || doc[field] === null || doc[field] === ""
+      )) continue;
+
+      const key = JSON.stringify(fields.map(field => doc[field]));
+      if (seen.has(key)) duplicates++;
+      seen.add(key);
+    }
+
+    if (missing === 0) report("PASS", name + ".category+code: no missing business-key values");
+    else report("FAIL", name + ".category+code: " + missing + " documents have missing business-key values");
+
+    if (duplicates === 0) report("PASS", name + ".category+code: no duplicate compound keys");
+    else report("FAIL", name + ".category+code: " + duplicates + " duplicate compound keys");
   } else if (!idField) {
     report("WARN", name + ": business ID field not recognized; checked _id uniqueness is guaranteed by MongoDB");
   } else {
@@ -157,6 +184,7 @@ if (failed > 0) {
   print("\nVALIDATION FAILED. Review the failures above before proceeding.");
   quit(1);
 } else {
-  print("\nVALIDATION PASSED. Review warnings before proceeding.");
+  if (warnings > 0) print("\nVALIDATION PASSED WITH WARNINGS. Review them before proceeding.");
+else print("\nVALIDATION PASSED.");
   quit(0);
 }

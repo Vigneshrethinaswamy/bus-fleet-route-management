@@ -5,10 +5,10 @@
 The following results were observed during project validation. Re-run the relevant scripts in your own environment to reproduce them.
 
 - The primary database, `bus_fleet_management`, contains **2,010 synthetic documents across 10 collections**.
-- The last recorded final audit completed **42 checks with 0 failures** against the source database and migration target. Re-run it after syncing if the local database has changed.
+- The latest recorded final audit completed **42 checks with 0 failures** against the source database and migration target. A separate fresh database validation reported **55 passed, 0 failed, and 0 warnings**. Rerun these checks after relevant database or code changes.
 - Unique business-key indexes were checked by the final audit.
 - Trip, maintenance, and fuel-record references to buses, drivers, and routes were checked.
-- The earlier Node.js transaction demonstration passed commit and rollback checks. The transaction script has since been strengthened to update bus, driver, and trip state atomically; its revised version still needs a fresh local run.
+- The revised Node.js transaction demonstration passed its recorded commit, rollback, and cleanup checks. It verifies atomic updates to bus, driver, and trip state, including that aborted writes do not persist.
 - The migration demonstration passed its count and reference-integrity checks.
 - All **709 route-stop rows** were preserved when stops were embedded into route documents.
 - The compound-index benchmark reduced documents examined from **600 to 128** for the tested trip-status/scheduled-start query. Execution time varies by run and environment.
@@ -26,9 +26,9 @@ Run these from the repository root after completing the database setup and impor
 | Aggregation screenshot/interpretation guide | `docs/aggregation_results_and_interpretation.md` |
 | Atomic assignment transaction and rollback | `node transaction_demo.cjs` |
 | Simulated relational-style JSON migration | `node migration_demo.cjs` |
-| Final database audit | `mongosh final_project_audit.js` |
+| Final database audit | `mongosh bus_fleet_management --file final_project_audit.js` |
 
-The migration demonstration creates a new timestamped target database on each successful run. The final audit checks the latest matching migration target, so run the migration demonstration before the final audit. The aggregation script and transaction demo have been updated since earlier successful runs. Re-run both locally and capture the current output for submission. The scripts print their validation results to the terminal; saved screenshots are still required as submission evidence.
+The migration demonstration creates a new timestamped target database on each successful run. The final audit checks the latest matching migration target, so run the migration demonstration before the final audit. The current recorded aggregation and transaction runs passed their checks. The repository contains captured screenshots under `screenshots/`; verify visually that each required question is supported before final submission. Local verification logs are kept under `reports/verification/` and are excluded from Git by the repository ignore rules.
 
 ## Claims and limitations
 

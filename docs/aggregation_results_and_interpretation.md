@@ -1,52 +1,156 @@
 # Aggregation Results and Interpretation Guide
 
-This guide maps the faculty's ten required analytical questions to the executable pipelines in `aggregation_demo.js`. Run the script locally and use the actual terminal output when writing the final interpretation. Do not copy illustrative values from another run: the dataset is synthetic and generated dates may vary.
+## Verification
 
-## Run
+The recorded aggregation demonstration completed with **16 passed and 0 failed**. Results below are taken from the captured run in `reports/verification/aggregation_demo.log`. The dataset is synthetic; values may change if the dataset is regenerated.
 
-From the repository root:
+Run from the repository root:
 
 ```powershell
-mongosh aggregation_demo.js
+mongosh bus_fleet_management --quiet --file aggregation_demo.js
 ```
 
-The script prints each pipeline's result count and up to three result documents. Capture screenshots of the output after confirming the run ends with `Failed: 0` and `AGGREGATION DEMONSTRATION PASSED.`
+## Faculty Questions and Actual Results
 
-## Required questions
+### 1. Top bus-related records by business measure
 
-| # | Faculty question | Pipeline in script | Interpretation to write from actual output |
-|---:|---|---|---|
-| 1 | Top 5 bus-related records by the main business measure | `8. Bus trip and distance summary` and `3. Top routes by revenue` | Identify the top bus/route IDs and compare total trips, distance, or revenue. State which measure the pipeline ranks. |
-| 2 | Group by important category and total using `$sum` | `10. Maintenance cost by type` | Compare total maintenance cost and record count across maintenance types. |
-| 3 | Average business value using `$avg` | `2. Average passengers by trip type` | Compare average passengers among regular, special, and charter trips that appear in the output. |
-| 4 | Minimum and maximum using `$min` and `$max` | `4. Revenue min, max, average` | Report the observed minimum and maximum trip revenue and the average; use the printed values. |
-| 5 | Count records by status and identify largest group | `1. Trips grouped by status` and `1b. Largest trip-status group` | Report the status with the greatest trip count and its count. |
-| 6 | Sort a meaningful result and return top 5 using `$limit` | `3. Top routes by revenue` or `9. Fuel cost by bus` | List the five returned entities in descending order of the selected measure. |
-| 7 | Paginated report using `$skip` and `$limit` | `12b. Paginated trip report (page 2)` | Explain that sorting establishes a stable order, `$skip: 10` skips the first ten records, and `$limit: 10` returns the next ten. |
-| 8 | `$unwind` an embedded array and calculate a statistic | `12. Route stops grouped by name` | Explain that each embedded stop becomes a pipeline document before the stop-name grouping. The resulting count is occurrences across route-stop arrays. |
-| 9 | Use `$push` and `$addToSet` | `11. Unique statuses and trip IDs by route` | Explain that `$push` preserves each trip ID in a list, while `$addToSet` collects distinct status values. |
-| 10 | Use `$lookup` to combine two related collections | `5. Trips joined with buses` (also pipelines 6 and 7) | Explain the join keys and identify the joined bus registration, route, or driver fields in the resulting report. |
+Pipeline: `8. Bus trip and distance summary`
 
-Additional implemented coverage includes `$match` to filter completed trips and `$slice` to preview the first three stops of active routes.
+- `BUS0062`: 10 trips, 406 km total distance, 22.7 average passengers.
+- `BUS0085`: 8 trips, 306.8 km, 25.5 average passengers.
+- `BUS0141`: 8 trips, 365.8 km, 30 average passengers.
 
-## Additional useful pipelines
+Interpretation: Among the displayed results, BUS0062 has the highest trip count and total distance. BUS0141 has the highest average passenger count among these three. These are separate measures and should not be treated as interchangeable.
 
-- `9. Fuel cost by bus`: compares fuel consumption and cost by bus.
-- `6. Trips joined with routes`: combines trip details with route names and endpoints.
-- `7. Trips joined with drivers`: combines trips with driver names.
-- `8. Bus trip and distance summary`: compares trips, distance, and average passengers by bus.
+### 2. Group by category and calculate totals with `$sum`
 
-## Screenshot checklist
+Pipeline: `10. Maintenance cost by type`
 
-Save screenshots under a local `screenshots/` directory (the directory is not populated automatically):
+| Maintenance type | Records | Total cost | Average cost |
+|---|---:|---:|---:|
+| PREVENTIVE | 86 | 754,371 | 8,771.76 |
+| INSPECTION | 50 | 431,736 | 8,634.72 |
+| CORRECTIVE | 44 | 396,557 | 9,012.66 |
 
-- [ ] Status counts and largest status group.
+Interpretation: Preventive maintenance has the largest total cost and most records. Corrective maintenance has the highest average cost per record. The dataset does not explicitly establish a currency unit, so costs are reported in the recorded units.
+
+### 3. Calculate an average using `$avg`
+
+Pipeline: `2. Average passengers by trip type`
+
+| Trip type | Trip count | Average passengers |
+|---|---:|---:|
+| REGULAR | 371 | 28.50 |
+| CHARTER | 101 | 27.51 |
+| SPECIAL | 128 | 26.13 |
+
+Interpretation: Regular trips have the highest average passenger count among the three types in this dataset.
+
+### 4. Calculate minimum, maximum, and average with `$min`, `$max`, and `$avg`
+
+Pipeline: `4. Revenue min, max, average`
+
+- Total revenue: 859,322
+- Average revenue: 1,432.20
+- Minimum revenue: 150
+- Maximum revenue: 4,730
+
+Interpretation: These aggregate values summarize revenue across the records included in the pipeline. Revenue units are not labelled as a specific currency in this interpretation.
+
+### 5. Count records by status and identify the largest group
+
+Pipelines: `1. Trips grouped by status` and `1b. Largest trip-status group`
+
+- CANCELLED: 135 trips
+- ASSIGNED: 128 trips
+- SCHEDULED: 121 trips
+- Largest status group: CANCELLED, with 135 trips.
+
+Interpretation: CANCELLED is the largest displayed status group. This is a count of statuses; it does not establish the reasons for cancellations.
+
+### 6. Sort and return the top five routes using `$sort` and `$limit`
+
+Pipeline: `3. Top routes by revenue`
+
+Top displayed results:
+
+| Route | Total revenue | Trips |
+|---|---:|---:|
+| RT0068 | 32,594 | 11 |
+| RT0054 | 25,491 | 12 |
+| RT0110 | 23,478 | 10 |
+
+Interpretation: RT0068 has the highest total revenue among the displayed routes. The pipeline returns five results; the captured console excerpt displays only the first three distinct results.
+
+### 7. Paginate a report using `$skip` and `$limit`
+
+Pipeline: `12b. Paginated trip report (page 2)`
+
+- Returned documents: 10.
+- The pipeline sorts the records, skips the first ten, and limits the result to the next ten.
+
+Interpretation: Pagination allows a report to be viewed in bounded pages rather than returning the entire dataset at once. A deterministic sort is important for consistent page boundaries.
+
+### 8. Unwind an embedded array and calculate a statistic
+
+Pipeline: `12. Route stops grouped by name`
+
+- Silk Board: 43 occurrences.
+- Electronic City: 42 occurrences.
+- Banashankari: 42 occurrences.
+
+Interpretation: `$unwind` turns embedded route-stop array entries into individual pipeline documents. Grouping those entries by stop name counts occurrences across the arrays; it does not necessarily count unique physical locations.
+
+### 9. Demonstrate `$push` and `$addToSet`
+
+Pipeline: `11. Unique statuses and trip IDs by route`
+
+For RT0054:
+
+- Trip count: 12.
+- Distinct statuses: COMPLETED, ASSIGNED, IN_PROGRESS, SCHEDULED, CANCELLED.
+- The sample trip ID list contains five IDs.
+
+Interpretation: `$addToSet` collects distinct status values, whereas `$push` collects values into an array and can preserve repeated values. The pipeline demonstrates both array-building behaviours.
+
+### 10. Join related collections using `$lookup`
+
+Pipeline: `5. Trips joined with buses`
+
+Example joined record:
+
+- Trip: TRP000004
+- Bus: BUS0133
+- Registration: KA22DJ1133
+- Status: ASSIGNED
+
+Interpretation: `$lookup` enriches trip records with matching bus information. This makes it possible to display bus registration details alongside trip data without storing every bus field inside every trip document.
+
+## Additional implemented pipelines
+
+The demonstration also includes:
+
+- Trips joined with routes.
+- Trips joined with drivers.
+- Fuel cost by bus.
+- Completed trips by route using `$match`.
+- A preview of the first three stops of active routes using `$slice`.
+- A largest-status-group query.
+- A paginated trip report.
+
+## Screenshot Evidence Checklist
+
+Save genuine screenshots from the local run under `screenshots/`.
+
+- [ ] Trip status counts and largest status group.
+- [ ] Average passengers by trip type.
+- [ ] Maintenance cost by type.
+- [ ] Revenue minimum, maximum, and average.
 - [ ] Top routes by revenue.
-- [ ] Revenue min/max/average.
-- [ ] Paginated trip report.
-- [ ] Route-stop unwind statistic.
-- [ ] Push/addToSet grouped report.
-- [ ] One or more lookup reports.
-- [ ] Final aggregation summary showing zero failures.
+- [ ] Bus trip and distance summary.
+- [ ] Paginated report.
+- [ ] Route-stop grouping and the `$push`/`$addToSet` output.
+- [ ] At least one `$lookup` result.
+- [ ] Final aggregation summary showing `Passed: 16`, `Failed: 0`, and `AGGREGATION DEMONSTRATION PASSED.`
 
-For each required question, add a short interpretation based on the real output: what was grouped or joined, what the highest/lowest result was, and why the result matters for fleet operations. Avoid claiming a business insight that is not supported by the printed result.
+Capture the actual terminal output; do not fabricate or manually alter result screenshots.

@@ -55,7 +55,7 @@ The project includes create, read, update, and delete examples, along with query
 
 The aggregation demonstration contains 16 pipelines, including trip counts by status, largest status group, average passengers by trip type, top routes by revenue, revenue statistics, joins with buses/routes/drivers, bus utilization, fuel cost, maintenance cost, grouped lists with `$push` and `$addToSet`, paginated trip reporting with `$skip` and `$limit`, and route-stop analysis with `$unwind`.
 
-The actual outputs and interpretations should be recorded from a fresh local run of the current 16-pipeline version. See [aggregation_results_and_interpretation.md](aggregation_results_and_interpretation.md) for the rubric mapping and screenshot checklist.
+The current recorded aggregation run completed 16 pipelines with 16 passed and 0 failed. Actual outputs and interpretations are documented in [aggregation_results_and_interpretation.md](aggregation_results_and_interpretation.md), alongside the screenshot evidence checklist.
 
 ## 6. Indexing and execution statistics
 
@@ -63,7 +63,7 @@ The project defines unique business-key indexes and supporting sparse, compound,
 
 ## 7. Mandatory business transaction
 
-The revised transaction demonstration uses MongoDB sessions and a replica-set connection to select an available bus, available driver, scheduled trip, and active user. Its commit transaction updates bus status/driver assignment, driver status, and trip status/assignment, and inserts the transaction record and audit activity together. A second transaction performs the same kind of writes and aborts; the script verifies that the updates and inserted records do not persist. It restores the original operational state, removes temporary records, and checks that collection counts return to their initial values. The revised script must be run locally before these results are claimed as freshly verified.
+The transaction demonstration uses MongoDB sessions and a replica-set connection to select an available bus, available driver, scheduled trip, and active user. Its commit transaction updates bus status/driver assignment, driver status, and trip status/assignment, and inserts the transaction record and audit activity together. A second transaction performs the corresponding writes and aborts; the script verifies that the updates and inserted records do not persist. It restores the original operational state, removes temporary records, and checks that collection counts return to their initial values. The recorded local run completed with zero failed checks.
 
 ## 8. RDBMS-to-MongoDB migration
 
@@ -90,14 +90,14 @@ The recorded final audit checked:
 - Preservation of 709 embedded route stops.
 - Migration trip references.
 
-The latest run reported **42 checks executed, 0 failed**, and 2,010 source documents. Separate prior runs of CRUD, query, aggregation, transaction, and migration demonstrations passed. The aggregation script and transaction script have since been strengthened, so both revised versions still need fresh local runs. Re-run the scripts before submission and retain screenshots/logs of the current results.
+The latest recorded final audit reported **42 checks executed, 0 failed**, and 2,010 source documents. A fresh database validation reported **55 passed, 0 failed, and 0 warnings**. The current recorded aggregation demonstration completed with 16 passed and 0 failed, and the revised transaction demonstration passed its commit, rollback, and cleanup checks. These are local test results; rerun the scripts after changing the database or code.
 
 ## 12. Limitations and future work
 
 - Replace the simulated JSON source with an actual SQL export/import if a live RDBMS migration is required.
 - Test with a multi-member replica set before claiming failover or high availability.
 - Deploy a sharded cluster only if the assignment requires a live sharding demonstration.
-- Capture output screenshots and add concise interpretations for the ten required aggregation questions.
+- Verify that the captured screenshots visibly support each required aggregation question and that the evidence checklist matches the submitted files.
 - Prepare the final presentation and individual viva separately.
 - Add persistent report snapshots only if the application requires historical saved reports.
 
