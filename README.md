@@ -62,7 +62,6 @@ Run commands from the repository root.
    ```
 
 6. Run the printed `mongoimport` commands from the repository root. Import into a clean database or clear existing collections first to avoid duplicate documents.
-
 7. Create indexes:
 
    ```powershell
@@ -93,15 +92,23 @@ The migration demonstration uses relational-style JSON source tables and reconst
 
 The project benchmarks a compound index against a collection scan for a trip-status and scheduled-start query. In the recorded test, documents examined fell from 600 to 128. Execution time can vary by run and environment, so examined-document counts are the stronger comparison.
 
-## Architecture and project evidence
+## Documentation and presentation
 
-- `docs/architecture.md` — database design and Mermaid schema/relationship diagram
-- `docs/requirement_matrix.md` — requirement coverage
-- `docs/database_comparison_cap_migration.md` — database comparison, CAP, replica sets, sharding, and migration discussion
-- `docs/EVIDENCE.md` — implementation and validation evidence
-- `docs/aggregation_results_and_interpretation.md` — mapping of aggregation questions and screenshot checklist
-- `docs/final_report.md` — final report draft
-- `migration/source_tables/` — relational-style JSON exports used by the migration demonstration
+- [Final project report](docs/final_report.md) — polished report with verified results and limitations
+- [Architecture and schema diagram](docs/architecture.md)
+- [Requirement matrix](docs/requirement_matrix.md)
+- [Database comparison, CAP, replication, sharding, and migration](docs/database_comparison_cap_migration.md)
+- [Evidence and validation](docs/EVIDENCE.md)
+- [Aggregation results and interpretation](docs/aggregation_results_and_interpretation.md)
+- [Viva preparation — 40 questions and answers](docs/viva_questions.md)
+- [Presentation outline — 10-slide structure](docs/presentation_outline.md)
+- `migration/source_tables/` — relational-style JSON extracts used by the migration demonstration
+
+## Verified results and scope
+
+Latest reported local results: database validation **55 passed, 0 failed, 0 warnings**; aggregation demonstration **16 passed, 0 failed**; query-operator demonstration **12 passed, 0 failed**. The primary dataset contains 2,010 synthetic documents.
+
+The tested deployment is a **single-member** replica set named `rs0`. The migration demonstration uses JSON extracts, not a live SQL database. Multi-node failover, network-partition experiments, and a live sharded cluster have not been tested. These limitations are intentional and documented in the report.
 
 ## Data and privacy
 
