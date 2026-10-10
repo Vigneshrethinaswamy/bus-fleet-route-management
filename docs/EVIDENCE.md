@@ -5,7 +5,7 @@
 The following results were observed during project validation. Re-run the relevant scripts in your own environment to reproduce them.
 
 - The primary database, `bus_fleet_management`, contains **2,010 synthetic documents across 10 collections**.
-- The final audit completed **41 checks with 0 failures** against the validated source database and migration target.
+- The final audit completed **42 checks with 0 failures** against the validated source database and migration target.
 - Unique business-key indexes were checked by the final audit.
 - Trip, maintenance, and fuel-record references to buses, drivers, and routes were checked.
 - The Node.js transaction demonstration passed its commit and rollback scenarios.
