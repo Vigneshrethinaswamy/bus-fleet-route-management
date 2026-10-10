@@ -49,7 +49,7 @@ The schema diagram and detailed relationship rationale are in [architecture.md](
 
 ## 4. CRUD and query operations
 
-The project includes create, read, update, and delete examples, along with query operators and array queries. The CRUD demonstration creates temporary records, verifies reads and updates, deletes the test records, and checks that the original document total is restored. The query examples cover comparison and logical operators, projections, pagination, array matching, and slicing.
+The project includes create, read, update, and delete examples, along with query operators and array queries. The CRUD demonstration creates temporary records, verifies reads and updates, deletes the test records, and checks that the original document total is restored. The query examples cover comparison and logical operators, projections, pagination, array matching, and slicing. Run mongosh scripts with the database name explicitly (`mongosh bus_fleet_management --file <script.js>`) so they operate on the intended database rather than the default `test` database.
 
 ## 5. Aggregation and analytical reporting
 
