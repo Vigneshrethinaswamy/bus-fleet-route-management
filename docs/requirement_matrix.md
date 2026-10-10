@@ -15,7 +15,7 @@
 | limit / skip | CRUD + aggregation pagination |
 | `$elemMatch` | Trip incidents |
 | `$slice` | Route first 3 stops |
-| Aggregations | 12 planned |
+| Aggregations | 12 implemented and tested in `aggregation_demo.js` |
 | `$match` | Aggregation filters |
 | `$group` | Fleet/route/trip metrics |
 | `$project` | Final report shaping |
