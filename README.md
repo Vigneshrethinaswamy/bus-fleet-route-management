@@ -38,7 +38,7 @@ Run commands from the repository root.
 2. Create the database and collections:
 
    ```powershell
-   mongosh database/01_database_setup.js
+   mongosh --file database/01_database_setup.js
    ```
 
 3. Create the synthetic dataset if you want to regenerate it:
@@ -58,7 +58,7 @@ Run commands from the repository root.
 5. Print the import commands:
 
    ```powershell
-   mongosh database/03_import_data.js
+   mongosh --file database/03_import_data.js
    ```
 
 6. Run the printed `mongoimport` commands from the repository root. Import into a clean database or clear existing collections first to avoid duplicate documents.
@@ -66,7 +66,7 @@ Run commands from the repository root.
 7. Create indexes:
 
    ```powershell
-   mongosh database/02_indexes.js
+   mongosh --file database/02_indexes.js
    ```
 
 The generated `data/import_ready/` directory is intentionally excluded from Git because its files can be regenerated from `data/`.
@@ -76,10 +76,10 @@ The generated `data/import_ready/` directory is intentionally excluded from Git 
 Run the scripts applicable to your local MongoDB setup:
 
 ```powershell
-mongosh validate_database.js
-mongosh crud_demo.js
-mongosh query_operators_demo.js
-mongosh aggregation_demo.js
+mongosh bus_fleet_management --file validate_database.js
+mongosh bus_fleet_management --file crud_demo.js
+mongosh bus_fleet_management --file query_operators_demo.js
+mongosh bus_fleet_management --file aggregation_demo.js
 node transaction_demo.cjs
 node migration_demo.cjs
 mongosh final_project_audit.js
