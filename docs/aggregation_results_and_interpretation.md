@@ -142,16 +142,19 @@ The demonstration also includes:
 
 Save genuine screenshots from the local run under `screenshots/`.
 
-- [ ] Trip status counts and largest status group.
-- [ ] Average passengers by trip type.
-- [ ] Maintenance cost by type.
-- [ ] Revenue minimum, maximum, and average.
-- [ ] Top routes by revenue.
-- [ ] Bus trip and distance summary.
-- [ ] Paginated report.
-- [ ] Route-stop grouping and the `$push`/`$addToSet` output.
-- [ ] At least one `$lookup` result.
-- [ ] Final aggregation summary showing `Passed: 16`, `Failed: 0`, and `AGGREGATION DEMONSTRATION PASSED.`
+- [x] Trip status counts and largest status group — `01-trip-status-counts.png`, `02-largest-trip-status-group.png`.
+- [x] Average passengers by trip type — `03-average-passengers-by-trip-type.png`.
+- [x] Maintenance cost by type — `12-maintenance-cost-by-type-part-1.png` through `14-maintenance-cost-by-type-final.png`.
+- [x] Revenue minimum, maximum, and average — `04-revenue-min-max-average.png`.
+- [x] Top routes by revenue — `05-top-routes-by-revenue.png`.
+- [x] Bus trip and distance summary — `09-bus-trip-distance-summary-part-1.png` through `11-bus-trip-distance-summary-final.png`.
+- [x] Paginated report — `23-paginated-trip-report.png`.
+- [x] Route-stop grouping — `21-route-stops-grouped-by-name.png`.
+- [x] `$push`/`$addToSet` output — `24-push-addToSet-by-route.png`.
+- [x] At least one `$lookup` result — `06-trips-joined-with-buses-part-1.png` through `08-trips-joined-with-buses-part-3.png`.
+- [x] Final aggregation summary screenshot — `22-aggregation-test-summary.png`.
+
+The screenshot files above are present in the repository. The 16-passed/0-failed result refers to the recorded aggregation run; rerun the command locally to verify the current environment.
 
 Capture the actual terminal output; do not fabricate or manually alter result screenshots.
 
