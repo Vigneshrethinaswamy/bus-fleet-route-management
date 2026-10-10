@@ -1,0 +1,961 @@
+[
+  {
+    "userId": "USR0001",
+    "name": "Manoj Kumar",
+    "email": "user1@busfleet.example",
+    "role": "ADMIN",
+    "phone": "+919000000001",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "BUS_UPDATE",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW",
+      "USER_MANAGE"
+    ],
+    "createdAt": {
+      "$date": "2025-10-29T21:11:08.570Z"
+    }
+  },
+  {
+    "userId": "USR0002",
+    "name": "Ajay Rao",
+    "email": "user2@busfleet.example",
+    "role": "ADMIN",
+    "phone": "+919000000002",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "BUS_UPDATE",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW",
+      "USER_MANAGE"
+    ],
+    "createdAt": {
+      "$date": "2026-10-06T14:11:08.571Z"
+    }
+  },
+  {
+    "userId": "USR0003",
+    "name": "Ajay Rao",
+    "email": "user3@busfleet.example",
+    "role": "ADMIN",
+    "phone": "+919000000003",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "BUS_UPDATE",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW",
+      "USER_MANAGE"
+    ],
+    "createdAt": {
+      "$date": "2025-10-25T21:11:08.571Z"
+    }
+  },
+  {
+    "userId": "USR0004",
+    "name": "Ramesh T",
+    "email": "user4@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000004",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-05-19T14:11:08.571Z"
+    }
+  },
+  {
+    "userId": "USR0005",
+    "name": "Ramesh T",
+    "email": "user5@busfleet.example",
+    "role": "DISPATCHER",
+    "phone": "+919000000005",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-06-02T18:11:08.571Z"
+    }
+  },
+  {
+    "userId": "USR0006",
+    "name": "Manoj Kumar",
+    "email": "user6@busfleet.example",
+    "role": "DISPATCHER",
+    "phone": "+919000000006",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-03-15T19:11:08.571Z"
+    }
+  },
+  {
+    "userId": "USR0007",
+    "name": "Mahesh V",
+    "email": "user7@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000007",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2025-12-17T02:11:08.571Z"
+    }
+  },
+  {
+    "userId": "USR0008",
+    "name": "Kiran Raj",
+    "email": "user8@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000008",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2025-09-21T11:11:08.571Z"
+    }
+  },
+  {
+    "userId": "USR0009",
+    "name": "Ravi Kumar",
+    "email": "user9@busfleet.example",
+    "role": "FLEET_MANAGER",
+    "phone": "+919000000009",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "BUS_UPDATE",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-06-22T17:11:08.571Z"
+    }
+  },
+  {
+    "userId": "USR0010",
+    "name": "Arun Kumar",
+    "email": "user10@busfleet.example",
+    "role": "FLEET_MANAGER",
+    "phone": "+919000000010",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "BUS_UPDATE",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-08-24T08:11:08.571Z"
+    }
+  },
+  {
+    "userId": "USR0011",
+    "name": "Kiran Raj",
+    "email": "user11@busfleet.example",
+    "role": "FLEET_MANAGER",
+    "phone": "+919000000011",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "BUS_UPDATE",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2025-07-06T06:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0012",
+    "name": "Prakash S",
+    "email": "user12@busfleet.example",
+    "role": "DISPATCHER",
+    "phone": "+919000000012",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2025-07-05T22:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0013",
+    "name": "Arun Kumar",
+    "email": "user13@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000013",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-06-28T05:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0014",
+    "name": "Manoj Kumar",
+    "email": "user14@busfleet.example",
+    "role": "FLEET_MANAGER",
+    "phone": "+919000000014",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "BUS_UPDATE",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-07-20T13:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0015",
+    "name": "Sanjay P",
+    "email": "user15@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000015",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2025-12-13T06:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0016",
+    "name": "Vijay Kumar",
+    "email": "user16@busfleet.example",
+    "role": "FLEET_MANAGER",
+    "phone": "+919000000016",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "BUS_UPDATE",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-01-08T15:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0017",
+    "name": "Arun Kumar",
+    "email": "user17@busfleet.example",
+    "role": "DISPATCHER",
+    "phone": "+919000000017",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2025-10-24T07:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0018",
+    "name": "Dinesh K",
+    "email": "user18@busfleet.example",
+    "role": "FLEET_MANAGER",
+    "phone": "+919000000018",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "BUS_UPDATE",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2025-07-27T12:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0019",
+    "name": "Suresh Babu",
+    "email": "user19@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000019",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-08-20T12:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0020",
+    "name": "Kiran Raj",
+    "email": "user20@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000020",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-09-07T17:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0021",
+    "name": "Ajay Rao",
+    "email": "user21@busfleet.example",
+    "role": "FLEET_MANAGER",
+    "phone": "+919000000021",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "BUS_UPDATE",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-08-17T06:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0022",
+    "name": "Prakash S",
+    "email": "user22@busfleet.example",
+    "role": "DISPATCHER",
+    "phone": "+919000000022",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-09-29T19:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0023",
+    "name": "Ramesh T",
+    "email": "user23@busfleet.example",
+    "role": "FLEET_MANAGER",
+    "phone": "+919000000023",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "BUS_UPDATE",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-06-09T05:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0024",
+    "name": "Ravi Kumar",
+    "email": "user24@busfleet.example",
+    "role": "FLEET_MANAGER",
+    "phone": "+919000000024",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "BUS_UPDATE",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-05-02T05:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0025",
+    "name": "Vijay Kumar",
+    "email": "user25@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000025",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2025-12-05T23:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0026",
+    "name": "Mahesh V",
+    "email": "user26@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000026",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2025-10-16T04:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0027",
+    "name": "Naveen R",
+    "email": "user27@busfleet.example",
+    "role": "DISPATCHER",
+    "phone": "+919000000027",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-09-24T23:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0028",
+    "name": "Arun Kumar",
+    "email": "user28@busfleet.example",
+    "role": "FLEET_MANAGER",
+    "phone": "+919000000028",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "BUS_UPDATE",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-03-12T10:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0029",
+    "name": "Ajay Rao",
+    "email": "user29@busfleet.example",
+    "role": "FLEET_MANAGER",
+    "phone": "+919000000029",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "BUS_UPDATE",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2025-06-05T05:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0030",
+    "name": "Naveen R",
+    "email": "user30@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000030",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-06-09T20:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0031",
+    "name": "Sanjay P",
+    "email": "user31@busfleet.example",
+    "role": "DISPATCHER",
+    "phone": "+919000000031",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-03-11T23:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0032",
+    "name": "Ramesh T",
+    "email": "user32@busfleet.example",
+    "role": "DISPATCHER",
+    "phone": "+919000000032",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-01-22T06:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0033",
+    "name": "Naveen R",
+    "email": "user33@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000033",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-04-17T07:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0034",
+    "name": "Rahul M",
+    "email": "user34@busfleet.example",
+    "role": "FLEET_MANAGER",
+    "phone": "+919000000034",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "BUS_UPDATE",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2025-08-11T22:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0035",
+    "name": "Mahesh V",
+    "email": "user35@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000035",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-07-02T18:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0036",
+    "name": "Kiran Raj",
+    "email": "user36@busfleet.example",
+    "role": "DISPATCHER",
+    "phone": "+919000000036",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2025-11-18T23:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0037",
+    "name": "Arun Kumar",
+    "email": "user37@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000037",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-09-07T13:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0038",
+    "name": "Ravi Kumar",
+    "email": "user38@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000038",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-01-09T23:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0039",
+    "name": "Rahul M",
+    "email": "user39@busfleet.example",
+    "role": "FLEET_MANAGER",
+    "phone": "+919000000039",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "BUS_UPDATE",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2025-10-11T08:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0040",
+    "name": "Vijay Kumar",
+    "email": "user40@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000040",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-01-19T07:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0041",
+    "name": "Ajay Rao",
+    "email": "user41@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000041",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-02-10T09:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0042",
+    "name": "Vikram S",
+    "email": "user42@busfleet.example",
+    "role": "FLEET_MANAGER",
+    "phone": "+919000000042",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "BUS_UPDATE",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2025-06-19T09:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0043",
+    "name": "Prakash S",
+    "email": "user43@busfleet.example",
+    "role": "DISPATCHER",
+    "phone": "+919000000043",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2025-09-03T22:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0044",
+    "name": "Mahesh V",
+    "email": "user44@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000044",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-04-13T01:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0045",
+    "name": "Ravi Kumar",
+    "email": "user45@busfleet.example",
+    "role": "FLEET_MANAGER",
+    "phone": "+919000000045",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "BUS_UPDATE",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2025-09-12T05:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0046",
+    "name": "Dinesh K",
+    "email": "user46@busfleet.example",
+    "role": "FLEET_MANAGER",
+    "phone": "+919000000046",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "BUS_UPDATE",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-08-29T17:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0047",
+    "name": "Ramesh T",
+    "email": "user47@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000047",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-02-28T01:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0048",
+    "name": "Mahesh V",
+    "email": "user48@busfleet.example",
+    "role": "DISPATCHER",
+    "phone": "+919000000048",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2025-11-04T12:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0049",
+    "name": "Ravi Kumar",
+    "email": "user49@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000049",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2025-09-06T13:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0050",
+    "name": "Sanjay P",
+    "email": "user50@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000050",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-07-16T07:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0051",
+    "name": "Sanjay P",
+    "email": "user51@busfleet.example",
+    "role": "DISPATCHER",
+    "phone": "+919000000051",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2025-10-06T08:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0052",
+    "name": "Dinesh K",
+    "email": "user52@busfleet.example",
+    "role": "DISPATCHER",
+    "phone": "+919000000052",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-08-11T20:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0053",
+    "name": "Mahesh V",
+    "email": "user53@busfleet.example",
+    "role": "DISPATCHER",
+    "phone": "+919000000053",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2025-09-13T13:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0054",
+    "name": "Vijay Kumar",
+    "email": "user54@busfleet.example",
+    "role": "FLEET_MANAGER",
+    "phone": "+919000000054",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "BUS_UPDATE",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-02-14T14:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0055",
+    "name": "Suresh Babu",
+    "email": "user55@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000055",
+    "status": "ACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2025-12-19T16:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0056",
+    "name": "Suresh Babu",
+    "email": "user56@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000056",
+    "status": "INACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-05-30T16:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0057",
+    "name": "Prakash S",
+    "email": "user57@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000057",
+    "status": "INACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-05-23T11:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0058",
+    "name": "Kiran Raj",
+    "email": "user58@busfleet.example",
+    "role": "DISPATCHER",
+    "phone": "+919000000058",
+    "status": "INACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-08-24T14:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0059",
+    "name": "Suresh Babu",
+    "email": "user59@busfleet.example",
+    "role": "ANALYST",
+    "phone": "+919000000059",
+    "status": "INACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2025-12-11T19:11:08.572Z"
+    }
+  },
+  {
+    "userId": "USR0060",
+    "name": "Rahul M",
+    "email": "user60@busfleet.example",
+    "role": "DISPATCHER",
+    "phone": "+919000000060",
+    "status": "INACTIVE",
+    "permissions": [
+      "BUS_READ",
+      "TRIP_ASSIGN",
+      "REPORT_VIEW"
+    ],
+    "createdAt": {
+      "$date": "2026-03-03T06:11:08.572Z"
+    }
+  }
+]

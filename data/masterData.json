@@ -1,0 +1,662 @@
+[
+  {
+    "category": "BUS_TYPE",
+    "code": "AC_DIESEL",
+    "name": "AC DIESEL",
+    "description": "Synthetic master-data value for BUS_TYPE",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 1
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "BUS_TYPE",
+    "code": "NON_AC_DIESEL",
+    "name": "NON AC DIESEL",
+    "description": "Synthetic master-data value for BUS_TYPE",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 2
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "BUS_TYPE",
+    "code": "CNG",
+    "name": "CNG",
+    "description": "Synthetic master-data value for BUS_TYPE",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 3
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "BUS_TYPE",
+    "code": "ELECTRIC",
+    "name": "ELECTRIC",
+    "description": "Synthetic master-data value for BUS_TYPE",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 4
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "FUEL_TYPE",
+    "code": "DIESEL",
+    "name": "DIESEL",
+    "description": "Synthetic master-data value for FUEL_TYPE",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 5
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "FUEL_TYPE",
+    "code": "CNG",
+    "name": "CNG",
+    "description": "Synthetic master-data value for FUEL_TYPE",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 6
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "FUEL_TYPE",
+    "code": "ELECTRIC",
+    "name": "ELECTRIC",
+    "description": "Synthetic master-data value for FUEL_TYPE",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 7
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "BUS_STATUS",
+    "code": "AVAILABLE",
+    "name": "AVAILABLE",
+    "description": "Synthetic master-data value for BUS_STATUS",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 8
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "BUS_STATUS",
+    "code": "ASSIGNED",
+    "name": "ASSIGNED",
+    "description": "Synthetic master-data value for BUS_STATUS",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 9
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "BUS_STATUS",
+    "code": "MAINTENANCE",
+    "name": "MAINTENANCE",
+    "description": "Synthetic master-data value for BUS_STATUS",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 10
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "BUS_STATUS",
+    "code": "INACTIVE",
+    "name": "INACTIVE",
+    "description": "Synthetic master-data value for BUS_STATUS",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 11
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "TRIP_STATUS",
+    "code": "SCHEDULED",
+    "name": "SCHEDULED",
+    "description": "Synthetic master-data value for TRIP_STATUS",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 12
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "TRIP_STATUS",
+    "code": "ASSIGNED",
+    "name": "ASSIGNED",
+    "description": "Synthetic master-data value for TRIP_STATUS",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 13
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "TRIP_STATUS",
+    "code": "IN_PROGRESS",
+    "name": "IN PROGRESS",
+    "description": "Synthetic master-data value for TRIP_STATUS",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 14
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "TRIP_STATUS",
+    "code": "COMPLETED",
+    "name": "COMPLETED",
+    "description": "Synthetic master-data value for TRIP_STATUS",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 15
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "TRIP_STATUS",
+    "code": "CANCELLED",
+    "name": "CANCELLED",
+    "description": "Synthetic master-data value for TRIP_STATUS",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 16
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "MAINTENANCE_TYPE",
+    "code": "PREVENTIVE",
+    "name": "PREVENTIVE",
+    "description": "Synthetic master-data value for MAINTENANCE_TYPE",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 17
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "MAINTENANCE_TYPE",
+    "code": "CORRECTIVE",
+    "name": "CORRECTIVE",
+    "description": "Synthetic master-data value for MAINTENANCE_TYPE",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 18
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "MAINTENANCE_TYPE",
+    "code": "INSPECTION",
+    "name": "INSPECTION",
+    "description": "Synthetic master-data value for MAINTENANCE_TYPE",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 19
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "ROUTE_CATEGORY",
+    "code": "CITY",
+    "name": "CITY",
+    "description": "Synthetic master-data value for ROUTE_CATEGORY",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 20
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "ROUTE_CATEGORY",
+    "code": "SUBURBAN",
+    "name": "SUBURBAN",
+    "description": "Synthetic master-data value for ROUTE_CATEGORY",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 21
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "ROUTE_CATEGORY",
+    "code": "EXPRESS",
+    "name": "EXPRESS",
+    "description": "Synthetic master-data value for ROUTE_CATEGORY",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 22
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "ROUTE_CATEGORY",
+    "code": "AIRPORT",
+    "name": "AIRPORT",
+    "description": "Synthetic master-data value for ROUTE_CATEGORY",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 23
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "USER_ROLE",
+    "code": "ADMIN",
+    "name": "ADMIN",
+    "description": "Synthetic master-data value for USER_ROLE",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 24
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "USER_ROLE",
+    "code": "FLEET_MANAGER",
+    "name": "FLEET MANAGER",
+    "description": "Synthetic master-data value for USER_ROLE",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 25
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "USER_ROLE",
+    "code": "DISPATCHER",
+    "name": "DISPATCHER",
+    "description": "Synthetic master-data value for USER_ROLE",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 26
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "USER_ROLE",
+    "code": "ANALYST",
+    "name": "ANALYST",
+    "description": "Synthetic master-data value for USER_ROLE",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 27
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_028",
+    "name": "Operational Code 28",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 28
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_029",
+    "name": "Operational Code 29",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 29
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_030",
+    "name": "Operational Code 30",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 30
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_031",
+    "name": "Operational Code 31",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 31
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_032",
+    "name": "Operational Code 32",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 32
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_033",
+    "name": "Operational Code 33",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 33
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_034",
+    "name": "Operational Code 34",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 34
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_035",
+    "name": "Operational Code 35",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 35
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_036",
+    "name": "Operational Code 36",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 36
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_037",
+    "name": "Operational Code 37",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 37
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_038",
+    "name": "Operational Code 38",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 38
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_039",
+    "name": "Operational Code 39",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 39
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_040",
+    "name": "Operational Code 40",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 40
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_041",
+    "name": "Operational Code 41",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 41
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_042",
+    "name": "Operational Code 42",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 42
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_043",
+    "name": "Operational Code 43",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 43
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_044",
+    "name": "Operational Code 44",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 44
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_045",
+    "name": "Operational Code 45",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 45
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_046",
+    "name": "Operational Code 46",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 46
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_047",
+    "name": "Operational Code 47",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 47
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_048",
+    "name": "Operational Code 48",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 48
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_049",
+    "name": "Operational Code 49",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 49
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_050",
+    "name": "Operational Code 50",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 50
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_051",
+    "name": "Operational Code 51",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 51
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_052",
+    "name": "Operational Code 52",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 52
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_053",
+    "name": "Operational Code 53",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 53
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_054",
+    "name": "Operational Code 54",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 54
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_055",
+    "name": "Operational Code 55",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 55
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_056",
+    "name": "Operational Code 56",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 56
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_057",
+    "name": "Operational Code 57",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 57
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_058",
+    "name": "Operational Code 58",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 58
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_059",
+    "name": "Operational Code 59",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 59
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "category": "OPERATIONAL_CODE",
+    "code": "CODE_060",
+    "name": "Operational Code 60",
+    "description": "Synthetic operational master data",
+    "attributes": {
+      "source": "SYNTHETIC_DATASET",
+      "sequence": 60
+    },
+    "status": "ACTIVE"
+  }
+]

@@ -1,0 +1,1802 @@
+[
+  {
+    "activityId": "ACT000001",
+    "userId": "USR0017",
+    "action": "ASSIGN_BUS",
+    "entityType": "TRIP",
+    "entityId": "BUS0159",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-23T05:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000002",
+    "userId": "USR0019",
+    "action": "VIEW_REPORT",
+    "entityType": "MAINTENANCE",
+    "entityId": "RT0051",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-30T08:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000003",
+    "userId": "USR0057",
+    "action": "VIEW_REPORT",
+    "entityType": "ROUTE",
+    "entityId": "RT0075",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-20T19:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000004",
+    "userId": "USR0027",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "MAINTENANCE",
+    "entityId": "BUS0141",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-30T07:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000005",
+    "userId": "USR0052",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "ROUTE",
+    "entityId": "BUS0001",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-11T15:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000006",
+    "userId": "USR0043",
+    "action": "ASSIGN_BUS",
+    "entityType": "BUS",
+    "entityId": "RT0113",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-26T09:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000007",
+    "userId": "USR0039",
+    "action": "VIEW_REPORT",
+    "entityType": "FUEL",
+    "entityId": "RT0042",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-25T02:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000008",
+    "userId": "USR0048",
+    "action": "UPDATE_TRIP",
+    "entityType": "BUS",
+    "entityId": "BUS0025",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-16T21:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000009",
+    "userId": "USR0005",
+    "action": "ASSIGN_BUS",
+    "entityType": "BUS",
+    "entityId": "TRP000393",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-30T07:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000010",
+    "userId": "USR0042",
+    "action": "FUEL_ENTRY",
+    "entityType": "TRIP",
+    "entityId": "RT0020",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-11T10:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000011",
+    "userId": "USR0022",
+    "action": "FUEL_ENTRY",
+    "entityType": "MAINTENANCE",
+    "entityId": "TRP000275",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-18T15:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000012",
+    "userId": "USR0036",
+    "action": "VIEW_REPORT",
+    "entityType": "BUS",
+    "entityId": "BUS0071",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-13T03:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000013",
+    "userId": "USR0044",
+    "action": "UPDATE_TRIP",
+    "entityType": "FUEL",
+    "entityId": "BUS0094",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-10T20:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000014",
+    "userId": "USR0004",
+    "action": "FUEL_ENTRY",
+    "entityType": "MAINTENANCE",
+    "entityId": "RT0111",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-12T02:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000015",
+    "userId": "USR0035",
+    "action": "FUEL_ENTRY",
+    "entityType": "MAINTENANCE",
+    "entityId": "RT0032",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-31T01:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000016",
+    "userId": "USR0052",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "ROUTE",
+    "entityId": "RT0012",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-16T15:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000017",
+    "userId": "USR0020",
+    "action": "UPDATE_TRIP",
+    "entityType": "FUEL",
+    "entityId": "RT0076",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-23T05:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000018",
+    "userId": "USR0040",
+    "action": "VIEW_REPORT",
+    "entityType": "ROUTE",
+    "entityId": "RT0088",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-23T03:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000019",
+    "userId": "USR0055",
+    "action": "UPDATE_TRIP",
+    "entityType": "ROUTE",
+    "entityId": "BUS0009",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-19T18:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000020",
+    "userId": "USR0046",
+    "action": "VIEW_REPORT",
+    "entityType": "TRIP",
+    "entityId": "TRP000221",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-28T01:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000021",
+    "userId": "USR0001",
+    "action": "ASSIGN_BUS",
+    "entityType": "TRIP",
+    "entityId": "BUS0144",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-01T03:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000022",
+    "userId": "USR0021",
+    "action": "VIEW_REPORT",
+    "entityType": "FUEL",
+    "entityId": "BUS0043",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-12T10:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000023",
+    "userId": "USR0039",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "MAINTENANCE",
+    "entityId": "BUS0076",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-24T12:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000024",
+    "userId": "USR0010",
+    "action": "VIEW_REPORT",
+    "entityType": "FUEL",
+    "entityId": "RT0037",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-22T04:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000025",
+    "userId": "USR0021",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "ROUTE",
+    "entityId": "BUS0034",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-28T09:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000026",
+    "userId": "USR0038",
+    "action": "FUEL_ENTRY",
+    "entityType": "MAINTENANCE",
+    "entityId": "RT0086",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-25T13:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000027",
+    "userId": "USR0007",
+    "action": "FUEL_ENTRY",
+    "entityType": "TRIP",
+    "entityId": "BUS0099",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-23T08:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000028",
+    "userId": "USR0025",
+    "action": "VIEW_REPORT",
+    "entityType": "MAINTENANCE",
+    "entityId": "RT0097",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-19T19:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000029",
+    "userId": "USR0021",
+    "action": "VIEW_REPORT",
+    "entityType": "ROUTE",
+    "entityId": "TRP000328",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-29T08:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000030",
+    "userId": "USR0007",
+    "action": "FUEL_ENTRY",
+    "entityType": "TRIP",
+    "entityId": "BUS0028",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-25T06:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000031",
+    "userId": "USR0043",
+    "action": "UPDATE_TRIP",
+    "entityType": "BUS",
+    "entityId": "TRP000503",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-26T00:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000032",
+    "userId": "USR0010",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "TRIP",
+    "entityId": "BUS0045",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-27T04:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000033",
+    "userId": "USR0018",
+    "action": "FUEL_ENTRY",
+    "entityType": "TRIP",
+    "entityId": "BUS0033",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-16T23:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000034",
+    "userId": "USR0001",
+    "action": "FUEL_ENTRY",
+    "entityType": "MAINTENANCE",
+    "entityId": "TRP000039",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-20T08:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000035",
+    "userId": "USR0048",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "FUEL",
+    "entityId": "RT0089",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-01T10:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000036",
+    "userId": "USR0059",
+    "action": "UPDATE_TRIP",
+    "entityType": "BUS",
+    "entityId": "BUS0023",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-24T07:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000037",
+    "userId": "USR0059",
+    "action": "UPDATE_TRIP",
+    "entityType": "MAINTENANCE",
+    "entityId": "TRP000394",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-22T08:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000038",
+    "userId": "USR0053",
+    "action": "ASSIGN_BUS",
+    "entityType": "BUS",
+    "entityId": "BUS0081",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-01T08:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000039",
+    "userId": "USR0050",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "FUEL",
+    "entityId": "RT0029",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-28T03:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000040",
+    "userId": "USR0048",
+    "action": "ASSIGN_BUS",
+    "entityType": "BUS",
+    "entityId": "RT0001",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-26T03:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000041",
+    "userId": "USR0028",
+    "action": "VIEW_REPORT",
+    "entityType": "MAINTENANCE",
+    "entityId": "BUS0057",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-08T04:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000042",
+    "userId": "USR0040",
+    "action": "FUEL_ENTRY",
+    "entityType": "TRIP",
+    "entityId": "RT0057",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-12T12:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000043",
+    "userId": "USR0016",
+    "action": "UPDATE_TRIP",
+    "entityType": "FUEL",
+    "entityId": "RT0062",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-28T18:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000044",
+    "userId": "USR0033",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "BUS",
+    "entityId": "BUS0152",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-10-02T14:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000045",
+    "userId": "USR0045",
+    "action": "ASSIGN_BUS",
+    "entityType": "BUS",
+    "entityId": "BUS0041",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-11T18:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000046",
+    "userId": "USR0043",
+    "action": "UPDATE_TRIP",
+    "entityType": "MAINTENANCE",
+    "entityId": "RT0086",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-12T02:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000047",
+    "userId": "USR0022",
+    "action": "ASSIGN_BUS",
+    "entityType": "TRIP",
+    "entityId": "TRP000299",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-13T09:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000048",
+    "userId": "USR0038",
+    "action": "UPDATE_TRIP",
+    "entityType": "MAINTENANCE",
+    "entityId": "TRP000185",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-24T03:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000049",
+    "userId": "USR0030",
+    "action": "UPDATE_TRIP",
+    "entityType": "FUEL",
+    "entityId": "BUS0115",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-23T20:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000050",
+    "userId": "USR0003",
+    "action": "VIEW_REPORT",
+    "entityType": "ROUTE",
+    "entityId": "RT0027",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-23T22:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000051",
+    "userId": "USR0048",
+    "action": "UPDATE_TRIP",
+    "entityType": "ROUTE",
+    "entityId": "BUS0049",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-18T03:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000052",
+    "userId": "USR0050",
+    "action": "FUEL_ENTRY",
+    "entityType": "MAINTENANCE",
+    "entityId": "TRP000370",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-16T22:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000053",
+    "userId": "USR0009",
+    "action": "VIEW_REPORT",
+    "entityType": "TRIP",
+    "entityId": "BUS0107",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-13T11:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000054",
+    "userId": "USR0031",
+    "action": "ASSIGN_BUS",
+    "entityType": "FUEL",
+    "entityId": "BUS0085",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-19T11:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000055",
+    "userId": "USR0036",
+    "action": "FUEL_ENTRY",
+    "entityType": "TRIP",
+    "entityId": "BUS0090",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-06T00:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000056",
+    "userId": "USR0010",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "MAINTENANCE",
+    "entityId": "BUS0006",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-03T03:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000057",
+    "userId": "USR0048",
+    "action": "FUEL_ENTRY",
+    "entityType": "ROUTE",
+    "entityId": "TRP000510",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-12T06:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000058",
+    "userId": "USR0012",
+    "action": "ASSIGN_BUS",
+    "entityType": "BUS",
+    "entityId": "BUS0074",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-18T20:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000059",
+    "userId": "USR0059",
+    "action": "UPDATE_TRIP",
+    "entityType": "MAINTENANCE",
+    "entityId": "RT0086",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-15T14:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000060",
+    "userId": "USR0025",
+    "action": "FUEL_ENTRY",
+    "entityType": "FUEL",
+    "entityId": "RT0017",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-12T15:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000061",
+    "userId": "USR0035",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "BUS",
+    "entityId": "TRP000371",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-15T14:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000062",
+    "userId": "USR0018",
+    "action": "UPDATE_TRIP",
+    "entityType": "ROUTE",
+    "entityId": "RT0053",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-08T14:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000063",
+    "userId": "USR0003",
+    "action": "FUEL_ENTRY",
+    "entityType": "ROUTE",
+    "entityId": "BUS0100",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-13T11:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000064",
+    "userId": "USR0033",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "BUS",
+    "entityId": "TRP000424",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-28T13:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000065",
+    "userId": "USR0055",
+    "action": "UPDATE_TRIP",
+    "entityType": "MAINTENANCE",
+    "entityId": "BUS0050",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-07T22:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000066",
+    "userId": "USR0037",
+    "action": "VIEW_REPORT",
+    "entityType": "FUEL",
+    "entityId": "BUS0009",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-14T07:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000067",
+    "userId": "USR0022",
+    "action": "VIEW_REPORT",
+    "entityType": "ROUTE",
+    "entityId": "RT0054",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-02T05:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000068",
+    "userId": "USR0020",
+    "action": "UPDATE_TRIP",
+    "entityType": "ROUTE",
+    "entityId": "BUS0027",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-11T01:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000069",
+    "userId": "USR0023",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "BUS",
+    "entityId": "BUS0127",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-12T07:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000070",
+    "userId": "USR0004",
+    "action": "ASSIGN_BUS",
+    "entityType": "TRIP",
+    "entityId": "TRP000253",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-10-05T15:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000071",
+    "userId": "USR0005",
+    "action": "FUEL_ENTRY",
+    "entityType": "BUS",
+    "entityId": "RT0056",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-19T16:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000072",
+    "userId": "USR0034",
+    "action": "ASSIGN_BUS",
+    "entityType": "ROUTE",
+    "entityId": "BUS0011",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-17T09:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000073",
+    "userId": "USR0006",
+    "action": "FUEL_ENTRY",
+    "entityType": "BUS",
+    "entityId": "BUS0070",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-10T00:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000074",
+    "userId": "USR0052",
+    "action": "ASSIGN_BUS",
+    "entityType": "FUEL",
+    "entityId": "RT0008",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-30T14:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000075",
+    "userId": "USR0048",
+    "action": "VIEW_REPORT",
+    "entityType": "FUEL",
+    "entityId": "BUS0029",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-24T13:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000076",
+    "userId": "USR0001",
+    "action": "UPDATE_TRIP",
+    "entityType": "MAINTENANCE",
+    "entityId": "TRP000260",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-04T06:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000077",
+    "userId": "USR0015",
+    "action": "UPDATE_TRIP",
+    "entityType": "FUEL",
+    "entityId": "BUS0087",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-31T08:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000078",
+    "userId": "USR0037",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "MAINTENANCE",
+    "entityId": "BUS0077",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-15T02:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000079",
+    "userId": "USR0028",
+    "action": "VIEW_REPORT",
+    "entityType": "ROUTE",
+    "entityId": "RT0028",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-16T13:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000080",
+    "userId": "USR0055",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "TRIP",
+    "entityId": "RT0074",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-08T18:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000081",
+    "userId": "USR0047",
+    "action": "UPDATE_TRIP",
+    "entityType": "MAINTENANCE",
+    "entityId": "TRP000587",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-15T07:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000082",
+    "userId": "USR0002",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "MAINTENANCE",
+    "entityId": "BUS0146",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-21T12:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000083",
+    "userId": "USR0018",
+    "action": "VIEW_REPORT",
+    "entityType": "FUEL",
+    "entityId": "RT0037",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-24T19:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000084",
+    "userId": "USR0029",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "BUS",
+    "entityId": "BUS0091",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-29T21:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000085",
+    "userId": "USR0029",
+    "action": "FUEL_ENTRY",
+    "entityType": "BUS",
+    "entityId": "TRP000496",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-09T04:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000086",
+    "userId": "USR0014",
+    "action": "UPDATE_TRIP",
+    "entityType": "TRIP",
+    "entityId": "BUS0009",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-19T15:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000087",
+    "userId": "USR0006",
+    "action": "VIEW_REPORT",
+    "entityType": "TRIP",
+    "entityId": "TRP000057",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-28T23:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000088",
+    "userId": "USR0054",
+    "action": "FUEL_ENTRY",
+    "entityType": "BUS",
+    "entityId": "RT0085",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-20T19:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000089",
+    "userId": "USR0012",
+    "action": "UPDATE_TRIP",
+    "entityType": "MAINTENANCE",
+    "entityId": "RT0020",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-06T00:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000090",
+    "userId": "USR0059",
+    "action": "ASSIGN_BUS",
+    "entityType": "MAINTENANCE",
+    "entityId": "TRP000196",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-26T16:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000091",
+    "userId": "USR0033",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "ROUTE",
+    "entityId": "BUS0137",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-26T19:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000092",
+    "userId": "USR0049",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "ROUTE",
+    "entityId": "BUS0018",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-18T17:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000093",
+    "userId": "USR0026",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "ROUTE",
+    "entityId": "RT0069",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-16T18:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000094",
+    "userId": "USR0059",
+    "action": "VIEW_REPORT",
+    "entityType": "TRIP",
+    "entityId": "TRP000323",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-05T10:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000095",
+    "userId": "USR0036",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "TRIP",
+    "entityId": "TRP000281",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-21T11:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000096",
+    "userId": "USR0014",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "ROUTE",
+    "entityId": "BUS0046",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-18T04:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000097",
+    "userId": "USR0006",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "TRIP",
+    "entityId": "BUS0080",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-22T05:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000098",
+    "userId": "USR0024",
+    "action": "VIEW_REPORT",
+    "entityType": "MAINTENANCE",
+    "entityId": "BUS0143",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-06T17:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000099",
+    "userId": "USR0048",
+    "action": "ASSIGN_BUS",
+    "entityType": "BUS",
+    "entityId": "RT0011",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-20T08:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000100",
+    "userId": "USR0007",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "MAINTENANCE",
+    "entityId": "BUS0114",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-26T13:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000101",
+    "userId": "USR0053",
+    "action": "VIEW_REPORT",
+    "entityType": "MAINTENANCE",
+    "entityId": "TRP000196",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-21T06:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000102",
+    "userId": "USR0060",
+    "action": "VIEW_REPORT",
+    "entityType": "BUS",
+    "entityId": "BUS0116",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-24T15:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000103",
+    "userId": "USR0016",
+    "action": "VIEW_REPORT",
+    "entityType": "TRIP",
+    "entityId": "BUS0004",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-30T16:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000104",
+    "userId": "USR0028",
+    "action": "VIEW_REPORT",
+    "entityType": "TRIP",
+    "entityId": "TRP000463",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-02T21:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000105",
+    "userId": "USR0027",
+    "action": "VIEW_REPORT",
+    "entityType": "TRIP",
+    "entityId": "TRP000523",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-03T01:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000106",
+    "userId": "USR0044",
+    "action": "FUEL_ENTRY",
+    "entityType": "BUS",
+    "entityId": "BUS0089",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-25T10:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000107",
+    "userId": "USR0032",
+    "action": "FUEL_ENTRY",
+    "entityType": "TRIP",
+    "entityId": "RT0028",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-22T17:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000108",
+    "userId": "USR0033",
+    "action": "VIEW_REPORT",
+    "entityType": "TRIP",
+    "entityId": "BUS0020",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-16T10:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000109",
+    "userId": "USR0039",
+    "action": "UPDATE_TRIP",
+    "entityType": "MAINTENANCE",
+    "entityId": "RT0059",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-17T01:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000110",
+    "userId": "USR0034",
+    "action": "ASSIGN_BUS",
+    "entityType": "TRIP",
+    "entityId": "TRP000105",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-21T16:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000111",
+    "userId": "USR0043",
+    "action": "ASSIGN_BUS",
+    "entityType": "FUEL",
+    "entityId": "RT0001",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-10-08T08:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000112",
+    "userId": "USR0022",
+    "action": "VIEW_REPORT",
+    "entityType": "FUEL",
+    "entityId": "RT0040",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-02T10:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000113",
+    "userId": "USR0016",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "ROUTE",
+    "entityId": "BUS0122",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-09T08:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000114",
+    "userId": "USR0053",
+    "action": "ASSIGN_BUS",
+    "entityType": "BUS",
+    "entityId": "BUS0094",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-20T17:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000115",
+    "userId": "USR0031",
+    "action": "ASSIGN_BUS",
+    "entityType": "MAINTENANCE",
+    "entityId": "RT0078",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-21T09:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000116",
+    "userId": "USR0048",
+    "action": "ASSIGN_BUS",
+    "entityType": "FUEL",
+    "entityId": "BUS0071",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-15T09:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000117",
+    "userId": "USR0006",
+    "action": "UPDATE_TRIP",
+    "entityType": "ROUTE",
+    "entityId": "RT0022",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-03T20:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000118",
+    "userId": "USR0052",
+    "action": "VIEW_REPORT",
+    "entityType": "FUEL",
+    "entityId": "RT0029",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-23T15:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000119",
+    "userId": "USR0002",
+    "action": "UPDATE_TRIP",
+    "entityType": "TRIP",
+    "entityId": "BUS0117",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-26T04:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000120",
+    "userId": "USR0052",
+    "action": "ASSIGN_BUS",
+    "entityType": "BUS",
+    "entityId": "BUS0047",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-14T17:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000121",
+    "userId": "USR0024",
+    "action": "FUEL_ENTRY",
+    "entityType": "FUEL",
+    "entityId": "RT0084",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-25T08:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000122",
+    "userId": "USR0038",
+    "action": "UPDATE_TRIP",
+    "entityType": "ROUTE",
+    "entityId": "RT0084",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-23T21:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000123",
+    "userId": "USR0033",
+    "action": "ASSIGN_BUS",
+    "entityType": "FUEL",
+    "entityId": "BUS0140",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-24T18:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000124",
+    "userId": "USR0058",
+    "action": "FUEL_ENTRY",
+    "entityType": "BUS",
+    "entityId": "TRP000358",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-16T16:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000125",
+    "userId": "USR0050",
+    "action": "FUEL_ENTRY",
+    "entityType": "MAINTENANCE",
+    "entityId": "TRP000414",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-13T01:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000126",
+    "userId": "USR0046",
+    "action": "ASSIGN_BUS",
+    "entityType": "FUEL",
+    "entityId": "RT0037",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-13T09:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000127",
+    "userId": "USR0030",
+    "action": "ASSIGN_BUS",
+    "entityType": "TRIP",
+    "entityId": "RT0061",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-18T08:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000128",
+    "userId": "USR0016",
+    "action": "FUEL_ENTRY",
+    "entityType": "BUS",
+    "entityId": "RT0039",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-13T03:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000129",
+    "userId": "USR0034",
+    "action": "ASSIGN_BUS",
+    "entityType": "ROUTE",
+    "entityId": "BUS0008",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-29T18:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000130",
+    "userId": "USR0004",
+    "action": "UPDATE_TRIP",
+    "entityType": "BUS",
+    "entityId": "BUS0030",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-10-06T06:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000131",
+    "userId": "USR0039",
+    "action": "FUEL_ENTRY",
+    "entityType": "BUS",
+    "entityId": "BUS0150",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-24T08:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000132",
+    "userId": "USR0031",
+    "action": "UPDATE_TRIP",
+    "entityType": "ROUTE",
+    "entityId": "TRP000316",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-21T09:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000133",
+    "userId": "USR0021",
+    "action": "VIEW_REPORT",
+    "entityType": "FUEL",
+    "entityId": "RT0061",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-13T07:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000134",
+    "userId": "USR0012",
+    "action": "ASSIGN_BUS",
+    "entityType": "MAINTENANCE",
+    "entityId": "BUS0095",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-30T20:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000135",
+    "userId": "USR0049",
+    "action": "FUEL_ENTRY",
+    "entityType": "TRIP",
+    "entityId": "TRP000517",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-12T07:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000136",
+    "userId": "USR0042",
+    "action": "ASSIGN_BUS",
+    "entityType": "ROUTE",
+    "entityId": "RT0083",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-10-02T01:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000137",
+    "userId": "USR0016",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "TRIP",
+    "entityId": "BUS0085",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-22T17:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000138",
+    "userId": "USR0040",
+    "action": "VIEW_REPORT",
+    "entityType": "TRIP",
+    "entityId": "RT0004",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-08T09:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000139",
+    "userId": "USR0056",
+    "action": "MAINTENANCE_UPDATE",
+    "entityType": "ROUTE",
+    "entityId": "RT0072",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-31T22:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000140",
+    "userId": "USR0045",
+    "action": "UPDATE_TRIP",
+    "entityType": "BUS",
+    "entityId": "TRP000088",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-13T13:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000141",
+    "userId": "USR0052",
+    "action": "VIEW_REPORT",
+    "entityType": "ROUTE",
+    "entityId": "BUS0080",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-19T07:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000142",
+    "userId": "USR0030",
+    "action": "ASSIGN_BUS",
+    "entityType": "ROUTE",
+    "entityId": "RT0097",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-03T01:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000143",
+    "userId": "USR0004",
+    "action": "VIEW_REPORT",
+    "entityType": "FUEL",
+    "entityId": "BUS0049",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-06-20T05:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000144",
+    "userId": "USR0055",
+    "action": "FUEL_ENTRY",
+    "entityType": "TRIP",
+    "entityId": "TRP000352",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-07T22:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000145",
+    "userId": "USR0050",
+    "action": "ASSIGN_BUS",
+    "entityType": "FUEL",
+    "entityId": "TRP000257",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-08-03T08:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000146",
+    "userId": "USR0016",
+    "action": "FUEL_ENTRY",
+    "entityType": "BUS",
+    "entityId": "TRP000457",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-12T15:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000147",
+    "userId": "USR0057",
+    "action": "FUEL_ENTRY",
+    "entityType": "MAINTENANCE",
+    "entityId": "BUS0078",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-19T00:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000148",
+    "userId": "USR0032",
+    "action": "ASSIGN_BUS",
+    "entityType": "MAINTENANCE",
+    "entityId": "TRP000518",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-17T14:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000149",
+    "userId": "USR0006",
+    "action": "ASSIGN_BUS",
+    "entityType": "ROUTE",
+    "entityId": "RT0045",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-09-28T12:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  },
+  {
+    "activityId": "ACT000150",
+    "userId": "USR0031",
+    "action": "ASSIGN_BUS",
+    "entityType": "BUS",
+    "entityId": "TRP000127",
+    "description": "Synthetic system activity",
+    "timestamp": "2026-07-30T04:11:08.581Z",
+    "metadata": {
+      "source": "SYNTHETIC_DATASET"
+    }
+  }
+]

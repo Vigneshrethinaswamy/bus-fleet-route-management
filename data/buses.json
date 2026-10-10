@@ -1,0 +1,5335 @@
+[
+    {
+        "busId":  "BUS0001",
+        "registrationNumber":  "KA65BD1001",
+        "fleetNumber":  "BLR-001",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Skyline",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  55,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.793967,
+                                "longitude":  77.884868
+                            },
+        "features":  [
+                         "GPS",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  33494.4,
+        "totalTrips":  250,
+        "createdAt":  {
+                          "$date":  "2025-01-12T10:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-25T06:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000001"
+    },
+    {
+        "busId":  "BUS0002",
+        "registrationNumber":  "KA72CG1002",
+        "fleetNumber":  "BLR-002",
+        "busType":  "CNG",
+        "manufacturer":  "Eicher",
+        "model":  "Starbus",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  40,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.96319,
+                                "longitude":  77.667943
+                            },
+        "features":  [
+                         "CCTV",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  49555,
+        "totalTrips":  738,
+        "createdAt":  {
+                          "$date":  "2023-06-24T14:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-13T21:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000002"
+    },
+    {
+        "busId":  "BUS0003",
+        "registrationNumber":  "KA98DJ1003",
+        "fleetNumber":  "BLR-003",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Skyline",
+        "manufacturingYear":  2025,
+        "seatingCapacity":  49,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.849835,
+                                "longitude":  77.893131
+                            },
+        "features":  [
+                         "USB_CHARGING",
+                         "AC",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  36318.8,
+        "totalTrips":  218,
+        "createdAt":  {
+                          "$date":  "2025-12-18T19:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-18T11:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000003"
+    },
+    {
+        "busId":  "BUS0004",
+        "registrationNumber":  "KA14EM1004",
+        "fleetNumber":  "BLR-004",
+        "busType":  "CNG",
+        "manufacturer":  "Volvo",
+        "model":  "Ultra",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  45,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.938911,
+                                "longitude":  77.741005
+                            },
+        "features":  [
+                         "GPS",
+                         "WIFI",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  43820.7,
+        "totalTrips":  237,
+        "createdAt":  {
+                          "$date":  "2024-02-08T05:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-10T03:11:08.573Z"
+                      }
+    },
+    {
+        "busId":  "BUS0005",
+        "registrationNumber":  "KA01FP1005",
+        "fleetNumber":  "BLR-005",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Tata Motors",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  34,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.967334,
+                                "longitude":  77.596962
+                            },
+        "features":  [
+                         "AC",
+                         "WIFI",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  46687.8,
+        "totalTrips":  675,
+        "createdAt":  {
+                          "$date":  "2025-04-28T05:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-12T23:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000005"
+    },
+    {
+        "busId":  "BUS0006",
+        "registrationNumber":  "KA37GS1006",
+        "fleetNumber":  "BLR-006",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Skyline",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  40,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP002",
+                      "name":  "Peenya Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.863618,
+                                "longitude":  77.789587
+                            },
+        "features":  [
+                         "WIFI",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  44410.4,
+        "totalTrips":  1239,
+        "createdAt":  {
+                          "$date":  "2024-09-18T09:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-14T15:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000006"
+    },
+    {
+        "busId":  "BUS0007",
+        "registrationNumber":  "KA61HV1007",
+        "fleetNumber":  "BLR-007",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Starbus",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  44,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.730962,
+                                "longitude":  77.451128
+                            },
+        "features":  [
+                         "USB_CHARGING",
+                         "PANIC_BUTTON",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  37169.4,
+        "totalTrips":  279,
+        "createdAt":  {
+                          "$date":  "2024-05-25T08:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-09T14:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000007"
+    },
+    {
+        "busId":  "BUS0008",
+        "registrationNumber":  "KA49IY1008",
+        "fleetNumber":  "BLR-008",
+        "busType":  "CNG",
+        "manufacturer":  "Tata Motors",
+        "model":  "Skyline",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  51,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.746549,
+                                "longitude":  77.891102
+                            },
+        "features":  [
+                         "WIFI",
+                         "CCTV",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  12811.7,
+        "totalTrips":  953,
+        "createdAt":  {
+                          "$date":  "2024-09-27T04:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-07T17:11:08.573Z"
+                      }
+    },
+    {
+        "busId":  "BUS0009",
+        "registrationNumber":  "KA48JB1009",
+        "fleetNumber":  "BLR-009",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  36,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.933168,
+                                "longitude":  77.695178
+                            },
+        "features":  [
+                         "USB_CHARGING",
+                         "PANIC_BUTTON",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  43586.4,
+        "totalTrips":  142,
+        "createdAt":  {
+                          "$date":  "2024-04-10T16:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-18T19:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000009"
+    },
+    {
+        "busId":  "BUS0010",
+        "registrationNumber":  "KA84KE1010",
+        "fleetNumber":  "BLR-010",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Skyline",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  53,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.871295,
+                                "longitude":  77.543917
+                            },
+        "features":  [
+                         "AC",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  31341.3,
+        "totalTrips":  865,
+        "createdAt":  {
+                          "$date":  "2023-01-04T03:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-03T07:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000010"
+    },
+    {
+        "busId":  "BUS0011",
+        "registrationNumber":  "KA47LH1011",
+        "fleetNumber":  "BLR-011",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Starbus",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  57,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.89724,
+                                "longitude":  77.677085
+                            },
+        "features":  [
+                         "WIFI",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  40489.1,
+        "totalTrips":  1178,
+        "createdAt":  {
+                          "$date":  "2024-06-16T18:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-29T03:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000011"
+    },
+    {
+        "busId":  "BUS0012",
+        "registrationNumber":  "KA33MK1012",
+        "fleetNumber":  "BLR-012",
+        "busType":  "CNG",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Skyline",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  47,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.978114,
+                                "longitude":  77.718846
+                            },
+        "features":  [
+                         "WIFI",
+                         "AC",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  22331.8,
+        "totalTrips":  1163,
+        "createdAt":  {
+                          "$date":  "2026-03-02T13:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-22T20:11:08.573Z"
+                      }
+    },
+    {
+        "busId":  "BUS0013",
+        "registrationNumber":  "KA42NN1013",
+        "fleetNumber":  "BLR-013",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Viking",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  43,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.765551,
+                                "longitude":  77.697632
+                            },
+        "features":  [
+                         "CCTV",
+                         "PANIC_BUTTON",
+                         "WIFI"
+                     ],
+        "totalDistanceKm":  7955.4,
+        "totalTrips":  1099,
+        "createdAt":  {
+                          "$date":  "2023-03-17T20:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-09T10:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000013"
+    },
+    {
+        "busId":  "BUS0014",
+        "registrationNumber":  "KA81OQ1014",
+        "fleetNumber":  "BLR-014",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Ultra",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  42,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.849649,
+                                "longitude":  77.773618
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  32970.7,
+        "totalTrips":  1244,
+        "createdAt":  {
+                          "$date":  "2025-11-06T18:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-05T19:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000014"
+    },
+    {
+        "busId":  "BUS0015",
+        "registrationNumber":  "KA09PT1015",
+        "fleetNumber":  "BLR-015",
+        "busType":  "CNG",
+        "manufacturer":  "Eicher",
+        "model":  "Starbus",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  46,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.028152,
+                                "longitude":  77.595629
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "WIFI"
+                     ],
+        "totalDistanceKm":  43298.3,
+        "totalTrips":  880,
+        "createdAt":  {
+                          "$date":  "2023-03-10T20:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-14T01:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000015"
+    },
+    {
+        "busId":  "BUS0016",
+        "registrationNumber":  "KA55QW1016",
+        "fleetNumber":  "BLR-016",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Viking",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  57,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP002",
+                      "name":  "Peenya Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.991697,
+                                "longitude":  77.881098
+                            },
+        "features":  [
+                         "CCTV",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  41324.1,
+        "totalTrips":  1135,
+        "createdAt":  {
+                          "$date":  "2025-12-17T16:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-18T21:11:08.573Z"
+                      }
+    },
+    {
+        "busId":  "BUS0017",
+        "registrationNumber":  "KA43RZ1017",
+        "fleetNumber":  "BLR-017",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Eicher",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  30,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.82092,
+                                "longitude":  77.681956
+                            },
+        "features":  [
+                         "GPS",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  37855.6,
+        "totalTrips":  610,
+        "createdAt":  {
+                          "$date":  "2024-06-01T07:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-26T00:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000017"
+    },
+    {
+        "busId":  "BUS0018",
+        "registrationNumber":  "KA85SC1018",
+        "fleetNumber":  "BLR-018",
+        "busType":  "CNG",
+        "manufacturer":  "Tata Motors",
+        "model":  "Skyline",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  57,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.976682,
+                                "longitude":  77.630104
+                            },
+        "features":  [
+                         "WIFI",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  38180.4,
+        "totalTrips":  691,
+        "createdAt":  {
+                          "$date":  "2025-06-03T03:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-11T10:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000018"
+    },
+    {
+        "busId":  "BUS0019",
+        "registrationNumber":  "KA27TF1019",
+        "fleetNumber":  "BLR-019",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Tata Motors",
+        "model":  "Starbus",
+        "manufacturingYear":  2025,
+        "seatingCapacity":  51,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.826146,
+                                "longitude":  77.628253
+                            },
+        "features":  [
+                         "GPS",
+                         "AC",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  48866.4,
+        "totalTrips":  1216,
+        "createdAt":  {
+                          "$date":  "2023-03-27T13:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-19T02:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000019"
+    },
+    {
+        "busId":  "BUS0020",
+        "registrationNumber":  "KA17UI1020",
+        "fleetNumber":  "BLR-020",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Eicher",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  42,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.026898,
+                                "longitude":  77.668299
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "WIFI",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  25938,
+        "totalTrips":  230,
+        "createdAt":  {
+                          "$date":  "2023-03-23T07:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-15T10:11:08.573Z"
+                      }
+    },
+    {
+        "busId":  "BUS0021",
+        "registrationNumber":  "KA67VL1021",
+        "fleetNumber":  "BLR-021",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  34,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.921516,
+                                "longitude":  77.869012
+                            },
+        "features":  [
+                         "CCTV",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  18833.6,
+        "totalTrips":  861,
+        "createdAt":  {
+                          "$date":  "2024-04-17T06:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-20T03:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000021"
+    },
+    {
+        "busId":  "BUS0022",
+        "registrationNumber":  "KA72WO1022",
+        "fleetNumber":  "BLR-022",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Ultra",
+        "manufacturingYear":  2025,
+        "seatingCapacity":  58,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP002",
+                      "name":  "Peenya Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.714762,
+                                "longitude":  77.578771
+                            },
+        "features":  [
+                         "AC",
+                         "WIFI"
+                     ],
+        "totalDistanceKm":  5799.1,
+        "totalTrips":  256,
+        "createdAt":  {
+                          "$date":  "2024-06-09T23:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-30T17:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000022"
+    },
+    {
+        "busId":  "BUS0023",
+        "registrationNumber":  "KA15XR1023",
+        "fleetNumber":  "BLR-023",
+        "busType":  "CNG",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Ultra",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  56,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.047476,
+                                "longitude":  77.70213
+                            },
+        "features":  [
+                         "CCTV",
+                         "PANIC_BUTTON",
+                         "WIFI"
+                     ],
+        "totalDistanceKm":  45296.5,
+        "totalTrips":  573,
+        "createdAt":  {
+                          "$date":  "2024-11-03T12:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-29T18:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000023"
+    },
+    {
+        "busId":  "BUS0024",
+        "registrationNumber":  "KA65YU1024",
+        "fleetNumber":  "BLR-024",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Starbus",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  55,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.001413,
+                                "longitude":  77.559444
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "CCTV",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  46512.7,
+        "totalTrips":  1319,
+        "createdAt":  {
+                          "$date":  "2022-09-03T04:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-14T06:11:08.573Z"
+                      }
+    },
+    {
+        "busId":  "BUS0025",
+        "registrationNumber":  "KA19ZX1025",
+        "fleetNumber":  "BLR-025",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Tata Motors",
+        "model":  "Skyline",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  60,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP002",
+                      "name":  "Peenya Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.987947,
+                                "longitude":  77.556647
+                            },
+        "features":  [
+                         "AC",
+                         "CCTV",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  44924.5,
+        "totalTrips":  330,
+        "createdAt":  {
+                          "$date":  "2025-01-02T21:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-18T21:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000025"
+    },
+    {
+        "busId":  "BUS0026",
+        "registrationNumber":  "KA19AA1026",
+        "fleetNumber":  "BLR-026",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Viking",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  41,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.971778,
+                                "longitude":  77.8106
+                            },
+        "features":  [
+                         "WIFI",
+                         "GPS",
+                         "AC"
+                     ],
+        "totalDistanceKm":  43974.4,
+        "totalTrips":  314,
+        "createdAt":  {
+                          "$date":  "2025-10-05T15:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-07T09:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000026"
+    },
+    {
+        "busId":  "BUS0027",
+        "registrationNumber":  "KA69BD1027",
+        "fleetNumber":  "BLR-027",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Viking",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  41,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.810856,
+                                "longitude":  77.78688
+                            },
+        "features":  [
+                         "CCTV",
+                         "USB_CHARGING",
+                         "AC"
+                     ],
+        "totalDistanceKm":  45516.4,
+        "totalTrips":  1066,
+        "createdAt":  {
+                          "$date":  "2023-12-15T16:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-24T18:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000027"
+    },
+    {
+        "busId":  "BUS0028",
+        "registrationNumber":  "KA09CG1028",
+        "fleetNumber":  "BLR-028",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Ultra",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  47,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.035791,
+                                "longitude":  77.685061
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "GPS",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  51760,
+        "totalTrips":  1381,
+        "createdAt":  {
+                          "$date":  "2026-03-22T06:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-16T10:11:08.573Z"
+                      }
+    },
+    {
+        "busId":  "BUS0029",
+        "registrationNumber":  "KA64DJ1029",
+        "fleetNumber":  "BLR-029",
+        "busType":  "CNG",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Viking",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  40,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.003707,
+                                "longitude":  77.689669
+                            },
+        "features":  [
+                         "WIFI",
+                         "AC",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  43995,
+        "totalTrips":  909,
+        "createdAt":  {
+                          "$date":  "2024-10-11T15:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-01T21:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000029"
+    },
+    {
+        "busId":  "BUS0030",
+        "registrationNumber":  "KA22EM1030",
+        "fleetNumber":  "BLR-030",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Skyline",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  46,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.820376,
+                                "longitude":  77.643797
+                            },
+        "features":  [
+                         "GPS",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  21304.1,
+        "totalTrips":  788,
+        "createdAt":  {
+                          "$date":  "2024-09-26T16:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-07T12:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000030"
+    },
+    {
+        "busId":  "BUS0031",
+        "registrationNumber":  "KA09FP1031",
+        "fleetNumber":  "BLR-031",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Tata Motors",
+        "model":  "Ultra",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  43,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.033535,
+                                "longitude":  77.688446
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "GPS",
+                         "AC"
+                     ],
+        "totalDistanceKm":  24194.1,
+        "totalTrips":  799,
+        "createdAt":  {
+                          "$date":  "2023-04-18T19:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-19T05:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000031"
+    },
+    {
+        "busId":  "BUS0032",
+        "registrationNumber":  "KA60GS1032",
+        "fleetNumber":  "BLR-032",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Starbus",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  47,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP002",
+                      "name":  "Peenya Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.835981,
+                                "longitude":  77.565973
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  51394.8,
+        "totalTrips":  1153,
+        "createdAt":  {
+                          "$date":  "2024-08-22T09:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-17T14:11:08.573Z"
+                      }
+    },
+    {
+        "busId":  "BUS0033",
+        "registrationNumber":  "KA74HV1033",
+        "fleetNumber":  "BLR-033",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Viking",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  59,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.766896,
+                                "longitude":  77.496868
+                            },
+        "features":  [
+                         "GPS",
+                         "CCTV",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  11295.4,
+        "totalTrips":  1357,
+        "createdAt":  {
+                          "$date":  "2024-11-27T18:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-30T15:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000033"
+    },
+    {
+        "busId":  "BUS0034",
+        "registrationNumber":  "KA78IY1034",
+        "fleetNumber":  "BLR-034",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Tata Motors",
+        "model":  "Viking",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  60,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.735895,
+                                "longitude":  77.5344
+                            },
+        "features":  [
+                         "USB_CHARGING",
+                         "WIFI"
+                     ],
+        "totalDistanceKm":  40653.8,
+        "totalTrips":  758,
+        "createdAt":  {
+                          "$date":  "2025-01-31T15:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-30T16:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000034"
+    },
+    {
+        "busId":  "BUS0035",
+        "registrationNumber":  "KA50JB1035",
+        "fleetNumber":  "BLR-035",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Viking",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  56,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.858835,
+                                "longitude":  77.591423
+                            },
+        "features":  [
+                         "AC",
+                         "USB_CHARGING",
+                         "WIFI"
+                     ],
+        "totalDistanceKm":  54925.2,
+        "totalTrips":  735,
+        "createdAt":  {
+                          "$date":  "2025-05-03T04:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-10T17:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000035"
+    },
+    {
+        "busId":  "BUS0036",
+        "registrationNumber":  "KA99KE1036",
+        "fleetNumber":  "BLR-036",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Viking",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  50,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.7901,
+                                "longitude":  77.502468
+                            },
+        "features":  [
+                         "AC",
+                         "CCTV",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  5301.1,
+        "totalTrips":  918,
+        "createdAt":  {
+                          "$date":  "2026-06-04T03:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-12T19:11:08.573Z"
+                      }
+    },
+    {
+        "busId":  "BUS0037",
+        "registrationNumber":  "KA95LH1037",
+        "fleetNumber":  "BLR-037",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Tata Motors",
+        "model":  "Skyline",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  54,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.006428,
+                                "longitude":  77.824533
+                            },
+        "features":  [
+                         "WIFI",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  5821.7,
+        "totalTrips":  1178,
+        "createdAt":  {
+                          "$date":  "2024-12-27T12:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-28T04:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000037"
+    },
+    {
+        "busId":  "BUS0038",
+        "registrationNumber":  "KA18MK1038",
+        "fleetNumber":  "BLR-038",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Eicher",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2024,
+        "seatingCapacity":  34,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.00287,
+                                "longitude":  77.602524
+                            },
+        "features":  [
+                         "CCTV",
+                         "GPS",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  21412.9,
+        "totalTrips":  1005,
+        "createdAt":  {
+                          "$date":  "2024-07-18T00:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-04T09:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000038"
+    },
+    {
+        "busId":  "BUS0039",
+        "registrationNumber":  "KA11NN1039",
+        "fleetNumber":  "BLR-039",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Tata Motors",
+        "model":  "Viking",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  53,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.766183,
+                                "longitude":  77.533861
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "GPS",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  5987.6,
+        "totalTrips":  1109,
+        "createdAt":  {
+                          "$date":  "2026-01-24T16:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-04T07:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000039"
+    },
+    {
+        "busId":  "BUS0040",
+        "registrationNumber":  "KA86OQ1040",
+        "fleetNumber":  "BLR-040",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Skyline",
+        "manufacturingYear":  2024,
+        "seatingCapacity":  50,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.821484,
+                                "longitude":  77.853559
+                            },
+        "features":  [
+                         "AC",
+                         "USB_CHARGING",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  49635.9,
+        "totalTrips":  139,
+        "createdAt":  {
+                          "$date":  "2024-06-16T00:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-14T14:11:08.573Z"
+                      }
+    },
+    {
+        "busId":  "BUS0041",
+        "registrationNumber":  "KA66PT1041",
+        "fleetNumber":  "BLR-041",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Viking",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  58,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.717026,
+                                "longitude":  77.697422
+                            },
+        "features":  [
+                         "USB_CHARGING",
+                         "PANIC_BUTTON",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  43836.1,
+        "totalTrips":  1092,
+        "createdAt":  {
+                          "$date":  "2025-12-23T10:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-24T21:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000041"
+    },
+    {
+        "busId":  "BUS0042",
+        "registrationNumber":  "KA21QW1042",
+        "fleetNumber":  "BLR-042",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Tata Motors",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  38,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.715117,
+                                "longitude":  77.882721
+                            },
+        "features":  [
+                         "CCTV",
+                         "WIFI"
+                     ],
+        "totalDistanceKm":  28933.5,
+        "totalTrips":  144,
+        "createdAt":  {
+                          "$date":  "2025-06-18T12:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-20T21:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000042"
+    },
+    {
+        "busId":  "BUS0043",
+        "registrationNumber":  "KA43RZ1043",
+        "fleetNumber":  "BLR-043",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Volvo",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  45,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.886258,
+                                "longitude":  77.86134
+                            },
+        "features":  [
+                         "AC",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  22164,
+        "totalTrips":  1319,
+        "createdAt":  {
+                          "$date":  "2024-06-08T00:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-12T03:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000043"
+    },
+    {
+        "busId":  "BUS0044",
+        "registrationNumber":  "KA15SC1044",
+        "fleetNumber":  "BLR-044",
+        "busType":  "CNG",
+        "manufacturer":  "Eicher",
+        "model":  "Starbus",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  49,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.779205,
+                                "longitude":  77.578477
+                            },
+        "features":  [
+                         "CCTV",
+                         "GPS",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  33163.6,
+        "totalTrips":  463,
+        "createdAt":  {
+                          "$date":  "2026-07-22T06:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-11T05:11:08.573Z"
+                      }
+    },
+    {
+        "busId":  "BUS0045",
+        "registrationNumber":  "KA45TF1045",
+        "fleetNumber":  "BLR-045",
+        "busType":  "CNG",
+        "manufacturer":  "Tata Motors",
+        "model":  "Ultra",
+        "manufacturingYear":  2024,
+        "seatingCapacity":  41,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.714429,
+                                "longitude":  77.704259
+                            },
+        "features":  [
+                         "CCTV",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  39085.6,
+        "totalTrips":  1277,
+        "createdAt":  {
+                          "$date":  "2024-08-26T22:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-03T17:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000045"
+    },
+    {
+        "busId":  "BUS0046",
+        "registrationNumber":  "KA40UI1046",
+        "fleetNumber":  "BLR-046",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Viking",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  48,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.004586,
+                                "longitude":  77.868789
+                            },
+        "features":  [
+                         "WIFI",
+                         "AC",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  25194.4,
+        "totalTrips":  524,
+        "createdAt":  {
+                          "$date":  "2022-10-10T19:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-23T17:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000046"
+    },
+    {
+        "busId":  "BUS0047",
+        "registrationNumber":  "KA56VL1047",
+        "fleetNumber":  "BLR-047",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Skyline",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  41,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.779932,
+                                "longitude":  77.627976
+                            },
+        "features":  [
+                         "GPS",
+                         "USB_CHARGING",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  39636.6,
+        "totalTrips":  789,
+        "createdAt":  {
+                          "$date":  "2024-09-25T07:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-04T19:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000047"
+    },
+    {
+        "busId":  "BUS0048",
+        "registrationNumber":  "KA89WO1048",
+        "fleetNumber":  "BLR-048",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Starbus",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  54,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.858332,
+                                "longitude":  77.545412
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  54438.2,
+        "totalTrips":  1110,
+        "createdAt":  {
+                          "$date":  "2023-12-20T10:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-02T21:11:08.573Z"
+                      }
+    },
+    {
+        "busId":  "BUS0049",
+        "registrationNumber":  "KA12XR1049",
+        "fleetNumber":  "BLR-049",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Volvo",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2025,
+        "seatingCapacity":  45,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.794715,
+                                "longitude":  77.614782
+                            },
+        "features":  [
+                         "GPS",
+                         "CCTV",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  28524.5,
+        "totalTrips":  980,
+        "createdAt":  {
+                          "$date":  "2022-12-31T20:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-12T00:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000049"
+    },
+    {
+        "busId":  "BUS0050",
+        "registrationNumber":  "KA97YU1050",
+        "fleetNumber":  "BLR-050",
+        "busType":  "CNG",
+        "manufacturer":  "Volvo",
+        "model":  "Viking",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  58,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.009077,
+                                "longitude":  77.568387
+                            },
+        "features":  [
+                         "WIFI",
+                         "AC",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  6913.4,
+        "totalTrips":  206,
+        "createdAt":  {
+                          "$date":  "2023-11-19T22:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-05T01:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000050"
+    },
+    {
+        "busId":  "BUS0051",
+        "registrationNumber":  "KA37ZX1051",
+        "fleetNumber":  "BLR-051",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Eicher",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  39,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.884637,
+                                "longitude":  77.59959
+                            },
+        "features":  [
+                         "AC",
+                         "CCTV",
+                         "WIFI"
+                     ],
+        "totalDistanceKm":  38817.7,
+        "totalTrips":  801,
+        "createdAt":  {
+                          "$date":  "2025-06-08T00:11:08.573Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-18T06:11:08.573Z"
+                      },
+        "gpsDeviceId":  "GPS-000051"
+    },
+    {
+        "busId":  "BUS0052",
+        "registrationNumber":  "KA80AA1052",
+        "fleetNumber":  "BLR-052",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Eicher",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  33,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.779312,
+                                "longitude":  77.573002
+                            },
+        "features":  [
+                         "GPS",
+                         "USB_CHARGING",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  15441.9,
+        "totalTrips":  136,
+        "createdAt":  {
+                          "$date":  "2023-10-22T12:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-12T02:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0053",
+        "registrationNumber":  "KA11BD1053",
+        "fleetNumber":  "BLR-053",
+        "busType":  "CNG",
+        "manufacturer":  "Eicher",
+        "model":  "Skyline",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  46,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.044885,
+                                "longitude":  77.623306
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  27274,
+        "totalTrips":  132,
+        "createdAt":  {
+                          "$date":  "2025-03-27T16:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-12T13:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000053"
+    },
+    {
+        "busId":  "BUS0054",
+        "registrationNumber":  "KA36CG1054",
+        "fleetNumber":  "BLR-054",
+        "busType":  "CNG",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Ultra",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  40,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.916149,
+                                "longitude":  77.517197
+                            },
+        "features":  [
+                         "WIFI",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  52740,
+        "totalTrips":  1178,
+        "createdAt":  {
+                          "$date":  "2025-05-10T02:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-12T01:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000054"
+    },
+    {
+        "busId":  "BUS0055",
+        "registrationNumber":  "KA06DJ1055",
+        "fleetNumber":  "BLR-055",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Skyline",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  44,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.715379,
+                                "longitude":  77.570011
+                            },
+        "features":  [
+                         "WIFI",
+                         "PANIC_BUTTON",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  43924.3,
+        "totalTrips":  865,
+        "createdAt":  {
+                          "$date":  "2025-03-14T21:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-08T06:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000055"
+    },
+    {
+        "busId":  "BUS0056",
+        "registrationNumber":  "KA84EM1056",
+        "fleetNumber":  "BLR-056",
+        "busType":  "CNG",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Ultra",
+        "manufacturingYear":  2024,
+        "seatingCapacity":  60,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.740242,
+                                "longitude":  77.645194
+                            },
+        "features":  [
+                         "CCTV",
+                         "USB_CHARGING",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  43244.4,
+        "totalTrips":  312,
+        "createdAt":  {
+                          "$date":  "2025-08-17T14:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-09T23:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0057",
+        "registrationNumber":  "KA58FP1057",
+        "fleetNumber":  "BLR-057",
+        "busType":  "CNG",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Viking",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  56,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.744656,
+                                "longitude":  77.768243
+                            },
+        "features":  [
+                         "WIFI",
+                         "AC"
+                     ],
+        "totalDistanceKm":  21302.2,
+        "totalTrips":  470,
+        "createdAt":  {
+                          "$date":  "2024-12-15T11:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-14T06:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000057"
+    },
+    {
+        "busId":  "BUS0058",
+        "registrationNumber":  "KA49GS1058",
+        "fleetNumber":  "BLR-058",
+        "busType":  "CNG",
+        "manufacturer":  "Tata Motors",
+        "model":  "Starbus",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  43,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.767842,
+                                "longitude":  77.714556
+                            },
+        "features":  [
+                         "USB_CHARGING",
+                         "AC"
+                     ],
+        "totalDistanceKm":  44017.3,
+        "totalTrips":  112,
+        "createdAt":  {
+                          "$date":  "2024-01-14T12:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-22T13:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000058"
+    },
+    {
+        "busId":  "BUS0059",
+        "registrationNumber":  "KA56HV1059",
+        "fleetNumber":  "BLR-059",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Starbus",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  54,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.743853,
+                                "longitude":  77.888496
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  51600.6,
+        "totalTrips":  602,
+        "createdAt":  {
+                          "$date":  "2025-12-18T21:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-05T11:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000059"
+    },
+    {
+        "busId":  "BUS0060",
+        "registrationNumber":  "KA50IY1060",
+        "fleetNumber":  "BLR-060",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Tata Motors",
+        "model":  "Skyline",
+        "manufacturingYear":  2024,
+        "seatingCapacity":  51,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.035153,
+                                "longitude":  77.765223
+                            },
+        "features":  [
+                         "CCTV",
+                         "USB_CHARGING",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  41680.8,
+        "totalTrips":  577,
+        "createdAt":  {
+                          "$date":  "2025-07-28T01:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-01T21:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0061",
+        "registrationNumber":  "KA13JB1061",
+        "fleetNumber":  "BLR-061",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Eicher",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2024,
+        "seatingCapacity":  30,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP002",
+                      "name":  "Peenya Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.866157,
+                                "longitude":  77.52574
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "WIFI",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  35149.9,
+        "totalTrips":  300,
+        "createdAt":  {
+                          "$date":  "2024-10-14T00:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-18T12:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000061"
+    },
+    {
+        "busId":  "BUS0062",
+        "registrationNumber":  "KA48KE1062",
+        "fleetNumber":  "BLR-062",
+        "busType":  "CNG",
+        "manufacturer":  "Volvo",
+        "model":  "Starbus",
+        "manufacturingYear":  2025,
+        "seatingCapacity":  55,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.714703,
+                                "longitude":  77.877775
+                            },
+        "features":  [
+                         "WIFI",
+                         "AC",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  46597.3,
+        "totalTrips":  253,
+        "createdAt":  {
+                          "$date":  "2025-08-06T23:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-02T06:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000062"
+    },
+    {
+        "busId":  "BUS0063",
+        "registrationNumber":  "KA24LH1063",
+        "fleetNumber":  "BLR-063",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  40,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.901213,
+                                "longitude":  77.474205
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "GPS",
+                         "WIFI"
+                     ],
+        "totalDistanceKm":  32563,
+        "totalTrips":  1219,
+        "createdAt":  {
+                          "$date":  "2022-11-08T06:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-13T00:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000063"
+    },
+    {
+        "busId":  "BUS0064",
+        "registrationNumber":  "KA27MK1064",
+        "fleetNumber":  "BLR-064",
+        "busType":  "CNG",
+        "manufacturer":  "Eicher",
+        "model":  "Ultra",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  42,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP002",
+                      "name":  "Peenya Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.985548,
+                                "longitude":  77.539541
+                            },
+        "features":  [
+                         "USB_CHARGING",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  37178,
+        "totalTrips":  283,
+        "createdAt":  {
+                          "$date":  "2024-07-24T01:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-07T12:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0065",
+        "registrationNumber":  "KA98NN1065",
+        "fleetNumber":  "BLR-065",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Tata Motors",
+        "model":  "Skyline",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  41,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP002",
+                      "name":  "Peenya Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.776427,
+                                "longitude":  77.481725
+                            },
+        "features":  [
+                         "USB_CHARGING",
+                         "GPS",
+                         "AC"
+                     ],
+        "totalDistanceKm":  51901.5,
+        "totalTrips":  983,
+        "createdAt":  {
+                          "$date":  "2026-08-12T12:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-07T02:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000065"
+    },
+    {
+        "busId":  "BUS0066",
+        "registrationNumber":  "KA15OQ1066",
+        "fleetNumber":  "BLR-066",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  37,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP002",
+                      "name":  "Peenya Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.760867,
+                                "longitude":  77.807153
+                            },
+        "features":  [
+                         "WIFI",
+                         "AC",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  13560.9,
+        "totalTrips":  630,
+        "createdAt":  {
+                          "$date":  "2026-06-30T20:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-19T15:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000066"
+    },
+    {
+        "busId":  "BUS0067",
+        "registrationNumber":  "KA68PT1067",
+        "fleetNumber":  "BLR-067",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Skyline",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  42,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.704143,
+                                "longitude":  77.613322
+                            },
+        "features":  [
+                         "USB_CHARGING",
+                         "PANIC_BUTTON",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  20823.7,
+        "totalTrips":  289,
+        "createdAt":  {
+                          "$date":  "2023-06-12T23:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-08T10:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000067"
+    },
+    {
+        "busId":  "BUS0068",
+        "registrationNumber":  "KA65QW1068",
+        "fleetNumber":  "BLR-068",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Tata Motors",
+        "model":  "Starbus",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  45,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP002",
+                      "name":  "Peenya Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.773111,
+                                "longitude":  77.622733
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  45896.4,
+        "totalTrips":  937,
+        "createdAt":  {
+                          "$date":  "2022-09-08T06:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-14T12:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0069",
+        "registrationNumber":  "KA33RZ1069",
+        "fleetNumber":  "BLR-069",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Viking",
+        "manufacturingYear":  2025,
+        "seatingCapacity":  50,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.760938,
+                                "longitude":  77.474162
+                            },
+        "features":  [
+                         "GPS",
+                         "AC",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  17606.3,
+        "totalTrips":  980,
+        "createdAt":  {
+                          "$date":  "2022-12-12T10:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-14T23:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000069"
+    },
+    {
+        "busId":  "BUS0070",
+        "registrationNumber":  "KA91SC1070",
+        "fleetNumber":  "BLR-070",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Volvo",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2025,
+        "seatingCapacity":  35,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP002",
+                      "name":  "Peenya Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.792365,
+                                "longitude":  77.71873
+                            },
+        "features":  [
+                         "AC",
+                         "WIFI",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  28540.6,
+        "totalTrips":  209,
+        "createdAt":  {
+                          "$date":  "2026-01-31T20:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-26T13:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000070"
+    },
+    {
+        "busId":  "BUS0071",
+        "registrationNumber":  "KA37TF1071",
+        "fleetNumber":  "BLR-071",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Skyline",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  49,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.839562,
+                                "longitude":  77.487045
+                            },
+        "features":  [
+                         "USB_CHARGING",
+                         "AC"
+                     ],
+        "totalDistanceKm":  25632.6,
+        "totalTrips":  636,
+        "createdAt":  {
+                          "$date":  "2022-10-08T17:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-09T17:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000071"
+    },
+    {
+        "busId":  "BUS0072",
+        "registrationNumber":  "KA21UI1072",
+        "fleetNumber":  "BLR-072",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Starbus",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  50,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.713124,
+                                "longitude":  77.540054
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  31518,
+        "totalTrips":  688,
+        "createdAt":  {
+                          "$date":  "2024-09-19T19:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-02T01:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0073",
+        "registrationNumber":  "KA41VL1073",
+        "fleetNumber":  "BLR-073",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Viking",
+        "manufacturingYear":  2025,
+        "seatingCapacity":  55,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.802843,
+                                "longitude":  77.561446
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "AC",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  21463.8,
+        "totalTrips":  867,
+        "createdAt":  {
+                          "$date":  "2023-04-01T04:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-12T20:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000073"
+    },
+    {
+        "busId":  "BUS0074",
+        "registrationNumber":  "KA51WO1074",
+        "fleetNumber":  "BLR-074",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Viking",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  58,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.997179,
+                                "longitude":  77.741015
+                            },
+        "features":  [
+                         "GPS",
+                         "PANIC_BUTTON",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  40893.4,
+        "totalTrips":  1092,
+        "createdAt":  {
+                          "$date":  "2025-10-26T14:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-22T12:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000074"
+    },
+    {
+        "busId":  "BUS0075",
+        "registrationNumber":  "KA39XR1075",
+        "fleetNumber":  "BLR-075",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2024,
+        "seatingCapacity":  38,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.885759,
+                                "longitude":  77.687386
+                            },
+        "features":  [
+                         "WIFI",
+                         "CCTV",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  21103,
+        "totalTrips":  983,
+        "createdAt":  {
+                          "$date":  "2024-07-18T09:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-07T00:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000075"
+    },
+    {
+        "busId":  "BUS0076",
+        "registrationNumber":  "KA85YU1076",
+        "fleetNumber":  "BLR-076",
+        "busType":  "CNG",
+        "manufacturer":  "Volvo",
+        "model":  "Ultra",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  59,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.897349,
+                                "longitude":  77.736512
+                            },
+        "features":  [
+                         "WIFI",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  16247.3,
+        "totalTrips":  1321,
+        "createdAt":  {
+                          "$date":  "2025-08-09T18:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-12T14:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0077",
+        "registrationNumber":  "KA22ZX1077",
+        "fleetNumber":  "BLR-077",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Skyline",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  60,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.882326,
+                                "longitude":  77.662718
+                            },
+        "features":  [
+                         "CCTV",
+                         "WIFI"
+                     ],
+        "totalDistanceKm":  15349.7,
+        "totalTrips":  877,
+        "createdAt":  {
+                          "$date":  "2024-11-02T12:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-28T17:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000077"
+    },
+    {
+        "busId":  "BUS0078",
+        "registrationNumber":  "KA51AA1078",
+        "fleetNumber":  "BLR-078",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Skyline",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  55,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.027063,
+                                "longitude":  77.67067
+                            },
+        "features":  [
+                         "AC",
+                         "GPS",
+                         "WIFI"
+                     ],
+        "totalDistanceKm":  29065.9,
+        "totalTrips":  1214,
+        "createdAt":  {
+                          "$date":  "2025-12-13T08:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-18T20:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000078"
+    },
+    {
+        "busId":  "BUS0079",
+        "registrationNumber":  "KA05BD1079",
+        "fleetNumber":  "BLR-079",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Viking",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  58,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.04615,
+                                "longitude":  77.618008
+                            },
+        "features":  [
+                         "GPS",
+                         "AC"
+                     ],
+        "totalDistanceKm":  20410.4,
+        "totalTrips":  214,
+        "createdAt":  {
+                          "$date":  "2024-01-18T04:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-04T14:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000079"
+    },
+    {
+        "busId":  "BUS0080",
+        "registrationNumber":  "KA93CG1080",
+        "fleetNumber":  "BLR-080",
+        "busType":  "CNG",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Skyline",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  55,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.034587,
+                                "longitude":  77.797763
+                            },
+        "features":  [
+                         "USB_CHARGING",
+                         "PANIC_BUTTON",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  28439.6,
+        "totalTrips":  333,
+        "createdAt":  {
+                          "$date":  "2025-01-24T07:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-16T21:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0081",
+        "registrationNumber":  "KA69DJ1081",
+        "fleetNumber":  "BLR-081",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Viking",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  60,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP002",
+                      "name":  "Peenya Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.766756,
+                                "longitude":  77.748833
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "USB_CHARGING",
+                         "AC"
+                     ],
+        "totalDistanceKm":  35102.2,
+        "totalTrips":  809,
+        "createdAt":  {
+                          "$date":  "2024-09-27T23:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-20T01:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000081"
+    },
+    {
+        "busId":  "BUS0082",
+        "registrationNumber":  "KA20EM1082",
+        "fleetNumber":  "BLR-082",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Ultra",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  58,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.861487,
+                                "longitude":  77.731453
+                            },
+        "features":  [
+                         "AC",
+                         "GPS",
+                         "WIFI"
+                     ],
+        "totalDistanceKm":  17850.8,
+        "totalTrips":  1364,
+        "createdAt":  {
+                          "$date":  "2024-12-03T10:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-14T21:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000082"
+    },
+    {
+        "busId":  "BUS0083",
+        "registrationNumber":  "KA94FP1083",
+        "fleetNumber":  "BLR-083",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Viking",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  57,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.832301,
+                                "longitude":  77.692169
+                            },
+        "features":  [
+                         "AC",
+                         "PANIC_BUTTON",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  20860.7,
+        "totalTrips":  981,
+        "createdAt":  {
+                          "$date":  "2023-07-02T04:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-20T14:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000083"
+    },
+    {
+        "busId":  "BUS0084",
+        "registrationNumber":  "KA41GS1084",
+        "fleetNumber":  "BLR-084",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Tata Motors",
+        "model":  "Ultra",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  44,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.770376,
+                                "longitude":  77.532345
+                            },
+        "features":  [
+                         "WIFI",
+                         "GPS",
+                         "AC"
+                     ],
+        "totalDistanceKm":  17270,
+        "totalTrips":  1043,
+        "createdAt":  {
+                          "$date":  "2024-07-14T22:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-01T04:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0085",
+        "registrationNumber":  "KA51HV1085",
+        "fleetNumber":  "BLR-085",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Tata Motors",
+        "model":  "Ultra",
+        "manufacturingYear":  2025,
+        "seatingCapacity":  51,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.837097,
+                                "longitude":  77.569604
+                            },
+        "features":  [
+                         "USB_CHARGING",
+                         "AC"
+                     ],
+        "totalDistanceKm":  51575.4,
+        "totalTrips":  386,
+        "createdAt":  {
+                          "$date":  "2024-02-25T13:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-17T21:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000085"
+    },
+    {
+        "busId":  "BUS0086",
+        "registrationNumber":  "KA59IY1086",
+        "fleetNumber":  "BLR-086",
+        "busType":  "CNG",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Viking",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  49,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.872781,
+                                "longitude":  77.806468
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "USB_CHARGING",
+                         "WIFI"
+                     ],
+        "totalDistanceKm":  51398.5,
+        "totalTrips":  758,
+        "createdAt":  {
+                          "$date":  "2023-10-14T11:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-14T01:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000086"
+    },
+    {
+        "busId":  "BUS0087",
+        "registrationNumber":  "KA71JB1087",
+        "fleetNumber":  "BLR-087",
+        "busType":  "CNG",
+        "manufacturer":  "Tata Motors",
+        "model":  "Starbus",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  46,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.828335,
+                                "longitude":  77.854209
+                            },
+        "features":  [
+                         "USB_CHARGING",
+                         "GPS",
+                         "AC"
+                     ],
+        "totalDistanceKm":  29606.2,
+        "totalTrips":  524,
+        "createdAt":  {
+                          "$date":  "2023-08-18T21:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-18T22:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000087"
+    },
+    {
+        "busId":  "BUS0088",
+        "registrationNumber":  "KA04KE1088",
+        "fleetNumber":  "BLR-088",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Skyline",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  45,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.967303,
+                                "longitude":  77.800278
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  11651.6,
+        "totalTrips":  693,
+        "createdAt":  {
+                          "$date":  "2023-07-03T03:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-12T15:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0089",
+        "registrationNumber":  "KA71LH1089",
+        "fleetNumber":  "BLR-089",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  41,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.757136,
+                                "longitude":  77.487421
+                            },
+        "features":  [
+                         "AC",
+                         "USB_CHARGING",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  14020.1,
+        "totalTrips":  1039,
+        "createdAt":  {
+                          "$date":  "2024-12-03T04:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-01T17:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000089"
+    },
+    {
+        "busId":  "BUS0090",
+        "registrationNumber":  "KA67MK1090",
+        "fleetNumber":  "BLR-090",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Eicher",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  45,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP002",
+                      "name":  "Peenya Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.707814,
+                                "longitude":  77.89906
+                            },
+        "features":  [
+                         "AC",
+                         "GPS",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  15340.6,
+        "totalTrips":  766,
+        "createdAt":  {
+                          "$date":  "2023-11-03T20:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-16T00:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000090"
+    },
+    {
+        "busId":  "BUS0091",
+        "registrationNumber":  "KA35NN1091",
+        "fleetNumber":  "BLR-091",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Eicher",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  30,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.919298,
+                                "longitude":  77.582043
+                            },
+        "features":  [
+                         "GPS",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  52210.5,
+        "totalTrips":  998,
+        "createdAt":  {
+                          "$date":  "2024-01-17T22:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-28T22:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000091"
+    },
+    {
+        "busId":  "BUS0092",
+        "registrationNumber":  "KA92OQ1092",
+        "fleetNumber":  "BLR-092",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Tata Motors",
+        "model":  "Starbus",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  51,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.961362,
+                                "longitude":  77.52475
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  30698.5,
+        "totalTrips":  690,
+        "createdAt":  {
+                          "$date":  "2024-01-26T06:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-15T12:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0093",
+        "registrationNumber":  "KA01PT1093",
+        "fleetNumber":  "BLR-093",
+        "busType":  "CNG",
+        "manufacturer":  "Tata Motors",
+        "model":  "Ultra",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  58,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.902374,
+                                "longitude":  77.68025
+                            },
+        "features":  [
+                         "WIFI",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  37990.6,
+        "totalTrips":  871,
+        "createdAt":  {
+                          "$date":  "2023-05-15T16:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-28T13:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000093"
+    },
+    {
+        "busId":  "BUS0094",
+        "registrationNumber":  "KA42QW1094",
+        "fleetNumber":  "BLR-094",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Skyline",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  51,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.015356,
+                                "longitude":  77.756932
+                            },
+        "features":  [
+                         "GPS",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  26064.3,
+        "totalTrips":  106,
+        "createdAt":  {
+                          "$date":  "2025-06-07T17:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-08T15:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000094"
+    },
+    {
+        "busId":  "BUS0095",
+        "registrationNumber":  "KA92RZ1095",
+        "fleetNumber":  "BLR-095",
+        "busType":  "CNG",
+        "manufacturer":  "Volvo",
+        "model":  "Ultra",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  41,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.710913,
+                                "longitude":  77.865296
+                            },
+        "features":  [
+                         "CCTV",
+                         "USB_CHARGING",
+                         "AC"
+                     ],
+        "totalDistanceKm":  29903.2,
+        "totalTrips":  723,
+        "createdAt":  {
+                          "$date":  "2024-06-05T22:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-04T10:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000095"
+    },
+    {
+        "busId":  "BUS0096",
+        "registrationNumber":  "KA94SC1096",
+        "fleetNumber":  "BLR-096",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  40,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.869082,
+                                "longitude":  77.804173
+                            },
+        "features":  [
+                         "USB_CHARGING",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  40306.2,
+        "totalTrips":  713,
+        "createdAt":  {
+                          "$date":  "2023-09-20T06:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-25T23:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0097",
+        "registrationNumber":  "KA27TF1097",
+        "fleetNumber":  "BLR-097",
+        "busType":  "CNG",
+        "manufacturer":  "Tata Motors",
+        "model":  "Ultra",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  58,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.808334,
+                                "longitude":  77.541364
+                            },
+        "features":  [
+                         "GPS",
+                         "PANIC_BUTTON",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  48919.6,
+        "totalTrips":  1231,
+        "createdAt":  {
+                          "$date":  "2026-08-24T05:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-18T22:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000097"
+    },
+    {
+        "busId":  "BUS0098",
+        "registrationNumber":  "KA42UI1098",
+        "fleetNumber":  "BLR-098",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Tata Motors",
+        "model":  "Ultra",
+        "manufacturingYear":  2024,
+        "seatingCapacity":  42,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.976118,
+                                "longitude":  77.500724
+                            },
+        "features":  [
+                         "USB_CHARGING",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  46406.9,
+        "totalTrips":  1131,
+        "createdAt":  {
+                          "$date":  "2025-07-05T19:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-21T06:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000098"
+    },
+    {
+        "busId":  "BUS0099",
+        "registrationNumber":  "KA74VL1099",
+        "fleetNumber":  "BLR-099",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Tata Motors",
+        "model":  "Viking",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  42,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP002",
+                      "name":  "Peenya Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.945021,
+                                "longitude":  77.637683
+                            },
+        "features":  [
+                         "AC",
+                         "WIFI",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  16024.5,
+        "totalTrips":  1056,
+        "createdAt":  {
+                          "$date":  "2022-10-07T20:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-18T14:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000099"
+    },
+    {
+        "busId":  "BUS0100",
+        "registrationNumber":  "KA57WO1100",
+        "fleetNumber":  "BLR-100",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Skyline",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  45,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.022416,
+                                "longitude":  77.482525
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "AC",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  10357.7,
+        "totalTrips":  738,
+        "createdAt":  {
+                          "$date":  "2025-09-23T12:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-01T04:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0101",
+        "registrationNumber":  "KA06XR1101",
+        "fleetNumber":  "BLR-101",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Viking",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  51,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP002",
+                      "name":  "Peenya Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.765963,
+                                "longitude":  77.852153
+                            },
+        "features":  [
+                         "WIFI",
+                         "PANIC_BUTTON",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  14398.8,
+        "totalTrips":  270,
+        "createdAt":  {
+                          "$date":  "2023-08-31T03:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-09T21:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000101"
+    },
+    {
+        "busId":  "BUS0102",
+        "registrationNumber":  "KA50YU1102",
+        "fleetNumber":  "BLR-102",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Eicher",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  39,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.871084,
+                                "longitude":  77.653378
+                            },
+        "features":  [
+                         "USB_CHARGING",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  15811.3,
+        "totalTrips":  1212,
+        "createdAt":  {
+                          "$date":  "2023-02-04T21:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-22T20:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000102"
+    },
+    {
+        "busId":  "BUS0103",
+        "registrationNumber":  "KA22ZX1103",
+        "fleetNumber":  "BLR-103",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Skyline",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  47,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP002",
+                      "name":  "Peenya Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.85099,
+                                "longitude":  77.883147
+                            },
+        "features":  [
+                         "CCTV",
+                         "WIFI"
+                     ],
+        "totalDistanceKm":  11452.2,
+        "totalTrips":  1133,
+        "createdAt":  {
+                          "$date":  "2024-11-28T13:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-03T18:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000103"
+    },
+    {
+        "busId":  "BUS0104",
+        "registrationNumber":  "KA68AA1104",
+        "fleetNumber":  "BLR-104",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Tata Motors",
+        "model":  "Skyline",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  57,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.948403,
+                                "longitude":  77.573488
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  47210.4,
+        "totalTrips":  1093,
+        "createdAt":  {
+                          "$date":  "2026-07-03T16:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-11T21:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0105",
+        "registrationNumber":  "KA46BD1105",
+        "fleetNumber":  "BLR-105",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Volvo",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  45,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.025949,
+                                "longitude":  77.774773
+                            },
+        "features":  [
+                         "GPS",
+                         "AC",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  38282.2,
+        "totalTrips":  1152,
+        "createdAt":  {
+                          "$date":  "2024-05-13T20:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-10T11:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000105"
+    },
+    {
+        "busId":  "BUS0106",
+        "registrationNumber":  "KA16CG1106",
+        "fleetNumber":  "BLR-106",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Skyline",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  40,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.02453,
+                                "longitude":  77.545959
+                            },
+        "features":  [
+                         "USB_CHARGING",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  12547.5,
+        "totalTrips":  359,
+        "createdAt":  {
+                          "$date":  "2025-04-26T09:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-22T15:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000106"
+    },
+    {
+        "busId":  "BUS0107",
+        "registrationNumber":  "KA71DJ1107",
+        "fleetNumber":  "BLR-107",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  36,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.848131,
+                                "longitude":  77.699644
+                            },
+        "features":  [
+                         "WIFI",
+                         "USB_CHARGING",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  41336.1,
+        "totalTrips":  363,
+        "createdAt":  {
+                          "$date":  "2025-02-01T13:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-30T18:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000107"
+    },
+    {
+        "busId":  "BUS0108",
+        "registrationNumber":  "KA67EM1108",
+        "fleetNumber":  "BLR-108",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Volvo",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  33,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.985183,
+                                "longitude":  77.600993
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "CCTV",
+                         "AC"
+                     ],
+        "totalDistanceKm":  50789.6,
+        "totalTrips":  1009,
+        "createdAt":  {
+                          "$date":  "2026-02-26T08:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-06T06:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0109",
+        "registrationNumber":  "KA06FP1109",
+        "fleetNumber":  "BLR-109",
+        "busType":  "CNG",
+        "manufacturer":  "Volvo",
+        "model":  "Starbus",
+        "manufacturingYear":  2025,
+        "seatingCapacity":  47,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.043664,
+                                "longitude":  77.729377
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "WIFI",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  31980.8,
+        "totalTrips":  418,
+        "createdAt":  {
+                          "$date":  "2023-06-10T03:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-09T04:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000109"
+    },
+    {
+        "busId":  "BUS0110",
+        "registrationNumber":  "KA39GS1110",
+        "fleetNumber":  "BLR-110",
+        "busType":  "CNG",
+        "manufacturer":  "Eicher",
+        "model":  "Skyline",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  45,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.804845,
+                                "longitude":  77.838748
+                            },
+        "features":  [
+                         "AC",
+                         "WIFI"
+                     ],
+        "totalDistanceKm":  29849.3,
+        "totalTrips":  1007,
+        "createdAt":  {
+                          "$date":  "2025-08-13T23:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-28T12:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000110"
+    },
+    {
+        "busId":  "BUS0111",
+        "registrationNumber":  "KA95HV1111",
+        "fleetNumber":  "BLR-111",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Viking",
+        "manufacturingYear":  2025,
+        "seatingCapacity":  49,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.819864,
+                                "longitude":  77.606232
+                            },
+        "features":  [
+                         "WIFI",
+                         "GPS",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  6271.8,
+        "totalTrips":  1122,
+        "createdAt":  {
+                          "$date":  "2026-01-23T07:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-30T17:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000111"
+    },
+    {
+        "busId":  "BUS0112",
+        "registrationNumber":  "KA69IY1112",
+        "fleetNumber":  "BLR-112",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Tata Motors",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  42,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.895453,
+                                "longitude":  77.551449
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  27048,
+        "totalTrips":  364,
+        "createdAt":  {
+                          "$date":  "2023-05-04T20:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-16T20:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0113",
+        "registrationNumber":  "KA17JB1113",
+        "fleetNumber":  "BLR-113",
+        "busType":  "CNG",
+        "manufacturer":  "Volvo",
+        "model":  "Viking",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  45,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.991059,
+                                "longitude":  77.582867
+                            },
+        "features":  [
+                         "GPS",
+                         "WIFI",
+                         "AC"
+                     ],
+        "totalDistanceKm":  45508.7,
+        "totalTrips":  817,
+        "createdAt":  {
+                          "$date":  "2022-12-14T04:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-15T05:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000113"
+    },
+    {
+        "busId":  "BUS0114",
+        "registrationNumber":  "KA82KE1114",
+        "fleetNumber":  "BLR-114",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Tata Motors",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2024,
+        "seatingCapacity":  31,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.748001,
+                                "longitude":  77.69346
+                            },
+        "features":  [
+                         "GPS",
+                         "AC",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  7125,
+        "totalTrips":  290,
+        "createdAt":  {
+                          "$date":  "2023-07-03T04:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-17T05:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000114"
+    },
+    {
+        "busId":  "BUS0115",
+        "registrationNumber":  "KA66LH1115",
+        "fleetNumber":  "BLR-115",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Viking",
+        "manufacturingYear":  2024,
+        "seatingCapacity":  49,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.856571,
+                                "longitude":  77.675094
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "AC"
+                     ],
+        "totalDistanceKm":  27696.3,
+        "totalTrips":  386,
+        "createdAt":  {
+                          "$date":  "2025-03-12T01:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-14T05:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000115"
+    },
+    {
+        "busId":  "BUS0116",
+        "registrationNumber":  "KA97MK1116",
+        "fleetNumber":  "BLR-116",
+        "busType":  "CNG",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Starbus",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  59,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.045343,
+                                "longitude":  77.716991
+                            },
+        "features":  [
+                         "GPS",
+                         "AC",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  8144.8,
+        "totalTrips":  921,
+        "createdAt":  {
+                          "$date":  "2025-02-26T09:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-20T19:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0117",
+        "registrationNumber":  "KA75NN1117",
+        "fleetNumber":  "BLR-117",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Skyline",
+        "manufacturingYear":  2025,
+        "seatingCapacity":  46,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP002",
+                      "name":  "Peenya Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.013579,
+                                "longitude":  77.477685
+                            },
+        "features":  [
+                         "AC",
+                         "PANIC_BUTTON",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  11996.8,
+        "totalTrips":  833,
+        "createdAt":  {
+                          "$date":  "2026-05-15T11:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-06T05:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000117"
+    },
+    {
+        "busId":  "BUS0118",
+        "registrationNumber":  "KA89OQ1118",
+        "fleetNumber":  "BLR-118",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Tata Motors",
+        "model":  "Starbus",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  45,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.000191,
+                                "longitude":  77.622122
+                            },
+        "features":  [
+                         "GPS",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  23802.2,
+        "totalTrips":  1210,
+        "createdAt":  {
+                          "$date":  "2025-03-26T10:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-14T02:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000118"
+    },
+    {
+        "busId":  "BUS0119",
+        "registrationNumber":  "KA79PT1119",
+        "fleetNumber":  "BLR-119",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Skyline",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  47,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.864348,
+                                "longitude":  77.755666
+                            },
+        "features":  [
+                         "GPS",
+                         "AC"
+                     ],
+        "totalDistanceKm":  23606.9,
+        "totalTrips":  297,
+        "createdAt":  {
+                          "$date":  "2025-01-12T15:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-05T11:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000119"
+    },
+    {
+        "busId":  "BUS0120",
+        "registrationNumber":  "KA44QW1120",
+        "fleetNumber":  "BLR-120",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Ultra",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  58,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.882043,
+                                "longitude":  77.584654
+                            },
+        "features":  [
+                         "CCTV",
+                         "WIFI"
+                     ],
+        "totalDistanceKm":  15860.7,
+        "totalTrips":  660,
+        "createdAt":  {
+                          "$date":  "2024-10-27T14:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-04T06:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0121",
+        "registrationNumber":  "KA71RZ1121",
+        "fleetNumber":  "BLR-121",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Ultra",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  40,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.898725,
+                                "longitude":  77.452766
+                            },
+        "features":  [
+                         "GPS",
+                         "USB_CHARGING",
+                         "WIFI"
+                     ],
+        "totalDistanceKm":  47709.4,
+        "totalTrips":  157,
+        "createdAt":  {
+                          "$date":  "2023-04-23T15:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-03T12:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000121"
+    },
+    {
+        "busId":  "BUS0122",
+        "registrationNumber":  "KA86SC1122",
+        "fleetNumber":  "BLR-122",
+        "busType":  "CNG",
+        "manufacturer":  "Eicher",
+        "model":  "Viking",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  42,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.911172,
+                                "longitude":  77.542238
+                            },
+        "features":  [
+                         "CCTV",
+                         "AC",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  50299.5,
+        "totalTrips":  950,
+        "createdAt":  {
+                          "$date":  "2022-11-28T07:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-06T03:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000122"
+    },
+    {
+        "busId":  "BUS0123",
+        "registrationNumber":  "KA80TF1123",
+        "fleetNumber":  "BLR-123",
+        "busType":  "CNG",
+        "manufacturer":  "Eicher",
+        "model":  "Starbus",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  41,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.827688,
+                                "longitude":  77.57379
+                            },
+        "features":  [
+                         "WIFI",
+                         "USB_CHARGING",
+                         "AC"
+                     ],
+        "totalDistanceKm":  42851.5,
+        "totalTrips":  776,
+        "createdAt":  {
+                          "$date":  "2025-12-23T15:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-17T23:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000123"
+    },
+    {
+        "busId":  "BUS0124",
+        "registrationNumber":  "KA97UI1124",
+        "fleetNumber":  "BLR-124",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Eicher",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  39,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.780658,
+                                "longitude":  77.640728
+                            },
+        "features":  [
+                         "WIFI",
+                         "GPS",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  40743.3,
+        "totalTrips":  1295,
+        "createdAt":  {
+                          "$date":  "2023-01-06T07:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-23T17:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0125",
+        "registrationNumber":  "KA91VL1125",
+        "fleetNumber":  "BLR-125",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Tata Motors",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2024,
+        "seatingCapacity":  42,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.738827,
+                                "longitude":  77.681745
+                            },
+        "features":  [
+                         "WIFI",
+                         "AC",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  22536.3,
+        "totalTrips":  301,
+        "createdAt":  {
+                          "$date":  "2022-09-13T11:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-22T20:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000125"
+    },
+    {
+        "busId":  "BUS0126",
+        "registrationNumber":  "KA31WO1126",
+        "fleetNumber":  "BLR-126",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Eicher",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  33,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.020476,
+                                "longitude":  77.887451
+                            },
+        "features":  [
+                         "USB_CHARGING",
+                         "AC"
+                     ],
+        "totalDistanceKm":  46869.9,
+        "totalTrips":  462,
+        "createdAt":  {
+                          "$date":  "2026-03-02T02:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-03T07:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000126"
+    },
+    {
+        "busId":  "BUS0127",
+        "registrationNumber":  "KA92XR1127",
+        "fleetNumber":  "BLR-127",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Eicher",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2024,
+        "seatingCapacity":  38,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.738635,
+                                "longitude":  77.836315
+                            },
+        "features":  [
+                         "AC",
+                         "USB_CHARGING",
+                         "WIFI"
+                     ],
+        "totalDistanceKm":  53255.9,
+        "totalTrips":  1256,
+        "createdAt":  {
+                          "$date":  "2024-07-23T02:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-06T16:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000127"
+    },
+    {
+        "busId":  "BUS0128",
+        "registrationNumber":  "KA34YU1128",
+        "fleetNumber":  "BLR-128",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Viking",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  58,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.995194,
+                                "longitude":  77.646803
+                            },
+        "features":  [
+                         "CCTV",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  7585.7,
+        "totalTrips":  669,
+        "createdAt":  {
+                          "$date":  "2024-04-29T13:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-04T15:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0129",
+        "registrationNumber":  "KA74ZX1129",
+        "fleetNumber":  "BLR-129",
+        "busType":  "CNG",
+        "manufacturer":  "Tata Motors",
+        "model":  "Starbus",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  44,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.88551,
+                                "longitude":  77.716274
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "WIFI"
+                     ],
+        "totalDistanceKm":  21708.8,
+        "totalTrips":  155,
+        "createdAt":  {
+                          "$date":  "2026-09-17T17:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-20T00:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000129"
+    },
+    {
+        "busId":  "BUS0130",
+        "registrationNumber":  "KA46AA1130",
+        "fleetNumber":  "BLR-130",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Tata Motors",
+        "model":  "Skyline",
+        "manufacturingYear":  2025,
+        "seatingCapacity":  59,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.874894,
+                                "longitude":  77.597051
+                            },
+        "features":  [
+                         "USB_CHARGING",
+                         "WIFI"
+                     ],
+        "totalDistanceKm":  48544.1,
+        "totalTrips":  1179,
+        "createdAt":  {
+                          "$date":  "2024-12-09T10:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-09T14:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000130"
+    },
+    {
+        "busId":  "BUS0131",
+        "registrationNumber":  "KA10BD1131",
+        "fleetNumber":  "BLR-131",
+        "busType":  "CNG",
+        "manufacturer":  "Volvo",
+        "model":  "Ultra",
+        "manufacturingYear":  2025,
+        "seatingCapacity":  46,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.844811,
+                                "longitude":  77.788442
+                            },
+        "features":  [
+                         "GPS",
+                         "AC"
+                     ],
+        "totalDistanceKm":  12922.7,
+        "totalTrips":  528,
+        "createdAt":  {
+                          "$date":  "2024-11-13T13:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-19T20:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000131"
+    },
+    {
+        "busId":  "BUS0132",
+        "registrationNumber":  "KA18CG1132",
+        "fleetNumber":  "BLR-132",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Starbus",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  58,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.717388,
+                                "longitude":  77.678742
+                            },
+        "features":  [
+                         "GPS",
+                         "PANIC_BUTTON",
+                         "AC"
+                     ],
+        "totalDistanceKm":  28846.4,
+        "totalTrips":  251,
+        "createdAt":  {
+                          "$date":  "2026-07-07T19:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-02T15:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0133",
+        "registrationNumber":  "KA22DJ1133",
+        "fleetNumber":  "BLR-133",
+        "busType":  "CNG",
+        "manufacturer":  "Eicher",
+        "model":  "Starbus",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  58,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.922421,
+                                "longitude":  77.689567
+                            },
+        "features":  [
+                         "GPS",
+                         "USB_CHARGING",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  38670.8,
+        "totalTrips":  641,
+        "createdAt":  {
+                          "$date":  "2025-08-30T19:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-25T19:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000133"
+    },
+    {
+        "busId":  "BUS0134",
+        "registrationNumber":  "KA53EM1134",
+        "fleetNumber":  "BLR-134",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Skyline",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  53,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.872801,
+                                "longitude":  77.731454
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  49415.7,
+        "totalTrips":  1218,
+        "createdAt":  {
+                          "$date":  "2024-03-12T16:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-26T12:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000134"
+    },
+    {
+        "busId":  "BUS0135",
+        "registrationNumber":  "KA70FP1135",
+        "fleetNumber":  "BLR-135",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Starbus",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  57,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.814229,
+                                "longitude":  77.615957
+                            },
+        "features":  [
+                         "CCTV",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  37152.7,
+        "totalTrips":  508,
+        "createdAt":  {
+                          "$date":  "2026-07-20T19:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-26T12:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000135"
+    },
+    {
+        "busId":  "BUS0136",
+        "registrationNumber":  "KA16GS1136",
+        "fleetNumber":  "BLR-136",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Skyline",
+        "manufacturingYear":  2024,
+        "seatingCapacity":  42,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.002737,
+                                "longitude":  77.860182
+                            },
+        "features":  [
+                         "CCTV",
+                         "PANIC_BUTTON",
+                         "AC"
+                     ],
+        "totalDistanceKm":  23276,
+        "totalTrips":  1033,
+        "createdAt":  {
+                          "$date":  "2023-08-24T05:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-27T17:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0137",
+        "registrationNumber":  "KA10HV1137",
+        "fleetNumber":  "BLR-137",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Viking",
+        "manufacturingYear":  2024,
+        "seatingCapacity":  59,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.889513,
+                                "longitude":  77.475
+                            },
+        "features":  [
+                         "USB_CHARGING",
+                         "WIFI",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  5377.8,
+        "totalTrips":  496,
+        "createdAt":  {
+                          "$date":  "2023-09-09T10:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-23T23:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000137"
+    },
+    {
+        "busId":  "BUS0138",
+        "registrationNumber":  "KA52IY1138",
+        "fleetNumber":  "BLR-138",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Tata Motors",
+        "model":  "Starbus",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  49,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.820663,
+                                "longitude":  77.674645
+                            },
+        "features":  [
+                         "CCTV",
+                         "GPS",
+                         "AC"
+                     ],
+        "totalDistanceKm":  43147.9,
+        "totalTrips":  503,
+        "createdAt":  {
+                          "$date":  "2026-08-03T12:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-17T18:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000138"
+    },
+    {
+        "busId":  "BUS0139",
+        "registrationNumber":  "KA86JB1139",
+        "fleetNumber":  "BLR-139",
+        "busType":  "CNG",
+        "manufacturer":  "Volvo",
+        "model":  "Starbus",
+        "manufacturingYear":  2025,
+        "seatingCapacity":  47,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.858388,
+                                "longitude":  77.647498
+                            },
+        "features":  [
+                         "CCTV",
+                         "AC"
+                     ],
+        "totalDistanceKm":  10052.1,
+        "totalTrips":  490,
+        "createdAt":  {
+                          "$date":  "2024-02-17T17:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-09T06:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000139"
+    },
+    {
+        "busId":  "BUS0140",
+        "registrationNumber":  "KA96KE1140",
+        "fleetNumber":  "BLR-140",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Viking",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  56,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.819013,
+                                "longitude":  77.595271
+                            },
+        "features":  [
+                         "WIFI",
+                         "USB_CHARGING",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  11645.2,
+        "totalTrips":  560,
+        "createdAt":  {
+                          "$date":  "2023-01-11T20:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-13T20:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0141",
+        "registrationNumber":  "KA70LH1141",
+        "fleetNumber":  "BLR-141",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Viking",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  43,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.80962,
+                                "longitude":  77.655752
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "AC"
+                     ],
+        "totalDistanceKm":  10508.2,
+        "totalTrips":  968,
+        "createdAt":  {
+                          "$date":  "2023-04-28T05:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-17T19:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000141"
+    },
+    {
+        "busId":  "BUS0142",
+        "registrationNumber":  "KA75MK1142",
+        "fleetNumber":  "BLR-142",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Viking",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  55,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.805037,
+                                "longitude":  77.688221
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "CCTV",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  35653.6,
+        "totalTrips":  148,
+        "createdAt":  {
+                          "$date":  "2023-01-06T22:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-06T06:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000142"
+    },
+    {
+        "busId":  "BUS0143",
+        "registrationNumber":  "KA21NN1143",
+        "fleetNumber":  "BLR-143",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Ultra",
+        "manufacturingYear":  2025,
+        "seatingCapacity":  56,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.927831,
+                                "longitude":  77.674139
+                            },
+        "features":  [
+                         "AC",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  44453.6,
+        "totalTrips":  796,
+        "createdAt":  {
+                          "$date":  "2022-12-08T15:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-17T06:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000143"
+    },
+    {
+        "busId":  "BUS0144",
+        "registrationNumber":  "KA49OQ1144",
+        "fleetNumber":  "BLR-144",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Skyline",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  53,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.736901,
+                                "longitude":  77.692468
+                            },
+        "features":  [
+                         "AC",
+                         "USB_CHARGING",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  45310.7,
+        "totalTrips":  627,
+        "createdAt":  {
+                          "$date":  "2026-01-05T06:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-09T08:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0145",
+        "registrationNumber":  "KA78PT1145",
+        "fleetNumber":  "BLR-145",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Skyline",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  45,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.961448,
+                                "longitude":  77.641652
+                            },
+        "features":  [
+                         "GPS",
+                         "WIFI",
+                         "AC"
+                     ],
+        "totalDistanceKm":  47282.9,
+        "totalTrips":  477,
+        "createdAt":  {
+                          "$date":  "2026-05-31T09:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-08T19:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000145"
+    },
+    {
+        "busId":  "BUS0146",
+        "registrationNumber":  "KA80QW1146",
+        "fleetNumber":  "BLR-146",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Volvo",
+        "model":  "Starbus",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  57,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.97456,
+                                "longitude":  77.625609
+                            },
+        "features":  [
+                         "GPS",
+                         "AC"
+                     ],
+        "totalDistanceKm":  39265.6,
+        "totalTrips":  1098,
+        "createdAt":  {
+                          "$date":  "2025-03-13T15:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-09T04:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000146"
+    },
+    {
+        "busId":  "BUS0147",
+        "registrationNumber":  "KA86RZ1147",
+        "fleetNumber":  "BLR-147",
+        "busType":  "CNG",
+        "manufacturer":  "Eicher",
+        "model":  "Ultra",
+        "manufacturingYear":  2022,
+        "seatingCapacity":  40,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.973771,
+                                "longitude":  77.567572
+                            },
+        "features":  [
+                         "CCTV",
+                         "PANIC_BUTTON",
+                         "AC"
+                     ],
+        "totalDistanceKm":  51529.9,
+        "totalTrips":  336,
+        "createdAt":  {
+                          "$date":  "2026-04-28T13:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-07T06:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000147"
+    },
+    {
+        "busId":  "BUS0148",
+        "registrationNumber":  "KA78SC1148",
+        "fleetNumber":  "BLR-148",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Ultra",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  40,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP002",
+                      "name":  "Peenya Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.933282,
+                                "longitude":  77.492466
+                            },
+        "features":  [
+                         "AC",
+                         "USB_CHARGING",
+                         "WIFI"
+                     ],
+        "totalDistanceKm":  47202.6,
+        "totalTrips":  1172,
+        "createdAt":  {
+                          "$date":  "2025-07-01T01:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-14T23:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0149",
+        "registrationNumber":  "KA59TF1149",
+        "fleetNumber":  "BLR-149",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Ashok Leyland",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  45,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.782862,
+                                "longitude":  77.840695
+                            },
+        "features":  [
+                         "WIFI",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  20553.9,
+        "totalTrips":  564,
+        "createdAt":  {
+                          "$date":  "2026-09-27T00:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-13T11:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000149"
+    },
+    {
+        "busId":  "BUS0150",
+        "registrationNumber":  "KA20UI1150",
+        "fleetNumber":  "BLR-150",
+        "busType":  "CNG",
+        "manufacturer":  "Volvo",
+        "model":  "Skyline",
+        "manufacturingYear":  2024,
+        "seatingCapacity":  47,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP001",
+                      "name":  "Electronic City Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.780823,
+                                "longitude":  77.865786
+                            },
+        "features":  [
+                         "CCTV",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  41976.6,
+        "totalTrips":  713,
+        "createdAt":  {
+                          "$date":  "2026-08-29T08:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-06T12:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000150"
+    },
+    {
+        "busId":  "BUS0151",
+        "registrationNumber":  "KA86VL1151",
+        "fleetNumber":  "BLR-151",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Tata Motors",
+        "model":  "Viking",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  56,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP004",
+                      "name":  "Mysuru Central Depot",
+                      "city":  "Mysuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.883575,
+                                "longitude":  77.83684
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "CCTV",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  22400.4,
+        "totalTrips":  902,
+        "createdAt":  {
+                          "$date":  "2024-06-10T07:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-07T16:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000151"
+    },
+    {
+        "busId":  "BUS0152",
+        "registrationNumber":  "KA55WO1152",
+        "fleetNumber":  "BLR-152",
+        "busType":  "CNG",
+        "manufacturer":  "Eicher",
+        "model":  "Starbus",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  59,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.018103,
+                                "longitude":  77.61014
+                            },
+        "features":  [
+                         "WIFI",
+                         "CCTV",
+                         "PANIC_BUTTON"
+                     ],
+        "totalDistanceKm":  22109.7,
+        "totalTrips":  201,
+        "createdAt":  {
+                          "$date":  "2024-07-19T22:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-08T10:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0153",
+        "registrationNumber":  "KA15XR1153",
+        "fleetNumber":  "BLR-153",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Eicher",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  43,
+        "status":  "MAINTENANCE",
+        "depot":  {
+                      "depotId":  "DEP002",
+                      "name":  "Peenya Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.0014,
+                                "longitude":  77.571016
+                            },
+        "features":  [
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  48902.1,
+        "totalTrips":  1397,
+        "createdAt":  {
+                          "$date":  "2026-10-04T01:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-05T23:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000153"
+    },
+    {
+        "busId":  "BUS0154",
+        "registrationNumber":  "KA35YU1154",
+        "fleetNumber":  "BLR-154",
+        "busType":  "AC_DIESEL",
+        "manufacturer":  "Tata Motors",
+        "model":  "Skyline",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  56,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.918425,
+                                "longitude":  77.610756
+                            },
+        "features":  [
+                         "CCTV",
+                         "GPS",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  35109.6,
+        "totalTrips":  1235,
+        "createdAt":  {
+                          "$date":  "2024-07-28T11:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-06T02:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000154"
+    },
+    {
+        "busId":  "BUS0155",
+        "registrationNumber":  "KA27ZX1155",
+        "fleetNumber":  "BLR-155",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Tata Motors",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2023,
+        "seatingCapacity":  43,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.732571,
+                                "longitude":  77.849101
+                            },
+        "features":  [
+                         "AC",
+                         "GPS"
+                     ],
+        "totalDistanceKm":  14663.5,
+        "totalTrips":  733,
+        "createdAt":  {
+                          "$date":  "2026-03-10T23:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-05T13:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000155"
+    },
+    {
+        "busId":  "BUS0156",
+        "registrationNumber":  "KA71AA1156",
+        "fleetNumber":  "BLR-156",
+        "busType":  "CNG",
+        "manufacturer":  "Tata Motors",
+        "model":  "Starbus",
+        "manufacturingYear":  2021,
+        "seatingCapacity":  47,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.731762,
+                                "longitude":  77.838083
+                            },
+        "features":  [
+                         "PANIC_BUTTON",
+                         "GPS",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  9797.8,
+        "totalTrips":  1333,
+        "createdAt":  {
+                          "$date":  "2023-08-21T11:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-16T13:11:08.574Z"
+                      }
+    },
+    {
+        "busId":  "BUS0157",
+        "registrationNumber":  "KA87BD1157",
+        "fleetNumber":  "BLR-157",
+        "busType":  "ELECTRIC",
+        "manufacturer":  "Eicher",
+        "model":  "Starbus EV",
+        "manufacturingYear":  2024,
+        "seatingCapacity":  42,
+        "status":  "ASSIGNED",
+        "depot":  {
+                      "depotId":  "DEP005",
+                      "name":  "Tumakuru Depot",
+                      "city":  "Tumakuru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.722503,
+                                "longitude":  77.85877
+                            },
+        "features":  [
+                         "GPS",
+                         "AC",
+                         "CCTV"
+                     ],
+        "totalDistanceKm":  39145.5,
+        "totalTrips":  347,
+        "createdAt":  {
+                          "$date":  "2026-02-20T12:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-18T00:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000157"
+    },
+    {
+        "busId":  "BUS0158",
+        "registrationNumber":  "KA80CG1158",
+        "fleetNumber":  "BLR-158",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Tata Motors",
+        "model":  "Skyline",
+        "manufacturingYear":  2019,
+        "seatingCapacity":  40,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP002",
+                      "name":  "Peenya Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.754381,
+                                "longitude":  77.461879
+                            },
+        "features":  [
+                         "CCTV",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  28771.7,
+        "totalTrips":  329,
+        "createdAt":  {
+                          "$date":  "2026-01-19T02:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-10-06T02:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000158"
+    },
+    {
+        "busId":  "BUS0159",
+        "registrationNumber":  "KA51DJ1159",
+        "fleetNumber":  "BLR-159",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Ultra",
+        "manufacturingYear":  2025,
+        "seatingCapacity":  52,
+        "status":  "INACTIVE",
+        "depot":  {
+                      "depotId":  "DEP002",
+                      "name":  "Peenya Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  12.799817,
+                                "longitude":  77.701032
+                            },
+        "features":  [
+                         "WIFI",
+                         "AC",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  49609.4,
+        "totalTrips":  550,
+        "createdAt":  {
+                          "$date":  "2026-07-12T05:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-12T04:11:08.574Z"
+                      },
+        "gpsDeviceId":  "GPS-000159"
+    },
+    {
+        "busId":  "BUS0160",
+        "registrationNumber":  "KA76EM1160",
+        "fleetNumber":  "BLR-160",
+        "busType":  "NON_AC_DIESEL",
+        "manufacturer":  "Eicher",
+        "model":  "Ultra",
+        "manufacturingYear":  2020,
+        "seatingCapacity":  52,
+        "status":  "AVAILABLE",
+        "depot":  {
+                      "depotId":  "DEP003",
+                      "name":  "Shantinagar Depot",
+                      "city":  "Bengaluru"
+                  },
+        "currentLocation":  {
+                                "latitude":  13.01063,
+                                "longitude":  77.582885
+                            },
+        "features":  [
+                         "GPS",
+                         "CCTV",
+                         "USB_CHARGING"
+                     ],
+        "totalDistanceKm":  32349.5,
+        "totalTrips":  187,
+        "createdAt":  {
+                          "$date":  "2023-04-08T18:11:08.574Z"
+                      },
+        "updatedAt":  {
+                          "$date":  "2026-09-11T03:11:08.574Z"
+                      }
+    }
+]

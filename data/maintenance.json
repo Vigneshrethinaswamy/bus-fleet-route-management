@@ -1,0 +1,4862 @@
+[
+  {
+    "maintenanceId": "MNT00001",
+    "busId": "BUS0071",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2025-12-05T08:11:08.580Z",
+    "odometerKm": 20759.6,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 612
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 3,
+        "unitCost": 447
+      }
+    ],
+    "totalCost": 7461,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 28954.6
+  },
+  {
+    "maintenanceId": "MNT00002",
+    "busId": "BUS0114",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-08-31T20:11:08.580Z",
+    "odometerKm": 5177.6,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 889
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 3,
+        "unitCost": 1207
+      }
+    ],
+    "totalCost": 10733,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 12663
+  },
+  {
+    "maintenanceId": "MNT00003",
+    "busId": "BUS0153",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2025-11-12T18:11:08.580Z",
+    "odometerKm": 47696,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 679
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 1,
+        "unitCost": 1589
+      }
+    ],
+    "totalCost": 4984,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 55334.1
+  },
+  {
+    "maintenanceId": "MNT00004",
+    "busId": "BUS0132",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2025-11-17T02:11:08.580Z",
+    "odometerKm": 17605.8,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 706
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 3,
+        "unitCost": 503
+      }
+    ],
+    "totalCost": 7157,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 35923.4
+  },
+  {
+    "maintenanceId": "MNT00005",
+    "busId": "BUS0159",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-09-23T02:11:08.580Z",
+    "odometerKm": 46054.1,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 1043
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 4,
+        "unitCost": 1790
+      }
+    ],
+    "totalCost": 12375,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 55671.4
+  },
+  {
+    "maintenanceId": "MNT00006",
+    "busId": "BUS0016",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-08-15T17:11:08.580Z",
+    "odometerKm": 29241.6,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 834
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 3,
+        "unitCost": 1122
+      }
+    ],
+    "totalCost": 11706,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 48726.1
+  },
+  {
+    "maintenanceId": "MNT00007",
+    "busId": "BUS0135",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-08-22T19:11:08.580Z",
+    "odometerKm": 24636.7,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 764
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 1,
+        "unitCost": 1212
+      }
+    ],
+    "totalCost": 4268,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 41226.7
+  },
+  {
+    "maintenanceId": "MNT00008",
+    "busId": "BUS0088",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-08-31T14:11:08.580Z",
+    "odometerKm": 8584.6,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 814
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 1,
+        "unitCost": 313
+      }
+    ],
+    "totalCost": 6011,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 15658.6
+  },
+  {
+    "maintenanceId": "MNT00009",
+    "busId": "BUS0156",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2025-12-24T09:11:08.580Z",
+    "odometerKm": 7198.2,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 759
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 4,
+        "unitCost": 729
+      }
+    ],
+    "totalCost": 8229,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 16823.8
+  },
+  {
+    "maintenanceId": "MNT00010",
+    "busId": "BUS0105",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-03-17T09:11:08.580Z",
+    "odometerKm": 25507.5,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 674
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 1,
+        "unitCost": 1253
+      }
+    ],
+    "totalCost": 4623,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 43527.2
+  },
+  {
+    "maintenanceId": "MNT00011",
+    "busId": "BUS0122",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-03-20T01:11:08.580Z",
+    "odometerKm": 42735.5,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 939
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 1,
+        "unitCost": 1491
+      }
+    ],
+    "totalCost": 10881,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 55633.5
+  },
+  {
+    "maintenanceId": "MNT00012",
+    "busId": "BUS0119",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-10-07T10:11:08.580Z",
+    "odometerKm": 14223.3,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 713
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 1,
+        "unitCost": 2014
+      }
+    ],
+    "totalCost": 9144,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 28474.9
+  },
+  {
+    "maintenanceId": "MNT00013",
+    "busId": "BUS0079",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-10-01T10:11:08.580Z",
+    "odometerKm": 16800.3,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 768
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 3,
+        "unitCost": 992
+      }
+    ],
+    "totalCost": 9120,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 23913.4
+  },
+  {
+    "maintenanceId": "MNT00014",
+    "busId": "BUS0004",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-01-19T21:11:08.580Z",
+    "odometerKm": 37688.2,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 1085
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 1,
+        "unitCost": 580
+      }
+    ],
+    "totalCost": 11430,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 48538.7
+  },
+  {
+    "maintenanceId": "MNT00015",
+    "busId": "BUS0028",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-02-05T08:11:08.580Z",
+    "odometerKm": 38459.4,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 723
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 1,
+        "unitCost": 2080
+      }
+    ],
+    "totalCost": 9310,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 58724
+  },
+  {
+    "maintenanceId": "MNT00016",
+    "busId": "BUS0159",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-03-19T08:11:08.580Z",
+    "odometerKm": 36829.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 825
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 2,
+        "unitCost": 2104
+      }
+    ],
+    "totalCost": 7508,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 54147.4
+  },
+  {
+    "maintenanceId": "MNT00017",
+    "busId": "BUS0008",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2025-12-29T20:11:08.580Z",
+    "odometerKm": 10385.5,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 998
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 2,
+        "unitCost": 549
+      }
+    ],
+    "totalCost": 5090,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 19485.7
+  },
+  {
+    "maintenanceId": "MNT00018",
+    "busId": "BUS0035",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2025-11-04T14:11:08.580Z",
+    "odometerKm": 47965.2,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 835
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 4,
+        "unitCost": 1426
+      }
+    ],
+    "totalCost": 9879,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 60989.2
+  },
+  {
+    "maintenanceId": "MNT00019",
+    "busId": "BUS0128",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-04-02T02:11:08.580Z",
+    "odometerKm": 5950,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 775
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 4,
+        "unitCost": 2064
+      }
+    ],
+    "totalCost": 12906,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 10718.7
+  },
+  {
+    "maintenanceId": "MNT00020",
+    "busId": "BUS0039",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2025-11-06T13:11:08.580Z",
+    "odometerKm": 4494.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 905
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 1,
+        "unitCost": 849
+      }
+    ],
+    "totalCost": 6279,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 13068.6
+  },
+  {
+    "maintenanceId": "MNT00021",
+    "busId": "BUS0118",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2025-11-01T10:11:08.580Z",
+    "odometerKm": 20531.2,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 612
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 4,
+        "unitCost": 821
+      }
+    ],
+    "totalCost": 7568,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 29702.2
+  },
+  {
+    "maintenanceId": "MNT00022",
+    "busId": "BUS0051",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-01-12T10:11:08.580Z",
+    "odometerKm": 25827.5,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 748
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 2,
+        "unitCost": 979
+      }
+    ],
+    "totalCost": 6446,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 46631.7
+  },
+  {
+    "maintenanceId": "MNT00023",
+    "busId": "BUS0069",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-08-21T21:11:08.580Z",
+    "odometerKm": 11071.5,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 791
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 4,
+        "unitCost": 322
+      }
+    ],
+    "totalCost": 6034,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 22245.3
+  },
+  {
+    "maintenanceId": "MNT00024",
+    "busId": "BUS0019",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-07-15T03:11:08.580Z",
+    "odometerKm": 37232.3,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 1002
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 2,
+        "unitCost": 357
+      }
+    ],
+    "totalCost": 7728,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 56029.4
+  },
+  {
+    "maintenanceId": "MNT00025",
+    "busId": "BUS0150",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-02-16T12:11:08.580Z",
+    "odometerKm": 40934.7,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 676
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 3,
+        "unitCost": 1620
+      }
+    ],
+    "totalCost": 11620,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 49230.6
+  },
+  {
+    "maintenanceId": "MNT00026",
+    "busId": "BUS0128",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-07-13T22:11:08.580Z",
+    "odometerKm": 5678.3,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 631
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 1,
+        "unitCost": 864
+      }
+    ],
+    "totalCost": 7174,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 15352.7
+  },
+  {
+    "maintenanceId": "MNT00027",
+    "busId": "BUS0032",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2025-11-05T06:11:08.580Z",
+    "odometerKm": 48154.1,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 984
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 2,
+        "unitCost": 659
+      }
+    ],
+    "totalCost": 6238,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 57697.8
+  },
+  {
+    "maintenanceId": "MNT00028",
+    "busId": "BUS0157",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-04-16T06:11:08.580Z",
+    "odometerKm": 27495.6,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 675
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 2,
+        "unitCost": 1662
+      }
+    ],
+    "totalCost": 8724,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 46070.5
+  },
+  {
+    "maintenanceId": "MNT00029",
+    "busId": "BUS0096",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-03-05T00:11:08.580Z",
+    "odometerKm": 38116.4,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 1030
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 2,
+        "unitCost": 1003
+      }
+    ],
+    "totalCost": 9216,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 46048.2
+  },
+  {
+    "maintenanceId": "MNT00030",
+    "busId": "BUS0138",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-01-05T16:11:08.580Z",
+    "odometerKm": 30304.6,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 1041
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 1,
+        "unitCost": 2015
+      }
+    ],
+    "totalCost": 8261,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 51012.9
+  },
+  {
+    "maintenanceId": "MNT00031",
+    "busId": "BUS0074",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2025-11-09T19:11:08.580Z",
+    "odometerKm": 39122.8,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 1095
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 1,
+        "unitCost": 2130
+      }
+    ],
+    "totalCost": 10890,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 48535.4
+  },
+  {
+    "maintenanceId": "MNT00032",
+    "busId": "BUS0003",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2025-12-02T11:11:08.580Z",
+    "odometerKm": 35187.5,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 632
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 2,
+        "unitCost": 593
+      }
+    ],
+    "totalCost": 6242,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 39356.8
+  },
+  {
+    "maintenanceId": "MNT00033",
+    "busId": "BUS0097",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-02-09T09:11:08.580Z",
+    "odometerKm": 42154.6,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 905
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 4,
+        "unitCost": 646
+      }
+    ],
+    "totalCost": 8919,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 55859.6
+  },
+  {
+    "maintenanceId": "MNT00034",
+    "busId": "BUS0127",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-03-10T13:11:08.580Z",
+    "odometerKm": 49542.2,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 9,
+        "unitCost": 832
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 3,
+        "unitCost": 1974
+      }
+    ],
+    "totalCost": 13410,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 59133.9
+  },
+  {
+    "maintenanceId": "MNT00035",
+    "busId": "BUS0144",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2025-12-06T20:11:08.580Z",
+    "odometerKm": 35251.7,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 988
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 1,
+        "unitCost": 1090
+      }
+    ],
+    "totalCost": 8994,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 48436.7
+  },
+  {
+    "maintenanceId": "MNT00036",
+    "busId": "BUS0125",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-04-10T11:11:08.580Z",
+    "odometerKm": 15553.1,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 1078
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 2,
+        "unitCost": 1717
+      }
+    ],
+    "totalCost": 7746,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 27521.3
+  },
+  {
+    "maintenanceId": "MNT00037",
+    "busId": "BUS0117",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-04-14T22:11:08.580Z",
+    "odometerKm": 10091.1,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 913
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 3,
+        "unitCost": 735
+      }
+    ],
+    "totalCost": 5857,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 16956.8
+  },
+  {
+    "maintenanceId": "MNT00038",
+    "busId": "BUS0046",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-02-15T15:11:08.580Z",
+    "odometerKm": 16769.3,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 633
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 1,
+        "unitCost": 821
+      }
+    ],
+    "totalCost": 3353,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 28226.4
+  },
+  {
+    "maintenanceId": "MNT00039",
+    "busId": "BUS0094",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-04-10T21:11:08.580Z",
+    "odometerKm": 21908.7,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 1049
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 4,
+        "unitCost": 1542
+      }
+    ],
+    "totalCost": 13511,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 30683.3
+  },
+  {
+    "maintenanceId": "MNT00040",
+    "busId": "BUS0132",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-03-05T01:11:08.580Z",
+    "odometerKm": 18127.7,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 689
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 4,
+        "unitCost": 1660
+      }
+    ],
+    "totalCost": 10085,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 35662.4
+  },
+  {
+    "maintenanceId": "MNT00041",
+    "busId": "BUS0031",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-08-18T21:11:08.580Z",
+    "odometerKm": 20647.8,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 641
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 4,
+        "unitCost": 1160
+      }
+    ],
+    "totalCost": 9127,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 29190.1
+  },
+  {
+    "maintenanceId": "MNT00042",
+    "busId": "BUS0024",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-07-20T15:11:08.580Z",
+    "odometerKm": 43355.3,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 930
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 2,
+        "unitCost": 1528
+      }
+    ],
+    "totalCost": 10496,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 54480.7
+  },
+  {
+    "maintenanceId": "MNT00043",
+    "busId": "BUS0158",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2025-11-27T10:11:08.580Z",
+    "odometerKm": 28099.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 9,
+        "unitCost": 686
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 1,
+        "unitCost": 434
+      }
+    ],
+    "totalCost": 6608,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 33578.7
+  },
+  {
+    "maintenanceId": "MNT00044",
+    "busId": "BUS0085",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-09-30T07:11:08.580Z",
+    "odometerKm": 34870.2,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 759
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 3,
+        "unitCost": 1973
+      }
+    ],
+    "totalCost": 10473,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 57483.4
+  },
+  {
+    "maintenanceId": "MNT00045",
+    "busId": "BUS0146",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2025-11-16T17:11:08.580Z",
+    "odometerKm": 29602.1,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 771
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 3,
+        "unitCost": 1549
+      }
+    ],
+    "totalCost": 10044,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 44124.6
+  },
+  {
+    "maintenanceId": "MNT00046",
+    "busId": "BUS0137",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-08-19T18:11:08.580Z",
+    "odometerKm": 4658.4,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 639
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 1,
+        "unitCost": 463
+      }
+    ],
+    "totalCost": 3658,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 9046.8
+  },
+  {
+    "maintenanceId": "MNT00047",
+    "busId": "BUS0032",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2025-12-04T14:11:08.580Z",
+    "odometerKm": 49841,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 900
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 1,
+        "unitCost": 571
+      }
+    ],
+    "totalCost": 9571,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 58109.8
+  },
+  {
+    "maintenanceId": "MNT00048",
+    "busId": "BUS0021",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-08-22T00:11:08.580Z",
+    "odometerKm": 15154.1,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 662
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 2,
+        "unitCost": 1887
+      }
+    ],
+    "totalCost": 7746,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 22314.6
+  },
+  {
+    "maintenanceId": "MNT00049",
+    "busId": "BUS0129",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-02-20T10:11:08.580Z",
+    "odometerKm": 16547.5,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 9,
+        "unitCost": 698
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 2,
+        "unitCost": 770
+      }
+    ],
+    "totalCost": 7822,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 27945.8
+  },
+  {
+    "maintenanceId": "MNT00050",
+    "busId": "BUS0154",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-09-21T05:11:08.580Z",
+    "odometerKm": 24807.4,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 643
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 2,
+        "unitCost": 410
+      }
+    ],
+    "totalCost": 4035,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 40377.6
+  },
+  {
+    "maintenanceId": "MNT00051",
+    "busId": "BUS0149",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-01-09T17:11:08.580Z",
+    "odometerKm": 14606.5,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 966
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 4,
+        "unitCost": 1615
+      }
+    ],
+    "totalCost": 11290,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 26182.9
+  },
+  {
+    "maintenanceId": "MNT00052",
+    "busId": "BUS0097",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-04-22T23:11:08.580Z",
+    "odometerKm": 40192.5,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 941
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 1,
+        "unitCost": 1656
+      }
+    ],
+    "totalCost": 11066,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 56822.6
+  },
+  {
+    "maintenanceId": "MNT00053",
+    "busId": "BUS0131",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-02-18T09:11:08.580Z",
+    "odometerKm": 9257.4,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 806
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 4,
+        "unitCost": 801
+      }
+    ],
+    "totalCost": 11264,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 20535.7
+  },
+  {
+    "maintenanceId": "MNT00054",
+    "busId": "BUS0042",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-01-22T19:11:08.580Z",
+    "odometerKm": 24814,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 875
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 2,
+        "unitCost": 978
+      }
+    ],
+    "totalCost": 8081,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 36770.5
+  },
+  {
+    "maintenanceId": "MNT00055",
+    "busId": "BUS0007",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-01-01T16:11:08.580Z",
+    "odometerKm": 34631.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 951
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 4,
+        "unitCost": 1890
+      }
+    ],
+    "totalCost": 17070,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 43174.4
+  },
+  {
+    "maintenanceId": "MNT00056",
+    "busId": "BUS0149",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-06-19T21:11:08.580Z",
+    "odometerKm": 16283.8,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 924
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 1,
+        "unitCost": 2025
+      }
+    ],
+    "totalCost": 5721,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 23571.9
+  },
+  {
+    "maintenanceId": "MNT00057",
+    "busId": "BUS0100",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-02-19T14:11:08.580Z",
+    "odometerKm": 9661.4,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 646
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 2,
+        "unitCost": 1335
+      }
+    ],
+    "totalCost": 6546,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 17410.7
+  },
+  {
+    "maintenanceId": "MNT00058",
+    "busId": "BUS0024",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-05-24T14:11:08.580Z",
+    "odometerKm": 43404.6,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 693
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 4,
+        "unitCost": 1597
+      }
+    ],
+    "totalCost": 11239,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 51105.7
+  },
+  {
+    "maintenanceId": "MNT00059",
+    "busId": "BUS0087",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-09-04T15:11:08.580Z",
+    "odometerKm": 23728.8,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 866
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 2,
+        "unitCost": 440
+      }
+    ],
+    "totalCost": 6942,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 36793.2
+  },
+  {
+    "maintenanceId": "MNT00060",
+    "busId": "BUS0135",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-04-19T21:11:08.580Z",
+    "odometerKm": 32755.3,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 917
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 1,
+        "unitCost": 1020
+      }
+    ],
+    "totalCost": 5605,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 42213.7
+  },
+  {
+    "maintenanceId": "MNT00061",
+    "busId": "BUS0158",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-06-09T01:11:08.580Z",
+    "odometerKm": 23161.1,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 898
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 1,
+        "unitCost": 478
+      }
+    ],
+    "totalCost": 7662,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 33089.7
+  },
+  {
+    "maintenanceId": "MNT00062",
+    "busId": "BUS0106",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-01-14T12:11:08.580Z",
+    "odometerKm": 9866.2,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 898
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 2,
+        "unitCost": 1454
+      }
+    ],
+    "totalCost": 10092,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 19679.5
+  },
+  {
+    "maintenanceId": "MNT00063",
+    "busId": "BUS0069",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-04-29T01:11:08.580Z",
+    "odometerKm": 13373.8,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 917
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 3,
+        "unitCost": 677
+      }
+    ],
+    "totalCost": 11201,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 20625.3
+  },
+  {
+    "maintenanceId": "MNT00064",
+    "busId": "BUS0024",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-01-16T08:11:08.580Z",
+    "odometerKm": 31343.4,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 623
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 4,
+        "unitCost": 1187
+      }
+    ],
+    "totalCost": 7863,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 54387.7
+  },
+  {
+    "maintenanceId": "MNT00065",
+    "busId": "BUS0056",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2025-10-31T11:11:08.580Z",
+    "odometerKm": 41995,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 9,
+        "unitCost": 631
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 4,
+        "unitCost": 2155
+      }
+    ],
+    "totalCost": 14299,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 51242.4
+  },
+  {
+    "maintenanceId": "MNT00066",
+    "busId": "BUS0027",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2025-10-15T21:11:08.580Z",
+    "odometerKm": 37862.3,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 857
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 1,
+        "unitCost": 2088
+      }
+    ],
+    "totalCost": 7230,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 51096.4
+  },
+  {
+    "maintenanceId": "MNT00067",
+    "busId": "BUS0133",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-08-24T02:11:08.580Z",
+    "odometerKm": 26088,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 898
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 2,
+        "unitCost": 323
+      }
+    ],
+    "totalCost": 6932,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 45350.8
+  },
+  {
+    "maintenanceId": "MNT00068",
+    "busId": "BUS0022",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-02-02T09:11:08.580Z",
+    "odometerKm": 5360.7,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 1096
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 1,
+        "unitCost": 908
+      }
+    ],
+    "totalCost": 8580,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 13279.1
+  },
+  {
+    "maintenanceId": "MNT00069",
+    "busId": "BUS0026",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-07-08T20:11:08.580Z",
+    "odometerKm": 43164.5,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 996
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 1,
+        "unitCost": 923
+      }
+    ],
+    "totalCost": 6899,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 48593.4
+  },
+  {
+    "maintenanceId": "MNT00070",
+    "busId": "BUS0100",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2025-10-19T08:11:08.580Z",
+    "odometerKm": 6915.4,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 843
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 1,
+        "unitCost": 1760
+      }
+    ],
+    "totalCost": 7661,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 18190.7
+  },
+  {
+    "maintenanceId": "MNT00071",
+    "busId": "BUS0029",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2025-10-29T17:11:08.580Z",
+    "odometerKm": 31012.6,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 958
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 2,
+        "unitCost": 349
+      }
+    ],
+    "totalCost": 5488,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 47302
+  },
+  {
+    "maintenanceId": "MNT00072",
+    "busId": "BUS0120",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-08-18T05:11:08.580Z",
+    "odometerKm": 12719.2,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 615
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 4,
+        "unitCost": 973
+      }
+    ],
+    "totalCost": 8812,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 19107.7
+  },
+  {
+    "maintenanceId": "MNT00073",
+    "busId": "BUS0146",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-04-20T23:11:08.580Z",
+    "odometerKm": 35293.7,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 1092
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 1,
+        "unitCost": 878
+      }
+    ],
+    "totalCost": 7430,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 47207.6
+  },
+  {
+    "maintenanceId": "MNT00074",
+    "busId": "BUS0132",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-04-01T05:11:08.580Z",
+    "odometerKm": 20224.2,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 819
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 1,
+        "unitCost": 1575
+      }
+    ],
+    "totalCost": 4851,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 32077.4
+  },
+  {
+    "maintenanceId": "MNT00075",
+    "busId": "BUS0092",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-04-09T15:11:08.580Z",
+    "odometerKm": 22857.3,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 1024
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 3,
+        "unitCost": 1459
+      }
+    ],
+    "totalCost": 9497,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 34958.5
+  },
+  {
+    "maintenanceId": "MNT00076",
+    "busId": "BUS0082",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-07-19T17:11:08.580Z",
+    "odometerKm": 17419.7,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 1064
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 2,
+        "unitCost": 1000
+      }
+    ],
+    "totalCost": 12640,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 22049.8
+  },
+  {
+    "maintenanceId": "MNT00077",
+    "busId": "BUS0152",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-01-29T18:11:08.580Z",
+    "odometerKm": 21218.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 917
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 1,
+        "unitCost": 378
+      }
+    ],
+    "totalCost": 7714,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 29991.7
+  },
+  {
+    "maintenanceId": "MNT00078",
+    "busId": "BUS0036",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-05-28T04:11:08.580Z",
+    "odometerKm": 4170.3,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 1019
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 2,
+        "unitCost": 2008
+      }
+    ],
+    "totalCost": 12168,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 12655.1
+  },
+  {
+    "maintenanceId": "MNT00079",
+    "busId": "BUS0063",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2025-12-17T19:11:08.580Z",
+    "odometerKm": 27197.4,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 9,
+        "unitCost": 856
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 2,
+        "unitCost": 850
+      }
+    ],
+    "totalCost": 9404,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 35636
+  },
+  {
+    "maintenanceId": "MNT00080",
+    "busId": "BUS0056",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-02-18T03:11:08.580Z",
+    "odometerKm": 26196.1,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 917
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 2,
+        "unitCost": 700
+      }
+    ],
+    "totalCost": 7819,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 48426.4
+  },
+  {
+    "maintenanceId": "MNT00081",
+    "busId": "BUS0087",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-01-09T14:11:08.580Z",
+    "odometerKm": 21669.4,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 884
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 4,
+        "unitCost": 2133
+      }
+    ],
+    "totalCost": 12952,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 34385.2
+  },
+  {
+    "maintenanceId": "MNT00082",
+    "busId": "BUS0015",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-07-09T08:11:08.580Z",
+    "odometerKm": 33834.1,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 785
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 1,
+        "unitCost": 1262
+      }
+    ],
+    "totalCost": 4402,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 49080.3
+  },
+  {
+    "maintenanceId": "MNT00083",
+    "busId": "BUS0133",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-08-05T18:11:08.580Z",
+    "odometerKm": 24174.2,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 789
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 1,
+        "unitCost": 580
+      }
+    ],
+    "totalCost": 8470,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 43123.8
+  },
+  {
+    "maintenanceId": "MNT00084",
+    "busId": "BUS0134",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-09-06T12:11:08.580Z",
+    "odometerKm": 38997.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 687
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 2,
+        "unitCost": 565
+      }
+    ],
+    "totalCost": 6626,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 53376.7
+  },
+  {
+    "maintenanceId": "MNT00085",
+    "busId": "BUS0122",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2025-10-24T02:11:08.580Z",
+    "odometerKm": 45075.8,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 1052
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 1,
+        "unitCost": 344
+      }
+    ],
+    "totalCost": 4552,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 56244.5
+  },
+  {
+    "maintenanceId": "MNT00086",
+    "busId": "BUS0029",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-07-31T14:11:08.580Z",
+    "odometerKm": 36246.5,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 799
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 4,
+        "unitCost": 1674
+      }
+    ],
+    "totalCost": 11490,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 50007
+  },
+  {
+    "maintenanceId": "MNT00087",
+    "busId": "BUS0013",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-01-01T03:11:08.580Z",
+    "odometerKm": 6816.3,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 855
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 3,
+        "unitCost": 1308
+      }
+    ],
+    "totalCost": 9054,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 11831.4
+  },
+  {
+    "maintenanceId": "MNT00088",
+    "busId": "BUS0076",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-02-24T13:11:08.580Z",
+    "odometerKm": 11756.6,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 9,
+        "unitCost": 695
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 3,
+        "unitCost": 813
+      }
+    ],
+    "totalCost": 8694,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 22720.3
+  },
+  {
+    "maintenanceId": "MNT00089",
+    "busId": "BUS0019",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2025-12-06T03:11:08.580Z",
+    "odometerKm": 43224.5,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 818
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 1,
+        "unitCost": 1570
+      }
+    ],
+    "totalCost": 5660,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 56578.4
+  },
+  {
+    "maintenanceId": "MNT00090",
+    "busId": "BUS0012",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2025-10-09T15:11:08.580Z",
+    "odometerKm": 18835.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 889
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 3,
+        "unitCost": 426
+      }
+    ],
+    "totalCost": 5723,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 30203.8
+  },
+  {
+    "maintenanceId": "MNT00091",
+    "busId": "BUS0022",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-05-13T15:11:08.580Z",
+    "odometerKm": 4433.1,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 616
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 1,
+        "unitCost": 1275
+      }
+    ],
+    "totalCost": 4971,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 12433.1
+  },
+  {
+    "maintenanceId": "MNT00092",
+    "busId": "BUS0010",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-06-27T22:11:08.580Z",
+    "odometerKm": 29442.3,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 9,
+        "unitCost": 738
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 4,
+        "unitCost": 1698
+      }
+    ],
+    "totalCost": 13434,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 35107.3
+  },
+  {
+    "maintenanceId": "MNT00093",
+    "busId": "BUS0013",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2025-11-17T19:11:08.580Z",
+    "odometerKm": 7217.7,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 972
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 2,
+        "unitCost": 1566
+      }
+    ],
+    "totalCost": 8964,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 15378.4
+  },
+  {
+    "maintenanceId": "MNT00094",
+    "busId": "BUS0007",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-05-13T17:11:08.580Z",
+    "odometerKm": 33671.5,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 796
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 2,
+        "unitCost": 2150
+      }
+    ],
+    "totalCost": 9076,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 41277.4
+  },
+  {
+    "maintenanceId": "MNT00095",
+    "busId": "BUS0087",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-05-04T13:11:08.580Z",
+    "odometerKm": 28489.7,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 649
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 2,
+        "unitCost": 1871
+      }
+    ],
+    "totalCost": 6987,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 35992.2
+  },
+  {
+    "maintenanceId": "MNT00096",
+    "busId": "BUS0047",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-02-17T22:11:08.580Z",
+    "odometerKm": 34072.2,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 792
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 2,
+        "unitCost": 1201
+      }
+    ],
+    "totalCost": 6362,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 45026.6
+  },
+  {
+    "maintenanceId": "MNT00097",
+    "busId": "BUS0135",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2025-10-20T18:11:08.580Z",
+    "odometerKm": 37081.8,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 1093
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 2,
+        "unitCost": 429
+      }
+    ],
+    "totalCost": 8509,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 43229.7
+  },
+  {
+    "maintenanceId": "MNT00098",
+    "busId": "BUS0152",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-03-28T14:11:08.580Z",
+    "odometerKm": 19928.8,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 874
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 1,
+        "unitCost": 2116
+      }
+    ],
+    "totalCost": 5612,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 26136.7
+  },
+  {
+    "maintenanceId": "MNT00099",
+    "busId": "BUS0092",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-01-26T01:11:08.580Z",
+    "odometerKm": 21650.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 746
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 4,
+        "unitCost": 677
+      }
+    ],
+    "totalCost": 6438,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 35266.5
+  },
+  {
+    "maintenanceId": "MNT00100",
+    "busId": "BUS0004",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2025-12-26T17:11:08.580Z",
+    "odometerKm": 36935.6,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 1061
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 4,
+        "unitCost": 1748
+      }
+    ],
+    "totalCost": 14419,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 49075.7
+  },
+  {
+    "maintenanceId": "MNT00101",
+    "busId": "BUS0007",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2025-10-30T03:11:08.580Z",
+    "odometerKm": 22689.5,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 948
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 1,
+        "unitCost": 2031
+      }
+    ],
+    "totalCost": 5823,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 40742.4
+  },
+  {
+    "maintenanceId": "MNT00102",
+    "busId": "BUS0077",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-04-23T07:11:08.580Z",
+    "odometerKm": 15064.5,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 803
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 2,
+        "unitCost": 1346
+      }
+    ],
+    "totalCost": 7510,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 19668.7
+  },
+  {
+    "maintenanceId": "MNT00103",
+    "busId": "BUS0097",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-09-10T17:11:08.580Z",
+    "odometerKm": 44188.3,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 9,
+        "unitCost": 1037
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 1,
+        "unitCost": 900
+      }
+    ],
+    "totalCost": 10233,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 52128.6
+  },
+  {
+    "maintenanceId": "MNT00104",
+    "busId": "BUS0158",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-10-01T19:11:08.580Z",
+    "odometerKm": 27792.1,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 771
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 3,
+        "unitCost": 2003
+      }
+    ],
+    "totalCost": 12177,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 35984.7
+  },
+  {
+    "maintenanceId": "MNT00105",
+    "busId": "BUS0038",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-03-12T07:11:08.580Z",
+    "odometerKm": 17023.7,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 638
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 1,
+        "unitCost": 1226
+      }
+    ],
+    "totalCost": 6330,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 26170.9
+  },
+  {
+    "maintenanceId": "MNT00106",
+    "busId": "BUS0001",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-07-29T14:11:08.580Z",
+    "odometerKm": 21805.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 1066
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 1,
+        "unitCost": 1403
+      }
+    ],
+    "totalCost": 12063,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 40964.4
+  },
+  {
+    "maintenanceId": "MNT00107",
+    "busId": "BUS0110",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2025-11-03T07:11:08.580Z",
+    "odometerKm": 22985.1,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 844
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 2,
+        "unitCost": 1923
+      }
+    ],
+    "totalCost": 8066,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 34866.3
+  },
+  {
+    "maintenanceId": "MNT00108",
+    "busId": "BUS0130",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-06-06T09:11:08.580Z",
+    "odometerKm": 43777.4,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 757
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 2,
+        "unitCost": 1556
+      }
+    ],
+    "totalCost": 10682,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 52440.1
+  },
+  {
+    "maintenanceId": "MNT00109",
+    "busId": "BUS0055",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2025-12-09T06:11:08.580Z",
+    "odometerKm": 30326.5,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 872
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 3,
+        "unitCost": 784
+      }
+    ],
+    "totalCost": 9328,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 49659.3
+  },
+  {
+    "maintenanceId": "MNT00110",
+    "busId": "BUS0088",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-06-22T08:11:08.580Z",
+    "odometerKm": 10741.7,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 1030
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 1,
+        "unitCost": 1234
+      }
+    ],
+    "totalCost": 11534,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 16051.6
+  },
+  {
+    "maintenanceId": "MNT00111",
+    "busId": "BUS0103",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-03-27T01:11:08.580Z",
+    "odometerKm": 10170.6,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 724
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 2,
+        "unitCost": 840
+      }
+    ],
+    "totalCost": 6024,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 17225.2
+  },
+  {
+    "maintenanceId": "MNT00112",
+    "busId": "BUS0102",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-06-19T23:11:08.580Z",
+    "odometerKm": 15017.1,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 1003
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 1,
+        "unitCost": 1202
+      }
+    ],
+    "totalCost": 7220,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 19379.3
+  },
+  {
+    "maintenanceId": "MNT00113",
+    "busId": "BUS0068",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-09-20T08:11:08.580Z",
+    "odometerKm": 43958.6,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 877
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 4,
+        "unitCost": 1653
+      }
+    ],
+    "totalCost": 13628,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 52035.4
+  },
+  {
+    "maintenanceId": "MNT00114",
+    "busId": "BUS0126",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2025-11-29T11:11:08.580Z",
+    "odometerKm": 39062.3,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 609
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 2,
+        "unitCost": 1774
+      }
+    ],
+    "totalCost": 7811,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 51085.9
+  },
+  {
+    "maintenanceId": "MNT00115",
+    "busId": "BUS0020",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-05-01T15:11:08.580Z",
+    "odometerKm": 19999.4,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 756
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 4,
+        "unitCost": 1075
+      }
+    ],
+    "totalCost": 8836,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 31341
+  },
+  {
+    "maintenanceId": "MNT00116",
+    "busId": "BUS0112",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-09-18T04:11:08.580Z",
+    "odometerKm": 20929.6,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 918
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 3,
+        "unitCost": 966
+      }
+    ],
+    "totalCost": 6570,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 33039
+  },
+  {
+    "maintenanceId": "MNT00117",
+    "busId": "BUS0067",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-01-04T12:11:08.580Z",
+    "odometerKm": 18550.4,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 1089
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 3,
+        "unitCost": 1873
+      }
+    ],
+    "totalCost": 11064,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 25139.7
+  },
+  {
+    "maintenanceId": "MNT00118",
+    "busId": "BUS0022",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-01-12T08:11:08.580Z",
+    "odometerKm": 5493.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 615
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 3,
+        "unitCost": 1737
+      }
+    ],
+    "totalCost": 8901,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 11008.1
+  },
+  {
+    "maintenanceId": "MNT00119",
+    "busId": "BUS0070",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-09-11T17:11:08.580Z",
+    "odometerKm": 20101.7,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 9,
+        "unitCost": 786
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 4,
+        "unitCost": 1854
+      }
+    ],
+    "totalCost": 14490,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 33809.6
+  },
+  {
+    "maintenanceId": "MNT00120",
+    "busId": "BUS0108",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-04-12T07:11:08.580Z",
+    "odometerKm": 45977.5,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 780
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 4,
+        "unitCost": 425
+      }
+    ],
+    "totalCost": 4820,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 55389.6
+  },
+  {
+    "maintenanceId": "MNT00121",
+    "busId": "BUS0121",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2025-10-25T06:11:08.580Z",
+    "odometerKm": 39727.6,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 868
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 1,
+        "unitCost": 1899
+      }
+    ],
+    "totalCost": 10579,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 51342.4
+  },
+  {
+    "maintenanceId": "MNT00122",
+    "busId": "BUS0036",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-08-07T23:11:08.580Z",
+    "odometerKm": 4891.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 1009
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 4,
+        "unitCost": 760
+      }
+    ],
+    "totalCost": 7076,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 12812.1
+  },
+  {
+    "maintenanceId": "MNT00123",
+    "busId": "BUS0027",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-07-04T14:11:08.580Z",
+    "odometerKm": 43041.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 928
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 1,
+        "unitCost": 1724
+      }
+    ],
+    "totalCost": 11004,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 51052.4
+  },
+  {
+    "maintenanceId": "MNT00124",
+    "busId": "BUS0103",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2025-12-13T21:11:08.580Z",
+    "odometerKm": 11067.1,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 870
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 4,
+        "unitCost": 646
+      }
+    ],
+    "totalCost": 7804,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 14934.2
+  },
+  {
+    "maintenanceId": "MNT00125",
+    "busId": "BUS0156",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-08-01T08:11:08.580Z",
+    "odometerKm": 8136.7,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 626
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 1,
+        "unitCost": 1293
+      }
+    ],
+    "totalCost": 7553,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 14149.8
+  },
+  {
+    "maintenanceId": "MNT00126",
+    "busId": "BUS0059",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-08-18T09:11:08.580Z",
+    "odometerKm": 40102.1,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 923
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 1,
+        "unitCost": 1859
+      }
+    ],
+    "totalCost": 6474,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 55627.6
+  },
+  {
+    "maintenanceId": "MNT00127",
+    "busId": "BUS0132",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-05-17T23:11:08.580Z",
+    "odometerKm": 19228,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 9,
+        "unitCost": 789
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 4,
+        "unitCost": 325
+      }
+    ],
+    "totalCost": 8401,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 36515.4
+  },
+  {
+    "maintenanceId": "MNT00128",
+    "busId": "BUS0151",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-08-31T17:11:08.580Z",
+    "odometerKm": 15023.2,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 963
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 4,
+        "unitCost": 1824
+      }
+    ],
+    "totalCost": 11148,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 26330.4
+  },
+  {
+    "maintenanceId": "MNT00129",
+    "busId": "BUS0117",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2025-12-14T12:11:08.580Z",
+    "odometerKm": 11503.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 9,
+        "unitCost": 878
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 4,
+        "unitCost": 693
+      }
+    ],
+    "totalCost": 10674,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 18771.8
+  },
+  {
+    "maintenanceId": "MNT00130",
+    "busId": "BUS0137",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-08-07T08:11:08.580Z",
+    "odometerKm": 3979.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 924
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 2,
+        "unitCost": 1823
+      }
+    ],
+    "totalCost": 7342,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 12934.8
+  },
+  {
+    "maintenanceId": "MNT00131",
+    "busId": "BUS0008",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-05-24T15:11:08.580Z",
+    "odometerKm": 9177.2,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 971
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 3,
+        "unitCost": 2147
+      }
+    ],
+    "totalCost": 12267,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 16218.7
+  },
+  {
+    "maintenanceId": "MNT00132",
+    "busId": "BUS0054",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-04-16T01:11:08.580Z",
+    "odometerKm": 50447.8,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 971
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 1,
+        "unitCost": 693
+      }
+    ],
+    "totalCost": 8461,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 59327
+  },
+  {
+    "maintenanceId": "MNT00133",
+    "busId": "BUS0133",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-08-10T21:11:08.580Z",
+    "odometerKm": 32666.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 842
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 2,
+        "unitCost": 674
+      }
+    ],
+    "totalCost": 5558,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 46296.8
+  },
+  {
+    "maintenanceId": "MNT00134",
+    "busId": "BUS0020",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-05-12T12:11:08.580Z",
+    "odometerKm": 18306.1,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 609
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 2,
+        "unitCost": 461
+      }
+    ],
+    "totalCost": 7012,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 29150
+  },
+  {
+    "maintenanceId": "MNT00135",
+    "busId": "BUS0027",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-02-07T17:11:08.580Z",
+    "odometerKm": 35914.7,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 1058
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 2,
+        "unitCost": 1735
+      }
+    ],
+    "totalCost": 7702,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 53306.4
+  },
+  {
+    "maintenanceId": "MNT00136",
+    "busId": "BUS0038",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-09-10T01:11:08.580Z",
+    "odometerKm": 15211,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 652
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 3,
+        "unitCost": 1756
+      }
+    ],
+    "totalCost": 11788,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 27859.9
+  },
+  {
+    "maintenanceId": "MNT00137",
+    "busId": "BUS0036",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-03-31T23:11:08.580Z",
+    "odometerKm": 4358.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 853
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 3,
+        "unitCost": 964
+      }
+    ],
+    "totalCost": 7157,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 13161.1
+  },
+  {
+    "maintenanceId": "MNT00138",
+    "busId": "BUS0025",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-08-11T14:11:08.580Z",
+    "odometerKm": 35532.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 774
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 2,
+        "unitCost": 1172
+      }
+    ],
+    "totalCost": 8536,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 51493.5
+  },
+  {
+    "maintenanceId": "MNT00139",
+    "busId": "BUS0010",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-10-06T21:11:08.580Z",
+    "odometerKm": 27453.2,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 893
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 1,
+        "unitCost": 638
+      }
+    ],
+    "totalCost": 4210,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 36384.3
+  },
+  {
+    "maintenanceId": "MNT00140",
+    "busId": "BUS0133",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2025-10-29T07:11:08.580Z",
+    "odometerKm": 24566.2,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 9,
+        "unitCost": 918
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 1,
+        "unitCost": 1737
+      }
+    ],
+    "totalCost": 9999,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 42901.8
+  },
+  {
+    "maintenanceId": "MNT00141",
+    "busId": "BUS0005",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-07-15T05:11:08.580Z",
+    "odometerKm": 39785.1,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 970
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 1,
+        "unitCost": 2066
+      }
+    ],
+    "totalCost": 5946,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 53038.8
+  },
+  {
+    "maintenanceId": "MNT00142",
+    "busId": "BUS0103",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-07-05T18:11:08.580Z",
+    "odometerKm": 6912,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 992
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 3,
+        "unitCost": 486
+      }
+    ],
+    "totalCost": 5426,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 15597.2
+  },
+  {
+    "maintenanceId": "MNT00143",
+    "busId": "BUS0104",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-02-21T00:11:08.580Z",
+    "odometerKm": 46421.6,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 613
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 3,
+        "unitCost": 399
+      }
+    ],
+    "totalCost": 7327,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 54647.4
+  },
+  {
+    "maintenanceId": "MNT00144",
+    "busId": "BUS0079",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-04-30T20:11:08.580Z",
+    "odometerKm": 14732.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 904
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 2,
+        "unitCost": 2162
+      }
+    ],
+    "totalCost": 9748,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 24308.4
+  },
+  {
+    "maintenanceId": "MNT00145",
+    "busId": "BUS0008",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-07-11T17:11:08.580Z",
+    "odometerKm": 8125.2,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 9,
+        "unitCost": 786
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 2,
+        "unitCost": 413
+      }
+    ],
+    "totalCost": 7900,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 17981.7
+  },
+  {
+    "maintenanceId": "MNT00146",
+    "busId": "BUS0136",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2025-11-10T21:11:08.580Z",
+    "odometerKm": 21633.2,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 600
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 4,
+        "unitCost": 832
+      }
+    ],
+    "totalCost": 7528,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 27407
+  },
+  {
+    "maintenanceId": "MNT00147",
+    "busId": "BUS0080",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-09-22T07:11:08.580Z",
+    "odometerKm": 22690.7,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 984
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 3,
+        "unitCost": 1921
+      }
+    ],
+    "totalCost": 11667,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 31854.6
+  },
+  {
+    "maintenanceId": "MNT00148",
+    "busId": "BUS0115",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2025-10-24T15:11:08.580Z",
+    "odometerKm": 18752,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 602
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 1,
+        "unitCost": 932
+      }
+    ],
+    "totalCost": 3340,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 35003.3
+  },
+  {
+    "maintenanceId": "MNT00149",
+    "busId": "BUS0054",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2025-11-11T09:11:08.580Z",
+    "odometerKm": 44596.3,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 1071
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 1,
+        "unitCost": 951
+      }
+    ],
+    "totalCost": 9519,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 56150
+  },
+  {
+    "maintenanceId": "MNT00150",
+    "busId": "BUS0017",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2025-11-26T03:11:08.580Z",
+    "odometerKm": 31897.1,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 674
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 3,
+        "unitCost": 1410
+      }
+    ],
+    "totalCost": 8948,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 44355.6
+  },
+  {
+    "maintenanceId": "MNT00151",
+    "busId": "BUS0055",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-01-02T21:11:08.580Z",
+    "odometerKm": 29901.4,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 755
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 2,
+        "unitCost": 2087
+      }
+    ],
+    "totalCost": 11724,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 51517.3
+  },
+  {
+    "maintenanceId": "MNT00152",
+    "busId": "BUS0078",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2025-12-15T21:11:08.580Z",
+    "odometerKm": 22314.4,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 961
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 4,
+        "unitCost": 1628
+      }
+    ],
+    "totalCost": 16122,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 32366.9
+  },
+  {
+    "maintenanceId": "MNT00153",
+    "busId": "BUS0130",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2025-11-07T17:11:08.580Z",
+    "odometerKm": 35713.1,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 1007
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 3,
+        "unitCost": 1217
+      }
+    ],
+    "totalCost": 10700,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 56285.1
+  },
+  {
+    "maintenanceId": "MNT00154",
+    "busId": "BUS0059",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-08-05T19:11:08.580Z",
+    "odometerKm": 48806.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 724
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 3,
+        "unitCost": 455
+      }
+    ],
+    "totalCost": 5709,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 59474.6
+  },
+  {
+    "maintenanceId": "MNT00155",
+    "busId": "BUS0070",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-04-20T16:11:08.580Z",
+    "odometerKm": 19152.2,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 848
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 4,
+        "unitCost": 1804
+      }
+    ],
+    "totalCost": 12304,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 34970.6
+  },
+  {
+    "maintenanceId": "MNT00156",
+    "busId": "BUS0138",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2025-12-18T16:11:08.580Z",
+    "odometerKm": 27375.7,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 987
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 2,
+        "unitCost": 1857
+      }
+    ],
+    "totalCost": 11610,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 47878.9
+  },
+  {
+    "maintenanceId": "MNT00157",
+    "busId": "BUS0154",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-02-11T02:11:08.580Z",
+    "odometerKm": 21374.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 899
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 1,
+        "unitCost": 2180
+      }
+    ],
+    "totalCost": 7574,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 39279.6
+  },
+  {
+    "maintenanceId": "MNT00158",
+    "busId": "BUS0060",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-01-05T18:11:08.580Z",
+    "odometerKm": 31153.5,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 974
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 3,
+        "unitCost": 861
+      }
+    ],
+    "totalCost": 10375,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 49506.8
+  },
+  {
+    "maintenanceId": "MNT00159",
+    "busId": "BUS0025",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-04-01T14:11:08.580Z",
+    "odometerKm": 30570.5,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 9,
+        "unitCost": 808
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 1,
+        "unitCost": 2089
+      }
+    ],
+    "totalCost": 9361,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 49608.5
+  },
+  {
+    "maintenanceId": "MNT00160",
+    "busId": "BUS0017",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-01-16T08:11:08.580Z",
+    "odometerKm": 35313.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 9,
+        "unitCost": 1030
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 4,
+        "unitCost": 354
+      }
+    ],
+    "totalCost": 10686,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 41019.6
+  },
+  {
+    "maintenanceId": "MNT00161",
+    "busId": "BUS0013",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-06-17T01:11:08.580Z",
+    "odometerKm": 4980.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 869
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 2,
+        "unitCost": 840
+      }
+    ],
+    "totalCost": 5156,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 14656.4
+  },
+  {
+    "maintenanceId": "MNT00162",
+    "busId": "BUS0044",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-03-25T14:11:08.580Z",
+    "odometerKm": 22564,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 9,
+        "unitCost": 680
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 4,
+        "unitCost": 2072
+      }
+    ],
+    "totalCost": 14408,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 37619.6
+  },
+  {
+    "maintenanceId": "MNT00163",
+    "busId": "BUS0039",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2025-11-29T04:11:08.580Z",
+    "odometerKm": 4552.5,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 612
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 1,
+        "unitCost": 1428
+      }
+    ],
+    "totalCost": 6324,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 9943.6
+  },
+  {
+    "maintenanceId": "MNT00164",
+    "busId": "BUS0117",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2025-12-30T15:11:08.580Z",
+    "odometerKm": 9089,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 1018
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 4,
+        "unitCost": 2187
+      }
+    ],
+    "totalCost": 13838,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 19324.8
+  },
+  {
+    "maintenanceId": "MNT00165",
+    "busId": "BUS0107",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-03-23T01:11:08.580Z",
+    "odometerKm": 27190.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 4,
+        "unitCost": 663
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 2,
+        "unitCost": 1818
+      }
+    ],
+    "totalCost": 6288,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 46179.1
+  },
+  {
+    "maintenanceId": "MNT00166",
+    "busId": "BUS0117",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-09-18T17:11:08.580Z",
+    "odometerKm": 11646.7,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 618
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 4,
+        "unitCost": 1563
+      }
+    ],
+    "totalCost": 10578,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 15433.8
+  },
+  {
+    "maintenanceId": "MNT00167",
+    "busId": "BUS0083",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-03-01T13:11:08.580Z",
+    "odometerKm": 17143.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 1018
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 3,
+        "unitCost": 477
+      }
+    ],
+    "totalCost": 11611,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 26760.7
+  },
+  {
+    "maintenanceId": "MNT00168",
+    "busId": "BUS0032",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-01-06T17:11:08.580Z",
+    "odometerKm": 36301.1,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 1080
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 3,
+        "unitCost": 1905
+      }
+    ],
+    "totalCost": 14355,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 58911.8
+  },
+  {
+    "maintenanceId": "MNT00169",
+    "busId": "BUS0141",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-02-12T19:11:08.580Z",
+    "odometerKm": 8586.9,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 840
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 3,
+        "unitCost": 1969
+      }
+    ],
+    "totalCost": 11787,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 13682.2
+  },
+  {
+    "maintenanceId": "MNT00170",
+    "busId": "BUS0139",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-03-23T07:11:08.580Z",
+    "odometerKm": 8656.1,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 933
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 3,
+        "unitCost": 1187
+      }
+    ],
+    "totalCost": 11025,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 15922.1
+  },
+  {
+    "maintenanceId": "MNT00171",
+    "busId": "BUS0004",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2025-10-16T18:11:08.580Z",
+    "odometerKm": 39063.6,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 768
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 2,
+        "unitCost": 1677
+      }
+    ],
+    "totalCost": 9498,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 47761.7
+  },
+  {
+    "maintenanceId": "MNT00172",
+    "busId": "BUS0038",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-05-07T15:11:08.580Z",
+    "odometerKm": 15819.3,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 8,
+        "unitCost": 1068
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 3,
+        "unitCost": 974
+      }
+    ],
+    "totalCost": 11466,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "SCHEDULED",
+    "nextServiceKm": 25925.9
+  },
+  {
+    "maintenanceId": "MNT00173",
+    "busId": "BUS0026",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-06-01T22:11:08.580Z",
+    "odometerKm": 35497.7,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 703
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 3,
+        "unitCost": 1413
+      }
+    ],
+    "totalCost": 11269,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 51397.4
+  },
+  {
+    "maintenanceId": "MNT00174",
+    "busId": "BUS0112",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-09-17T20:11:08.580Z",
+    "odometerKm": 26901.4,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 730
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 4,
+        "unitCost": 830
+      }
+    ],
+    "totalCost": 10620,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 33672
+  },
+  {
+    "maintenanceId": "MNT00175",
+    "busId": "BUS0151",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2026-06-10T00:11:08.580Z",
+    "odometerKm": 15277.3,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 9,
+        "unitCost": 609
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 3,
+        "unitCost": 1314
+      }
+    ],
+    "totalCost": 9423,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "IN_PROGRESS",
+    "nextServiceKm": 25976.4
+  },
+  {
+    "maintenanceId": "MNT00176",
+    "busId": "BUS0152",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-05-02T22:11:08.580Z",
+    "odometerKm": 19642.6,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 674
+      },
+      {
+        "partName": "Air Filter",
+        "quantity": 4,
+        "unitCost": 356
+      }
+    ],
+    "totalCost": 8164,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 29865.7
+  },
+  {
+    "maintenanceId": "MNT00177",
+    "busId": "BUS0077",
+    "maintenanceType": "CORRECTIVE",
+    "serviceDate": "2025-12-25T18:11:08.580Z",
+    "odometerKm": 10926.4,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 10,
+        "unitCost": 1010
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 2,
+        "unitCost": 1664
+      }
+    ],
+    "totalCost": 13428,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 23092.7
+  },
+  {
+    "maintenanceId": "MNT00178",
+    "busId": "BUS0117",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-08-16T18:11:08.580Z",
+    "odometerKm": 8008,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 5,
+        "unitCost": 872
+      },
+      {
+        "partName": "Brake Pad",
+        "quantity": 1,
+        "unitCost": 326
+      }
+    ],
+    "totalCost": 4686,
+    "workshop": {
+      "name": "Central Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 18041.8
+  },
+  {
+    "maintenanceId": "MNT00179",
+    "busId": "BUS0120",
+    "maintenanceType": "INSPECTION",
+    "serviceDate": "2026-05-15T23:11:08.580Z",
+    "odometerKm": 15246.5,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 7,
+        "unitCost": 684
+      },
+      {
+        "partName": "Oil Filter",
+        "quantity": 4,
+        "unitCost": 543
+      }
+    ],
+    "totalCost": 6960,
+    "workshop": {
+      "name": "South Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 23429.7
+  },
+  {
+    "maintenanceId": "MNT00180",
+    "busId": "BUS0029",
+    "maintenanceType": "PREVENTIVE",
+    "serviceDate": "2026-01-29T08:11:08.580Z",
+    "odometerKm": 43195.5,
+    "description": "Synthetic fleet maintenance record",
+    "parts": [
+      {
+        "partName": "Engine Oil",
+        "quantity": 6,
+        "unitCost": 906
+      },
+      {
+        "partName": "Coolant",
+        "quantity": 1,
+        "unitCost": 824
+      }
+    ],
+    "totalCost": 6260,
+    "workshop": {
+      "name": "North Fleet Workshop",
+      "city": "Bengaluru"
+    },
+    "status": "COMPLETED",
+    "nextServiceKm": 47794
+  }
+]

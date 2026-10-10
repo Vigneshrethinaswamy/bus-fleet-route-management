@@ -1,0 +1,3121 @@
+[
+  {
+    "routeId": "RT0003",
+    "routeNumber": "103",
+    "routeName": "Hebbal - Indiranagar",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0003_01",
+      "name": "Hebbal"
+    },
+    "destination": {
+      "stopId": "ST0003_07",
+      "name": "Indiranagar"
+    },
+    "totalDistanceKm": 32.7,
+    "estimatedDurationMinutes": 85,
+    "fare": 28,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2024-07-21T21:11:08.574Z"
+  },
+  {
+    "routeId": "RT0002",
+    "routeNumber": "102",
+    "routeName": "Rajajinagar - Majestic",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0002_01",
+      "name": "Rajajinagar"
+    },
+    "destination": {
+      "stopId": "ST0002_04",
+      "name": "Majestic"
+    },
+    "totalDistanceKm": 44.3,
+    "estimatedDurationMinutes": 101,
+    "fare": 25,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2025-10-29T08:11:08.574Z"
+  },
+  {
+    "routeId": "RT0001",
+    "routeNumber": "101",
+    "routeName": "Marathahalli - KR Puram",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0001_01",
+      "name": "Marathahalli"
+    },
+    "destination": {
+      "stopId": "ST0001_05",
+      "name": "KR Puram"
+    },
+    "totalDistanceKm": 19.3,
+    "estimatedDurationMinutes": 73,
+    "fare": 51,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2026-06-28T02:11:08.574Z"
+  },
+  {
+    "routeId": "RT0004",
+    "routeNumber": "104",
+    "routeName": "Silk Board - Shantinagar",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0004_01",
+      "name": "Silk Board"
+    },
+    "destination": {
+      "stopId": "ST0004_05",
+      "name": "Shantinagar"
+    },
+    "totalDistanceKm": 49.1,
+    "estimatedDurationMinutes": 53,
+    "fare": 23,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2024-10-27T15:11:08.574Z"
+  },
+  {
+    "routeId": "RT0005",
+    "routeNumber": "105",
+    "routeName": "Mysuru Road - Koramangala",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0005_01",
+      "name": "Mysuru Road"
+    },
+    "destination": {
+      "stopId": "ST0005_05",
+      "name": "Koramangala"
+    },
+    "totalDistanceKm": 48.1,
+    "estimatedDurationMinutes": 112,
+    "fare": 65,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2024-11-07T06:11:08.574Z"
+  },
+  {
+    "routeId": "RT0006",
+    "routeNumber": "106",
+    "routeName": "Koramangala - Banashankari",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0006_01",
+      "name": "Koramangala"
+    },
+    "destination": {
+      "stopId": "ST0006_08",
+      "name": "Banashankari"
+    },
+    "totalDistanceKm": 20.7,
+    "estimatedDurationMinutes": 43,
+    "fare": 36,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2024-07-04T02:11:08.574Z"
+  },
+  {
+    "routeId": "RT0012",
+    "routeNumber": "112",
+    "routeName": "BTM Layout - Rajajinagar",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0012_01",
+      "name": "BTM Layout"
+    },
+    "destination": {
+      "stopId": "ST0012_08",
+      "name": "Rajajinagar"
+    },
+    "totalDistanceKm": 21.7,
+    "estimatedDurationMinutes": 43,
+    "fare": 57,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2024-06-11T09:11:08.574Z"
+  },
+  {
+    "routeId": "RT0023",
+    "routeNumber": "123",
+    "routeName": "Jayanagar - Whitefield",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0023_01",
+      "name": "Jayanagar"
+    },
+    "destination": {
+      "stopId": "ST0023_04",
+      "name": "Whitefield"
+    },
+    "totalDistanceKm": 38.2,
+    "estimatedDurationMinutes": 84,
+    "fare": 30,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2024-05-12T16:11:08.574Z"
+  },
+  {
+    "routeId": "RT0009",
+    "routeNumber": "109",
+    "routeName": "Rajajinagar - JP Nagar",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0009_01",
+      "name": "Rajajinagar"
+    },
+    "destination": {
+      "stopId": "ST0009_04",
+      "name": "JP Nagar"
+    },
+    "totalDistanceKm": 38.7,
+    "estimatedDurationMinutes": 43,
+    "fare": 80,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2026-05-10T16:11:08.574Z"
+  },
+  {
+    "routeId": "RT0022",
+    "routeNumber": "122",
+    "routeName": "Jayanagar - Hebbal",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0022_01",
+      "name": "Jayanagar"
+    },
+    "destination": {
+      "stopId": "ST0022_08",
+      "name": "Hebbal"
+    },
+    "totalDistanceKm": 29.7,
+    "estimatedDurationMinutes": 130,
+    "fare": 75,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2026-04-27T14:11:08.574Z"
+  },
+  {
+    "routeId": "RT0010",
+    "routeNumber": "110",
+    "routeName": "Silk Board - Mysuru Road",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0010_01",
+      "name": "Silk Board"
+    },
+    "destination": {
+      "stopId": "ST0010_05",
+      "name": "Mysuru Road"
+    },
+    "totalDistanceKm": 38.6,
+    "estimatedDurationMinutes": 143,
+    "fare": 50,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2025-07-28T17:11:08.574Z"
+  },
+  {
+    "routeId": "RT0025",
+    "routeNumber": "125",
+    "routeName": "Jayanagar - Electronic City",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0025_01",
+      "name": "Jayanagar"
+    },
+    "destination": {
+      "stopId": "ST0025_04",
+      "name": "Electronic City"
+    },
+    "totalDistanceKm": 20.5,
+    "estimatedDurationMinutes": 100,
+    "fare": 58,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2026-07-30T02:11:08.574Z"
+  },
+  {
+    "routeId": "RT0024",
+    "routeNumber": "124",
+    "routeName": "Jayanagar - KR Puram",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0024_01",
+      "name": "Jayanagar"
+    },
+    "destination": {
+      "stopId": "ST0024_06",
+      "name": "KR Puram"
+    },
+    "totalDistanceKm": 49,
+    "estimatedDurationMinutes": 36,
+    "fare": 21,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2025-04-17T09:11:08.574Z"
+  },
+  {
+    "routeId": "RT0026",
+    "routeNumber": "126",
+    "routeName": "Silk Board - Hebbal",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0026_01",
+      "name": "Silk Board"
+    },
+    "destination": {
+      "stopId": "ST0026_05",
+      "name": "Hebbal"
+    },
+    "totalDistanceKm": 34.5,
+    "estimatedDurationMinutes": 75,
+    "fare": 54,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2024-10-02T13:11:08.574Z"
+  },
+  {
+    "routeId": "RT0028",
+    "routeNumber": "128",
+    "routeName": "Peenya - KR Puram",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0028_01",
+      "name": "Peenya"
+    },
+    "destination": {
+      "stopId": "ST0028_07",
+      "name": "KR Puram"
+    },
+    "totalDistanceKm": 36.7,
+    "estimatedDurationMinutes": 98,
+    "fare": 61,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2026-03-13T13:11:08.574Z"
+  },
+  {
+    "routeId": "RT0029",
+    "routeNumber": "129",
+    "routeName": "Silk Board - JP Nagar",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0029_01",
+      "name": "Silk Board"
+    },
+    "destination": {
+      "stopId": "ST0029_04",
+      "name": "JP Nagar"
+    },
+    "totalDistanceKm": 21.6,
+    "estimatedDurationMinutes": 148,
+    "fare": 39,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2026-10-08T17:11:08.574Z"
+  },
+  {
+    "routeId": "RT0031",
+    "routeNumber": "131",
+    "routeName": "Jayanagar - Domlur",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0031_01",
+      "name": "Jayanagar"
+    },
+    "destination": {
+      "stopId": "ST0031_05",
+      "name": "Domlur"
+    },
+    "totalDistanceKm": 42.3,
+    "estimatedDurationMinutes": 98,
+    "fare": 84,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2026-04-06T20:11:08.574Z"
+  },
+  {
+    "routeId": "RT0027",
+    "routeNumber": "127",
+    "routeName": "Marathahalli - Whitefield",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0027_01",
+      "name": "Marathahalli"
+    },
+    "destination": {
+      "stopId": "ST0027_08",
+      "name": "Whitefield"
+    },
+    "totalDistanceKm": 33.3,
+    "estimatedDurationMinutes": 58,
+    "fare": 58,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2025-01-02T08:11:08.574Z"
+  },
+  {
+    "routeId": "RT0021",
+    "routeNumber": "121",
+    "routeName": "Peenya - Koramangala",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0021_01",
+      "name": "Peenya"
+    },
+    "destination": {
+      "stopId": "ST0021_07",
+      "name": "Koramangala"
+    },
+    "totalDistanceKm": 32.9,
+    "estimatedDurationMinutes": 127,
+    "fare": 62,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2025-10-17T21:11:08.574Z"
+  },
+  {
+    "routeId": "RT0032",
+    "routeNumber": "132",
+    "routeName": "Koramangala - Yeshwanthpur",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0032_01",
+      "name": "Koramangala"
+    },
+    "destination": {
+      "stopId": "ST0032_07",
+      "name": "Yeshwanthpur"
+    },
+    "totalDistanceKm": 48.6,
+    "estimatedDurationMinutes": 60,
+    "fare": 74,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2026-04-10T12:11:08.574Z"
+  },
+  {
+    "routeId": "RT0033",
+    "routeNumber": "133",
+    "routeName": "Marathahalli - Airport",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0033_01",
+      "name": "Marathahalli"
+    },
+    "destination": {
+      "stopId": "ST0033_05",
+      "name": "Airport"
+    },
+    "totalDistanceKm": 62.4,
+    "estimatedDurationMinutes": 115,
+    "fare": 34,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2025-09-20T23:11:08.574Z"
+  },
+  {
+    "routeId": "RT0030",
+    "routeNumber": "130",
+    "routeName": "Shantinagar - Airport",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0030_01",
+      "name": "Shantinagar"
+    },
+    "destination": {
+      "stopId": "ST0030_07",
+      "name": "Airport"
+    },
+    "totalDistanceKm": 19.8,
+    "estimatedDurationMinutes": 68,
+    "fare": 44,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2025-08-19T07:11:08.574Z"
+  },
+  {
+    "routeId": "RT0035",
+    "routeNumber": "135",
+    "routeName": "Marathahalli - Indiranagar",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0035_01",
+      "name": "Marathahalli"
+    },
+    "destination": {
+      "stopId": "ST0035_07",
+      "name": "Indiranagar"
+    },
+    "totalDistanceKm": 27.2,
+    "estimatedDurationMinutes": 84,
+    "fare": 69,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2026-07-11T17:11:08.574Z"
+  },
+  {
+    "routeId": "RT0034",
+    "routeNumber": "134",
+    "routeName": "Yeshwanthpur - Shantinagar",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0034_01",
+      "name": "Yeshwanthpur"
+    },
+    "destination": {
+      "stopId": "ST0034_05",
+      "name": "Shantinagar"
+    },
+    "totalDistanceKm": 23.6,
+    "estimatedDurationMinutes": 69,
+    "fare": 62,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2025-02-02T04:11:08.574Z"
+  },
+  {
+    "routeId": "RT0036",
+    "routeNumber": "136",
+    "routeName": "Domlur - Electronic City",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0036_01",
+      "name": "Domlur"
+    },
+    "destination": {
+      "stopId": "ST0036_08",
+      "name": "Electronic City"
+    },
+    "totalDistanceKm": 52,
+    "estimatedDurationMinutes": 89,
+    "fare": 28,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2026-06-17T07:11:08.574Z"
+  },
+  {
+    "routeId": "RT0038",
+    "routeNumber": "138",
+    "routeName": "Silk Board - JP Nagar",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0038_01",
+      "name": "Silk Board"
+    },
+    "destination": {
+      "stopId": "ST0038_04",
+      "name": "JP Nagar"
+    },
+    "totalDistanceKm": 19.7,
+    "estimatedDurationMinutes": 85,
+    "fare": 27,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2025-11-17T18:11:08.574Z"
+  },
+  {
+    "routeId": "RT0037",
+    "routeNumber": "137",
+    "routeName": "JP Nagar - Rajajinagar",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0037_01",
+      "name": "JP Nagar"
+    },
+    "destination": {
+      "stopId": "ST0037_08",
+      "name": "Rajajinagar"
+    },
+    "totalDistanceKm": 34.4,
+    "estimatedDurationMinutes": 123,
+    "fare": 39,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2026-05-27T11:11:08.574Z"
+  },
+  {
+    "routeId": "RT0013",
+    "routeNumber": "113",
+    "routeName": "Marathahalli - JP Nagar",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0013_01",
+      "name": "Marathahalli"
+    },
+    "destination": {
+      "stopId": "ST0013_04",
+      "name": "JP Nagar"
+    },
+    "totalDistanceKm": 44.7,
+    "estimatedDurationMinutes": 85,
+    "fare": 66,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2025-04-07T13:11:08.574Z"
+  },
+  {
+    "routeId": "RT0017",
+    "routeNumber": "117",
+    "routeName": "Banashankari - Whitefield",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0017_01",
+      "name": "Banashankari"
+    },
+    "destination": {
+      "stopId": "ST0017_07",
+      "name": "Whitefield"
+    },
+    "totalDistanceKm": 45.5,
+    "estimatedDurationMinutes": 54,
+    "fare": 40,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2025-03-28T08:11:08.574Z"
+  },
+  {
+    "routeId": "RT0011",
+    "routeNumber": "111",
+    "routeName": "Electronic City - Mysuru Road",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0011_01",
+      "name": "Electronic City"
+    },
+    "destination": {
+      "stopId": "ST0011_05",
+      "name": "Mysuru Road"
+    },
+    "totalDistanceKm": 53.1,
+    "estimatedDurationMinutes": 92,
+    "fare": 71,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2024-11-21T06:11:08.574Z"
+  },
+  {
+    "routeId": "RT0008",
+    "routeNumber": "108",
+    "routeName": "Electronic City - Silk Board",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0008_01",
+      "name": "Electronic City"
+    },
+    "destination": {
+      "stopId": "ST0008_06",
+      "name": "Silk Board"
+    },
+    "totalDistanceKm": 37.1,
+    "estimatedDurationMinutes": 86,
+    "fare": 65,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2025-10-04T11:11:08.574Z"
+  },
+  {
+    "routeId": "RT0007",
+    "routeNumber": "107",
+    "routeName": "Majestic - Domlur",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0007_01",
+      "name": "Majestic"
+    },
+    "destination": {
+      "stopId": "ST0007_08",
+      "name": "Domlur"
+    },
+    "totalDistanceKm": 24.9,
+    "estimatedDurationMinutes": 107,
+    "fare": 83,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2026-03-21T19:11:08.574Z"
+  },
+  {
+    "routeId": "RT0020",
+    "routeNumber": "120",
+    "routeName": "Shantinagar - Peenya",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0020_01",
+      "name": "Shantinagar"
+    },
+    "destination": {
+      "stopId": "ST0020_04",
+      "name": "Peenya"
+    },
+    "totalDistanceKm": 56.6,
+    "estimatedDurationMinutes": 86,
+    "fare": 76,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2026-10-07T04:11:08.574Z"
+  },
+  {
+    "routeId": "RT0014",
+    "routeNumber": "114",
+    "routeName": "Silk Board - Yeshwanthpur",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0014_01",
+      "name": "Silk Board"
+    },
+    "destination": {
+      "stopId": "ST0014_06",
+      "name": "Yeshwanthpur"
+    },
+    "totalDistanceKm": 62.6,
+    "estimatedDurationMinutes": 97,
+    "fare": 32,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2026-08-12T04:11:08.574Z"
+  },
+  {
+    "routeId": "RT0018",
+    "routeNumber": "118",
+    "routeName": "JP Nagar - Airport",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0018_01",
+      "name": "JP Nagar"
+    },
+    "destination": {
+      "stopId": "ST0018_04",
+      "name": "Airport"
+    },
+    "totalDistanceKm": 61.5,
+    "estimatedDurationMinutes": 120,
+    "fare": 61,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2025-10-23T02:11:08.574Z"
+  },
+  {
+    "routeId": "RT0019",
+    "routeNumber": "119",
+    "routeName": "Mysuru Road - KR Puram",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0019_01",
+      "name": "Mysuru Road"
+    },
+    "destination": {
+      "stopId": "ST0019_07",
+      "name": "KR Puram"
+    },
+    "totalDistanceKm": 15.8,
+    "estimatedDurationMinutes": 55,
+    "fare": 43,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2026-09-20T11:11:08.574Z"
+  },
+  {
+    "routeId": "RT0015",
+    "routeNumber": "115",
+    "routeName": "Banashankari - Yeshwanthpur",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0015_01",
+      "name": "Banashankari"
+    },
+    "destination": {
+      "stopId": "ST0015_04",
+      "name": "Yeshwanthpur"
+    },
+    "totalDistanceKm": 61.9,
+    "estimatedDurationMinutes": 93,
+    "fare": 24,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2024-09-26T22:11:08.574Z"
+  },
+  {
+    "routeId": "RT0047",
+    "routeNumber": "147",
+    "routeName": "Jayanagar - Rajajinagar",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0047_01",
+      "name": "Jayanagar"
+    },
+    "destination": {
+      "stopId": "ST0047_04",
+      "name": "Rajajinagar"
+    },
+    "totalDistanceKm": 9.7,
+    "estimatedDurationMinutes": 104,
+    "fare": 42,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2024-10-10T23:11:08.574Z"
+  },
+  {
+    "routeId": "RT0042",
+    "routeNumber": "142",
+    "routeName": "Mysuru Road - Indiranagar",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0042_01",
+      "name": "Mysuru Road"
+    },
+    "destination": {
+      "stopId": "ST0042_08",
+      "name": "Indiranagar"
+    },
+    "totalDistanceKm": 59.5,
+    "estimatedDurationMinutes": 135,
+    "fare": 49,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2024-10-01T17:11:08.574Z"
+  },
+  {
+    "routeId": "RT0043",
+    "routeNumber": "143",
+    "routeName": "Mysuru Road - Yeshwanthpur",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0043_01",
+      "name": "Mysuru Road"
+    },
+    "destination": {
+      "stopId": "ST0043_08",
+      "name": "Yeshwanthpur"
+    },
+    "totalDistanceKm": 58,
+    "estimatedDurationMinutes": 98,
+    "fare": 54,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2024-07-30T02:11:08.574Z"
+  },
+  {
+    "routeId": "RT0044",
+    "routeNumber": "144",
+    "routeName": "Airport - Indiranagar",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0044_01",
+      "name": "Airport"
+    },
+    "destination": {
+      "stopId": "ST0044_07",
+      "name": "Indiranagar"
+    },
+    "totalDistanceKm": 13.3,
+    "estimatedDurationMinutes": 115,
+    "fare": 70,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2024-05-31T06:11:08.574Z"
+  },
+  {
+    "routeId": "RT0046",
+    "routeNumber": "146",
+    "routeName": "Airport - Indiranagar",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0046_01",
+      "name": "Airport"
+    },
+    "destination": {
+      "stopId": "ST0046_05",
+      "name": "Indiranagar"
+    },
+    "totalDistanceKm": 53,
+    "estimatedDurationMinutes": 78,
+    "fare": 68,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2024-09-03T07:11:08.574Z"
+  },
+  {
+    "routeId": "RT0051",
+    "routeNumber": "151",
+    "routeName": "Yeshwanthpur - Indiranagar",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0051_01",
+      "name": "Yeshwanthpur"
+    },
+    "destination": {
+      "stopId": "ST0051_06",
+      "name": "Indiranagar"
+    },
+    "totalDistanceKm": 60.6,
+    "estimatedDurationMinutes": 98,
+    "fare": 79,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2025-07-09T20:11:08.574Z"
+  },
+  {
+    "routeId": "RT0049",
+    "routeNumber": "149",
+    "routeName": "Majestic - Hebbal",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0049_01",
+      "name": "Majestic"
+    },
+    "destination": {
+      "stopId": "ST0049_05",
+      "name": "Hebbal"
+    },
+    "totalDistanceKm": 35.5,
+    "estimatedDurationMinutes": 52,
+    "fare": 32,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2025-07-09T16:11:08.574Z"
+  },
+  {
+    "routeId": "RT0053",
+    "routeNumber": "153",
+    "routeName": "Indiranagar - Shantinagar",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0053_01",
+      "name": "Indiranagar"
+    },
+    "destination": {
+      "stopId": "ST0053_06",
+      "name": "Shantinagar"
+    },
+    "totalDistanceKm": 57.7,
+    "estimatedDurationMinutes": 116,
+    "fare": 68,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2026-05-09T16:11:08.574Z"
+  },
+  {
+    "routeId": "RT0048",
+    "routeNumber": "148",
+    "routeName": "Airport - Rajajinagar",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0048_01",
+      "name": "Airport"
+    },
+    "destination": {
+      "stopId": "ST0048_04",
+      "name": "Rajajinagar"
+    },
+    "totalDistanceKm": 16.1,
+    "estimatedDurationMinutes": 121,
+    "fare": 20,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2026-06-24T18:11:08.574Z"
+  },
+  {
+    "routeId": "RT0054",
+    "routeNumber": "154",
+    "routeName": "Majestic - Banashankari",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0054_01",
+      "name": "Majestic"
+    },
+    "destination": {
+      "stopId": "ST0054_05",
+      "name": "Banashankari"
+    },
+    "totalDistanceKm": 41.4,
+    "estimatedDurationMinutes": 68,
+    "fare": 87,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2024-10-22T23:11:08.574Z"
+  },
+  {
+    "routeId": "RT0050",
+    "routeNumber": "150",
+    "routeName": "Airport - BTM Layout",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0050_01",
+      "name": "Airport"
+    },
+    "destination": {
+      "stopId": "ST0050_07",
+      "name": "BTM Layout"
+    },
+    "totalDistanceKm": 35.6,
+    "estimatedDurationMinutes": 148,
+    "fare": 15,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2025-09-24T21:11:08.574Z"
+  },
+  {
+    "routeId": "RT0052",
+    "routeNumber": "152",
+    "routeName": "BTM Layout - Electronic City",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0052_01",
+      "name": "BTM Layout"
+    },
+    "destination": {
+      "stopId": "ST0052_05",
+      "name": "Electronic City"
+    },
+    "totalDistanceKm": 30.3,
+    "estimatedDurationMinutes": 129,
+    "fare": 33,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2025-10-29T22:11:08.574Z"
+  },
+  {
+    "routeId": "RT0057",
+    "routeNumber": "157",
+    "routeName": "Banashankari - Shantinagar",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0057_01",
+      "name": "Banashankari"
+    },
+    "destination": {
+      "stopId": "ST0057_07",
+      "name": "Shantinagar"
+    },
+    "totalDistanceKm": 18,
+    "estimatedDurationMinutes": 81,
+    "fare": 49,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2024-07-22T11:11:08.574Z"
+  },
+  {
+    "routeId": "RT0060",
+    "routeNumber": "160",
+    "routeName": "Banashankari - BTM Layout",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0060_01",
+      "name": "Banashankari"
+    },
+    "destination": {
+      "stopId": "ST0060_08",
+      "name": "BTM Layout"
+    },
+    "totalDistanceKm": 40.8,
+    "estimatedDurationMinutes": 148,
+    "fare": 34,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2024-08-04T10:11:08.574Z"
+  },
+  {
+    "routeId": "RT0056",
+    "routeNumber": "156",
+    "routeName": "Yeshwanthpur - JP Nagar",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0056_01",
+      "name": "Yeshwanthpur"
+    },
+    "destination": {
+      "stopId": "ST0056_07",
+      "name": "JP Nagar"
+    },
+    "totalDistanceKm": 38.8,
+    "estimatedDurationMinutes": 94,
+    "fare": 31,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2024-04-29T19:11:08.574Z"
+  },
+  {
+    "routeId": "RT0062",
+    "routeNumber": "162",
+    "routeName": "Majestic - Whitefield",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0062_01",
+      "name": "Majestic"
+    },
+    "destination": {
+      "stopId": "ST0062_05",
+      "name": "Whitefield"
+    },
+    "totalDistanceKm": 41.6,
+    "estimatedDurationMinutes": 76,
+    "fare": 55,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2026-02-03T15:11:08.574Z"
+  },
+  {
+    "routeId": "RT0061",
+    "routeNumber": "161",
+    "routeName": "Mysuru Road - Yeshwanthpur",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0061_01",
+      "name": "Mysuru Road"
+    },
+    "destination": {
+      "stopId": "ST0061_06",
+      "name": "Yeshwanthpur"
+    },
+    "totalDistanceKm": 48.8,
+    "estimatedDurationMinutes": 54,
+    "fare": 82,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2025-08-01T22:11:08.574Z"
+  },
+  {
+    "routeId": "RT0059",
+    "routeNumber": "159",
+    "routeName": "Hebbal - Electronic City",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0059_01",
+      "name": "Hebbal"
+    },
+    "destination": {
+      "stopId": "ST0059_08",
+      "name": "Electronic City"
+    },
+    "totalDistanceKm": 58.2,
+    "estimatedDurationMinutes": 113,
+    "fare": 75,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2025-02-25T22:11:08.574Z"
+  },
+  {
+    "routeId": "RT0016",
+    "routeNumber": "116",
+    "routeName": "Mysuru Road - Hebbal",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0016_01",
+      "name": "Mysuru Road"
+    },
+    "destination": {
+      "stopId": "ST0016_07",
+      "name": "Hebbal"
+    },
+    "totalDistanceKm": 42.2,
+    "estimatedDurationMinutes": 94,
+    "fare": 72,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2024-11-24T04:11:08.574Z"
+  },
+  {
+    "routeId": "RT0058",
+    "routeNumber": "158",
+    "routeName": "Shantinagar - Yeshwanthpur",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0058_01",
+      "name": "Shantinagar"
+    },
+    "destination": {
+      "stopId": "ST0058_04",
+      "name": "Yeshwanthpur"
+    },
+    "totalDistanceKm": 39.8,
+    "estimatedDurationMinutes": 111,
+    "fare": 48,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2025-05-03T20:11:08.574Z"
+  },
+  {
+    "routeId": "RT0063",
+    "routeNumber": "163",
+    "routeName": "Majestic - KR Puram",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0063_01",
+      "name": "Majestic"
+    },
+    "destination": {
+      "stopId": "ST0063_08",
+      "name": "KR Puram"
+    },
+    "totalDistanceKm": 44.3,
+    "estimatedDurationMinutes": 109,
+    "fare": 20,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2025-05-26T08:11:08.574Z"
+  },
+  {
+    "routeId": "RT0064",
+    "routeNumber": "164",
+    "routeName": "Rajajinagar - Banashankari",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0064_01",
+      "name": "Rajajinagar"
+    },
+    "destination": {
+      "stopId": "ST0064_08",
+      "name": "Banashankari"
+    },
+    "totalDistanceKm": 33.7,
+    "estimatedDurationMinutes": 127,
+    "fare": 48,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2025-06-29T18:11:08.574Z"
+  },
+  {
+    "routeId": "RT0040",
+    "routeNumber": "140",
+    "routeName": "KR Puram - Rajajinagar",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0040_01",
+      "name": "KR Puram"
+    },
+    "destination": {
+      "stopId": "ST0040_08",
+      "name": "Rajajinagar"
+    },
+    "totalDistanceKm": 16.8,
+    "estimatedDurationMinutes": 122,
+    "fare": 65,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2024-11-05T06:11:08.574Z"
+  },
+  {
+    "routeId": "RT0039",
+    "routeNumber": "139",
+    "routeName": "Airport - Whitefield",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0039_01",
+      "name": "Airport"
+    },
+    "destination": {
+      "stopId": "ST0039_08",
+      "name": "Whitefield"
+    },
+    "totalDistanceKm": 49.2,
+    "estimatedDurationMinutes": 99,
+    "fare": 69,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2025-09-28T00:11:08.574Z"
+  },
+  {
+    "routeId": "RT0045",
+    "routeNumber": "145",
+    "routeName": "Indiranagar - Mysuru Road",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0045_01",
+      "name": "Indiranagar"
+    },
+    "destination": {
+      "stopId": "ST0045_06",
+      "name": "Mysuru Road"
+    },
+    "totalDistanceKm": 49,
+    "estimatedDurationMinutes": 147,
+    "fare": 15,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2026-07-13T05:11:08.574Z"
+  },
+  {
+    "routeId": "RT0055",
+    "routeNumber": "155",
+    "routeName": "Silk Board - Banashankari",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0055_01",
+      "name": "Silk Board"
+    },
+    "destination": {
+      "stopId": "ST0055_05",
+      "name": "Banashankari"
+    },
+    "totalDistanceKm": 11.8,
+    "estimatedDurationMinutes": 90,
+    "fare": 24,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2025-07-26T03:11:08.574Z"
+  },
+  {
+    "routeId": "RT0041",
+    "routeNumber": "141",
+    "routeName": "Whitefield - Airport",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0041_01",
+      "name": "Whitefield"
+    },
+    "destination": {
+      "stopId": "ST0041_05",
+      "name": "Airport"
+    },
+    "totalDistanceKm": 20.8,
+    "estimatedDurationMinutes": 147,
+    "fare": 61,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2026-07-10T11:11:08.574Z"
+  },
+  {
+    "routeId": "RT0068",
+    "routeNumber": "168",
+    "routeName": "BTM Layout - KR Puram",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0068_01",
+      "name": "BTM Layout"
+    },
+    "destination": {
+      "stopId": "ST0068_04",
+      "name": "KR Puram"
+    },
+    "totalDistanceKm": 44.9,
+    "estimatedDurationMinutes": 138,
+    "fare": 86,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2026-05-05T15:11:08.574Z"
+  },
+  {
+    "routeId": "RT0065",
+    "routeNumber": "165",
+    "routeName": "JP Nagar - Koramangala",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0065_01",
+      "name": "JP Nagar"
+    },
+    "destination": {
+      "stopId": "ST0065_07",
+      "name": "Koramangala"
+    },
+    "totalDistanceKm": 55.7,
+    "estimatedDurationMinutes": 66,
+    "fare": 26,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2026-09-23T09:11:08.574Z"
+  },
+  {
+    "routeId": "RT0067",
+    "routeNumber": "167",
+    "routeName": "Hebbal - Koramangala",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0067_01",
+      "name": "Hebbal"
+    },
+    "destination": {
+      "stopId": "ST0067_04",
+      "name": "Koramangala"
+    },
+    "totalDistanceKm": 19.8,
+    "estimatedDurationMinutes": 147,
+    "fare": 64,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2025-04-04T16:11:08.574Z"
+  },
+  {
+    "routeId": "RT0066",
+    "routeNumber": "166",
+    "routeName": "Silk Board - Shantinagar",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0066_01",
+      "name": "Silk Board"
+    },
+    "destination": {
+      "stopId": "ST0066_08",
+      "name": "Shantinagar"
+    },
+    "totalDistanceKm": 13.2,
+    "estimatedDurationMinutes": 74,
+    "fare": 18,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2024-12-23T02:11:08.574Z"
+  },
+  {
+    "routeId": "RT0070",
+    "routeNumber": "170",
+    "routeName": "Silk Board - BTM Layout",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0070_01",
+      "name": "Silk Board"
+    },
+    "destination": {
+      "stopId": "ST0070_05",
+      "name": "BTM Layout"
+    },
+    "totalDistanceKm": 35.9,
+    "estimatedDurationMinutes": 54,
+    "fare": 58,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2025-10-25T14:11:08.574Z"
+  },
+  {
+    "routeId": "RT0074",
+    "routeNumber": "174",
+    "routeName": "Domlur - Rajajinagar",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0074_01",
+      "name": "Domlur"
+    },
+    "destination": {
+      "stopId": "ST0074_04",
+      "name": "Rajajinagar"
+    },
+    "totalDistanceKm": 38.9,
+    "estimatedDurationMinutes": 46,
+    "fare": 23,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2025-06-18T01:11:08.574Z"
+  },
+  {
+    "routeId": "RT0073",
+    "routeNumber": "173",
+    "routeName": "Marathahalli - Shantinagar",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0073_01",
+      "name": "Marathahalli"
+    },
+    "destination": {
+      "stopId": "ST0073_08",
+      "name": "Shantinagar"
+    },
+    "totalDistanceKm": 46,
+    "estimatedDurationMinutes": 71,
+    "fare": 58,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2025-09-01T19:11:08.574Z"
+  },
+  {
+    "routeId": "RT0072",
+    "routeNumber": "172",
+    "routeName": "Koramangala - Banashankari",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0072_01",
+      "name": "Koramangala"
+    },
+    "destination": {
+      "stopId": "ST0072_06",
+      "name": "Banashankari"
+    },
+    "totalDistanceKm": 58.4,
+    "estimatedDurationMinutes": 60,
+    "fare": 51,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2026-05-12T04:11:08.574Z"
+  },
+  {
+    "routeId": "RT0075",
+    "routeNumber": "175",
+    "routeName": "Shantinagar - Electronic City",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0075_01",
+      "name": "Shantinagar"
+    },
+    "destination": {
+      "stopId": "ST0075_06",
+      "name": "Electronic City"
+    },
+    "totalDistanceKm": 54,
+    "estimatedDurationMinutes": 110,
+    "fare": 70,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2025-04-06T18:11:08.575Z"
+  },
+  {
+    "routeId": "RT0077",
+    "routeNumber": "177",
+    "routeName": "Silk Board - Hebbal",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0077_01",
+      "name": "Silk Board"
+    },
+    "destination": {
+      "stopId": "ST0077_08",
+      "name": "Hebbal"
+    },
+    "totalDistanceKm": 19.9,
+    "estimatedDurationMinutes": 95,
+    "fare": 58,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2025-06-22T23:11:08.575Z"
+  },
+  {
+    "routeId": "RT0083",
+    "routeNumber": "183",
+    "routeName": "Domlur - Banashankari",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0083_01",
+      "name": "Domlur"
+    },
+    "destination": {
+      "stopId": "ST0083_04",
+      "name": "Banashankari"
+    },
+    "totalDistanceKm": 38.9,
+    "estimatedDurationMinutes": 109,
+    "fare": 45,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2025-10-17T16:11:08.575Z"
+  },
+  {
+    "routeId": "RT0085",
+    "routeNumber": "185",
+    "routeName": "Silk Board - Jayanagar",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0085_01",
+      "name": "Silk Board"
+    },
+    "destination": {
+      "stopId": "ST0085_04",
+      "name": "Jayanagar"
+    },
+    "totalDistanceKm": 12.4,
+    "estimatedDurationMinutes": 108,
+    "fare": 25,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2024-12-12T09:11:08.575Z"
+  },
+  {
+    "routeId": "RT0081",
+    "routeNumber": "181",
+    "routeName": "Domlur - Hebbal",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0081_01",
+      "name": "Domlur"
+    },
+    "destination": {
+      "stopId": "ST0081_05",
+      "name": "Hebbal"
+    },
+    "totalDistanceKm": 34.9,
+    "estimatedDurationMinutes": 96,
+    "fare": 25,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2025-08-24T01:11:08.575Z"
+  },
+  {
+    "routeId": "RT0069",
+    "routeNumber": "169",
+    "routeName": "Silk Board - Yeshwanthpur",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0069_01",
+      "name": "Silk Board"
+    },
+    "destination": {
+      "stopId": "ST0069_07",
+      "name": "Yeshwanthpur"
+    },
+    "totalDistanceKm": 18.4,
+    "estimatedDurationMinutes": 41,
+    "fare": 55,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2025-11-22T00:11:08.574Z"
+  },
+  {
+    "routeId": "RT0079",
+    "routeNumber": "179",
+    "routeName": "Indiranagar - Electronic City",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0079_01",
+      "name": "Indiranagar"
+    },
+    "destination": {
+      "stopId": "ST0079_05",
+      "name": "Electronic City"
+    },
+    "totalDistanceKm": 34.3,
+    "estimatedDurationMinutes": 75,
+    "fare": 29,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2026-08-17T00:11:08.575Z"
+  },
+  {
+    "routeId": "RT0086",
+    "routeNumber": "186",
+    "routeName": "Rajajinagar - Shantinagar",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0086_01",
+      "name": "Rajajinagar"
+    },
+    "destination": {
+      "stopId": "ST0086_06",
+      "name": "Shantinagar"
+    },
+    "totalDistanceKm": 18.7,
+    "estimatedDurationMinutes": 88,
+    "fare": 64,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2025-07-04T21:11:08.575Z"
+  },
+  {
+    "routeId": "RT0087",
+    "routeNumber": "187",
+    "routeName": "Majestic - Rajajinagar",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0087_01",
+      "name": "Majestic"
+    },
+    "destination": {
+      "stopId": "ST0087_04",
+      "name": "Rajajinagar"
+    },
+    "totalDistanceKm": 45.3,
+    "estimatedDurationMinutes": 42,
+    "fare": 27,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2026-06-12T18:11:08.575Z"
+  },
+  {
+    "routeId": "RT0082",
+    "routeNumber": "182",
+    "routeName": "BTM Layout - Peenya",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0082_01",
+      "name": "BTM Layout"
+    },
+    "destination": {
+      "stopId": "ST0082_07",
+      "name": "Peenya"
+    },
+    "totalDistanceKm": 57.3,
+    "estimatedDurationMinutes": 93,
+    "fare": 77,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2026-03-06T05:11:08.575Z"
+  },
+  {
+    "routeId": "RT0092",
+    "routeNumber": "192",
+    "routeName": "BTM Layout - Majestic",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0092_01",
+      "name": "BTM Layout"
+    },
+    "destination": {
+      "stopId": "ST0092_06",
+      "name": "Majestic"
+    },
+    "totalDistanceKm": 55.7,
+    "estimatedDurationMinutes": 50,
+    "fare": 90,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2025-02-12T17:11:08.575Z"
+  },
+  {
+    "routeId": "RT0078",
+    "routeNumber": "178",
+    "routeName": "Marathahalli - Silk Board",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0078_01",
+      "name": "Marathahalli"
+    },
+    "destination": {
+      "stopId": "ST0078_04",
+      "name": "Silk Board"
+    },
+    "totalDistanceKm": 18,
+    "estimatedDurationMinutes": 112,
+    "fare": 25,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2025-10-05T08:11:08.575Z"
+  },
+  {
+    "routeId": "RT0095",
+    "routeNumber": "195",
+    "routeName": "Electronic City - Mysuru Road",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0095_01",
+      "name": "Electronic City"
+    },
+    "destination": {
+      "stopId": "ST0095_04",
+      "name": "Mysuru Road"
+    },
+    "totalDistanceKm": 11.8,
+    "estimatedDurationMinutes": 134,
+    "fare": 17,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2024-09-30T08:11:08.575Z"
+  },
+  {
+    "routeId": "RT0076",
+    "routeNumber": "176",
+    "routeName": "Whitefield - Airport",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0076_01",
+      "name": "Whitefield"
+    },
+    "destination": {
+      "stopId": "ST0076_04",
+      "name": "Airport"
+    },
+    "totalDistanceKm": 20,
+    "estimatedDurationMinutes": 149,
+    "fare": 38,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2024-10-11T13:11:08.575Z"
+  },
+  {
+    "routeId": "RT0088",
+    "routeNumber": "188",
+    "routeName": "Majestic - Shantinagar",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0088_01",
+      "name": "Majestic"
+    },
+    "destination": {
+      "stopId": "ST0088_04",
+      "name": "Shantinagar"
+    },
+    "totalDistanceKm": 28.5,
+    "estimatedDurationMinutes": 137,
+    "fare": 65,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2026-01-07T22:11:08.575Z"
+  },
+  {
+    "routeId": "RT0096",
+    "routeNumber": "196",
+    "routeName": "Electronic City - Silk Board",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0096_01",
+      "name": "Electronic City"
+    },
+    "destination": {
+      "stopId": "ST0096_05",
+      "name": "Silk Board"
+    },
+    "totalDistanceKm": 49.8,
+    "estimatedDurationMinutes": 70,
+    "fare": 51,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2026-10-07T04:11:08.575Z"
+  },
+  {
+    "routeId": "RT0093",
+    "routeNumber": "193",
+    "routeName": "Rajajinagar - JP Nagar",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0093_01",
+      "name": "Rajajinagar"
+    },
+    "destination": {
+      "stopId": "ST0093_04",
+      "name": "JP Nagar"
+    },
+    "totalDistanceKm": 52.8,
+    "estimatedDurationMinutes": 126,
+    "fare": 62,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2024-07-16T15:11:08.575Z"
+  },
+  {
+    "routeId": "RT0105",
+    "routeNumber": "205",
+    "routeName": "Electronic City - Airport",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0105_01",
+      "name": "Electronic City"
+    },
+    "destination": {
+      "stopId": "ST0105_04",
+      "name": "Airport"
+    },
+    "totalDistanceKm": 30.8,
+    "estimatedDurationMinutes": 117,
+    "fare": 30,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2025-08-22T21:11:08.576Z"
+  },
+  {
+    "routeId": "RT0103",
+    "routeNumber": "203",
+    "routeName": "JP Nagar - Silk Board",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0103_01",
+      "name": "JP Nagar"
+    },
+    "destination": {
+      "stopId": "ST0103_08",
+      "name": "Silk Board"
+    },
+    "totalDistanceKm": 54.5,
+    "estimatedDurationMinutes": 104,
+    "fare": 20,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2025-04-28T16:11:08.576Z"
+  },
+  {
+    "routeId": "RT0101",
+    "routeNumber": "201",
+    "routeName": "Mysuru Road - BTM Layout",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0101_01",
+      "name": "Mysuru Road"
+    },
+    "destination": {
+      "stopId": "ST0101_07",
+      "name": "BTM Layout"
+    },
+    "totalDistanceKm": 48.3,
+    "estimatedDurationMinutes": 122,
+    "fare": 46,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2025-12-01T15:11:08.576Z"
+  },
+  {
+    "routeId": "RT0099",
+    "routeNumber": "199",
+    "routeName": "Banashankari - Hebbal",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0099_01",
+      "name": "Banashankari"
+    },
+    "destination": {
+      "stopId": "ST0099_07",
+      "name": "Hebbal"
+    },
+    "totalDistanceKm": 58.2,
+    "estimatedDurationMinutes": 95,
+    "fare": 44,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2026-02-03T10:11:08.576Z"
+  },
+  {
+    "routeId": "RT0108",
+    "routeNumber": "208",
+    "routeName": "Yeshwanthpur - Marathahalli",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0108_01",
+      "name": "Yeshwanthpur"
+    },
+    "destination": {
+      "stopId": "ST0108_04",
+      "name": "Marathahalli"
+    },
+    "totalDistanceKm": 28.3,
+    "estimatedDurationMinutes": 46,
+    "fare": 35,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2026-07-24T14:11:08.576Z"
+  },
+  {
+    "routeId": "RT0089",
+    "routeNumber": "189",
+    "routeName": "Domlur - Silk Board",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0089_01",
+      "name": "Domlur"
+    },
+    "destination": {
+      "stopId": "ST0089_06",
+      "name": "Silk Board"
+    },
+    "totalDistanceKm": 56.9,
+    "estimatedDurationMinutes": 74,
+    "fare": 68,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2024-06-10T13:11:08.575Z"
+  },
+  {
+    "routeId": "RT0109",
+    "routeNumber": "209",
+    "routeName": "JP Nagar - KR Puram",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0109_01",
+      "name": "JP Nagar"
+    },
+    "destination": {
+      "stopId": "ST0109_06",
+      "name": "KR Puram"
+    },
+    "totalDistanceKm": 47.8,
+    "estimatedDurationMinutes": 143,
+    "fare": 43,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2024-07-13T11:11:08.576Z"
+  },
+  {
+    "routeId": "RT0110",
+    "routeNumber": "210",
+    "routeName": "Hebbal - Indiranagar",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0110_01",
+      "name": "Hebbal"
+    },
+    "destination": {
+      "stopId": "ST0110_07",
+      "name": "Indiranagar"
+    },
+    "totalDistanceKm": 33.9,
+    "estimatedDurationMinutes": 38,
+    "fare": 78,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2026-06-19T00:11:08.576Z"
+  },
+  {
+    "routeId": "RT0084",
+    "routeNumber": "184",
+    "routeName": "Majestic - Koramangala",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0084_01",
+      "name": "Majestic"
+    },
+    "destination": {
+      "stopId": "ST0084_07",
+      "name": "Koramangala"
+    },
+    "totalDistanceKm": 44.8,
+    "estimatedDurationMinutes": 67,
+    "fare": 57,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2025-02-05T05:11:08.575Z"
+  },
+  {
+    "routeId": "RT0111",
+    "routeNumber": "211",
+    "routeName": "Koramangala - Electronic City",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0111_01",
+      "name": "Koramangala"
+    },
+    "destination": {
+      "stopId": "ST0111_07",
+      "name": "Electronic City"
+    },
+    "totalDistanceKm": 11.1,
+    "estimatedDurationMinutes": 104,
+    "fare": 90,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2024-09-01T12:11:08.576Z"
+  },
+  {
+    "routeId": "RT0112",
+    "routeNumber": "212",
+    "routeName": "Silk Board - Koramangala",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0112_01",
+      "name": "Silk Board"
+    },
+    "destination": {
+      "stopId": "ST0112_08",
+      "name": "Koramangala"
+    },
+    "totalDistanceKm": 53.5,
+    "estimatedDurationMinutes": 123,
+    "fare": 82,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2024-09-16T16:11:08.576Z"
+  },
+  {
+    "routeId": "RT0115",
+    "routeNumber": "215",
+    "routeName": "Domlur - Shantinagar",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0115_01",
+      "name": "Domlur"
+    },
+    "destination": {
+      "stopId": "ST0115_04",
+      "name": "Shantinagar"
+    },
+    "totalDistanceKm": 62.6,
+    "estimatedDurationMinutes": 49,
+    "fare": 79,
+    "status": "INACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2025-09-21T06:11:08.576Z"
+  },
+  {
+    "routeId": "RT0113",
+    "routeNumber": "213",
+    "routeName": "Koramangala - Mysuru Road",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0113_01",
+      "name": "Koramangala"
+    },
+    "destination": {
+      "stopId": "ST0113_08",
+      "name": "Mysuru Road"
+    },
+    "totalDistanceKm": 11.2,
+    "estimatedDurationMinutes": 52,
+    "fare": 31,
+    "status": "INACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2026-04-06T13:11:08.576Z"
+  },
+  {
+    "routeId": "RT0090",
+    "routeNumber": "190",
+    "routeName": "Whitefield - BTM Layout",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0090_01",
+      "name": "Whitefield"
+    },
+    "destination": {
+      "stopId": "ST0090_04",
+      "name": "BTM Layout"
+    },
+    "totalDistanceKm": 37.1,
+    "estimatedDurationMinutes": 91,
+    "fare": 88,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2025-11-04T14:11:08.575Z"
+  },
+  {
+    "routeId": "RT0107",
+    "routeNumber": "207",
+    "routeName": "JP Nagar - Banashankari",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0107_01",
+      "name": "JP Nagar"
+    },
+    "destination": {
+      "stopId": "ST0107_04",
+      "name": "Banashankari"
+    },
+    "totalDistanceKm": 11.1,
+    "estimatedDurationMinutes": 131,
+    "fare": 45,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2024-11-22T02:11:08.576Z"
+  },
+  {
+    "routeId": "RT0102",
+    "routeNumber": "202",
+    "routeName": "Electronic City - Shantinagar",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0102_01",
+      "name": "Electronic City"
+    },
+    "destination": {
+      "stopId": "ST0102_07",
+      "name": "Shantinagar"
+    },
+    "totalDistanceKm": 18.7,
+    "estimatedDurationMinutes": 43,
+    "fare": 28,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2026-02-20T17:11:08.576Z"
+  },
+  {
+    "routeId": "RT0104",
+    "routeNumber": "204",
+    "routeName": "Domlur - Yeshwanthpur",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0104_01",
+      "name": "Domlur"
+    },
+    "destination": {
+      "stopId": "ST0104_06",
+      "name": "Yeshwanthpur"
+    },
+    "totalDistanceKm": 36.2,
+    "estimatedDurationMinutes": 35,
+    "fare": 78,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2025-10-24T15:11:08.576Z"
+  },
+  {
+    "routeId": "RT0106",
+    "routeNumber": "206",
+    "routeName": "Rajajinagar - KR Puram",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0106_01",
+      "name": "Rajajinagar"
+    },
+    "destination": {
+      "stopId": "ST0106_06",
+      "name": "KR Puram"
+    },
+    "totalDistanceKm": 51.1,
+    "estimatedDurationMinutes": 136,
+    "fare": 37,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2026-09-21T02:11:08.576Z"
+  },
+  {
+    "routeId": "RT0071",
+    "routeNumber": "171",
+    "routeName": "Mysuru Road - Silk Board",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0071_01",
+      "name": "Mysuru Road"
+    },
+    "destination": {
+      "stopId": "ST0071_08",
+      "name": "Silk Board"
+    },
+    "totalDistanceKm": 49.9,
+    "estimatedDurationMinutes": 76,
+    "fare": 43,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2024-05-25T20:11:08.574Z"
+  },
+  {
+    "routeId": "RT0114",
+    "routeNumber": "214",
+    "routeName": "Indiranagar - Marathahalli",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0114_01",
+      "name": "Indiranagar"
+    },
+    "destination": {
+      "stopId": "ST0114_07",
+      "name": "Marathahalli"
+    },
+    "totalDistanceKm": 21.6,
+    "estimatedDurationMinutes": 76,
+    "fare": 53,
+    "status": "INACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2024-05-08T06:11:08.576Z"
+  },
+  {
+    "routeId": "RT0091",
+    "routeNumber": "191",
+    "routeName": "KR Puram - Banashankari",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0091_01",
+      "name": "KR Puram"
+    },
+    "destination": {
+      "stopId": "ST0091_08",
+      "name": "Banashankari"
+    },
+    "totalDistanceKm": 58.1,
+    "estimatedDurationMinutes": 81,
+    "fare": 19,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2024-09-01T05:11:08.575Z"
+  },
+  {
+    "routeId": "RT0094",
+    "routeNumber": "194",
+    "routeName": "Marathahalli - Electronic City",
+    "category": "AIRPORT",
+    "source": {
+      "stopId": "ST0094_01",
+      "name": "Marathahalli"
+    },
+    "destination": {
+      "stopId": "ST0094_06",
+      "name": "Electronic City"
+    },
+    "totalDistanceKm": 22.5,
+    "estimatedDurationMinutes": 84,
+    "fare": 30,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2026-02-04T18:11:08.575Z"
+  },
+  {
+    "routeId": "RT0097",
+    "routeNumber": "197",
+    "routeName": "Indiranagar - Yeshwanthpur",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0097_01",
+      "name": "Indiranagar"
+    },
+    "destination": {
+      "stopId": "ST0097_07",
+      "name": "Yeshwanthpur"
+    },
+    "totalDistanceKm": 24,
+    "estimatedDurationMinutes": 57,
+    "fare": 47,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2025-05-19T04:11:08.576Z"
+  },
+  {
+    "routeId": "RT0080",
+    "routeNumber": "180",
+    "routeName": "Silk Board - Rajajinagar",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0080_01",
+      "name": "Silk Board"
+    },
+    "destination": {
+      "stopId": "ST0080_08",
+      "name": "Rajajinagar"
+    },
+    "totalDistanceKm": 23,
+    "estimatedDurationMinutes": 52,
+    "fare": 20,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2026-09-10T17:11:08.575Z"
+  },
+  {
+    "routeId": "RT0100",
+    "routeNumber": "200",
+    "routeName": "JP Nagar - Majestic",
+    "category": "CITY",
+    "source": {
+      "stopId": "ST0100_01",
+      "name": "JP Nagar"
+    },
+    "destination": {
+      "stopId": "ST0100_05",
+      "name": "Majestic"
+    },
+    "totalDistanceKm": 29.9,
+    "estimatedDurationMinutes": 66,
+    "fare": 54,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2025-07-04T08:11:08.576Z"
+  },
+  {
+    "routeId": "RT0098",
+    "routeNumber": "198",
+    "routeName": "Banashankari - Silk Board",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0098_01",
+      "name": "Banashankari"
+    },
+    "destination": {
+      "stopId": "ST0098_08",
+      "name": "Silk Board"
+    },
+    "totalDistanceKm": 11.4,
+    "estimatedDurationMinutes": 109,
+    "fare": 73,
+    "status": "ACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "createdAt": "2025-04-10T18:11:08.576Z"
+  },
+  {
+    "routeId": "RT0116",
+    "routeNumber": "216",
+    "routeName": "Mysuru Road - JP Nagar",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0116_01",
+      "name": "Mysuru Road"
+    },
+    "destination": {
+      "stopId": "ST0116_06",
+      "name": "JP Nagar"
+    },
+    "totalDistanceKm": 45.2,
+    "estimatedDurationMinutes": 136,
+    "fare": 59,
+    "status": "INACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2025-08-19T01:11:08.576Z"
+  },
+  {
+    "routeId": "RT0120",
+    "routeNumber": "220",
+    "routeName": "Domlur - Airport",
+    "category": "EXPRESS",
+    "source": {
+      "stopId": "ST0120_01",
+      "name": "Domlur"
+    },
+    "destination": {
+      "stopId": "ST0120_04",
+      "name": "Airport"
+    },
+    "totalDistanceKm": 35.9,
+    "estimatedDurationMinutes": 149,
+    "fare": 51,
+    "status": "INACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2025-08-15T08:11:08.576Z"
+  },
+  {
+    "routeId": "RT0118",
+    "routeNumber": "218",
+    "routeName": "Airport - Banashankari",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0118_01",
+      "name": "Airport"
+    },
+    "destination": {
+      "stopId": "ST0118_04",
+      "name": "Banashankari"
+    },
+    "totalDistanceKm": 56.7,
+    "estimatedDurationMinutes": 51,
+    "fare": 79,
+    "status": "INACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2024-11-20T01:11:08.576Z"
+  },
+  {
+    "routeId": "RT0117",
+    "routeNumber": "217",
+    "routeName": "Banashankari - Rajajinagar",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0117_01",
+      "name": "Banashankari"
+    },
+    "destination": {
+      "stopId": "ST0117_04",
+      "name": "Rajajinagar"
+    },
+    "totalDistanceKm": 14.8,
+    "estimatedDurationMinutes": 126,
+    "fare": 41,
+    "status": "INACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI",
+      "SAT"
+    ],
+    "createdAt": "2025-05-08T06:11:08.576Z"
+  },
+  {
+    "routeId": "RT0119",
+    "routeNumber": "219",
+    "routeName": "Majestic - Electronic City",
+    "category": "SUBURBAN",
+    "source": {
+      "stopId": "ST0119_01",
+      "name": "Majestic"
+    },
+    "destination": {
+      "stopId": "ST0119_06",
+      "name": "Electronic City"
+    },
+    "totalDistanceKm": 41.7,
+    "estimatedDurationMinutes": 113,
+    "fare": 50,
+    "status": "INACTIVE",
+    "operatingDays": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU"
+    ],
+    "createdAt": "2025-12-28T04:11:08.576Z"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-10-10T05:11:08.603Z",
+  "synthetic": true,
+  "counts": {
+    "users": 60,
+    "masterData": 60,
+    "buses": 160,
+    "drivers": 120,
+    "routes": 120,
+    "trips": 600,
+    "maintenance": 180,
+    "fuelRecords": 360,
+    "transactions": 200,
+    "activities": 150
+  }
+}

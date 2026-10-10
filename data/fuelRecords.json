@@ -1,0 +1,5762 @@
+[
+  {
+    "fuelRecordId": "FUEL000001",
+    "busId": "BUS0125",
+    "date": "2026-05-28T07:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 14805.4,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000002",
+    "busId": "BUS0046",
+    "date": "2026-07-29T01:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 68.65,
+    "pricePerLitre": 91.25,
+    "totalCost": 6264.31,
+    "odometerKm": 15523.6,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000003",
+    "busId": "BUS0155",
+    "date": "2026-09-02T06:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 8531.9,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000004",
+    "busId": "BUS0143",
+    "date": "2026-06-28T00:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 52.38,
+    "pricePerLitre": 91.25,
+    "totalCost": 4779.68,
+    "odometerKm": 29909.5,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000005",
+    "busId": "BUS0025",
+    "date": "2026-05-21T04:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 54.42,
+    "pricePerLitre": 91.25,
+    "totalCost": 4965.82,
+    "odometerKm": 41071.7,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000006",
+    "busId": "BUS0021",
+    "date": "2026-05-05T09:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 13934.1,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000007",
+    "busId": "BUS0095",
+    "date": "2026-06-06T16:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 27.66,
+    "pricePerLitre": 78.5,
+    "totalCost": 2171.31,
+    "odometerKm": 15126.6,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000008",
+    "busId": "BUS0011",
+    "date": "2026-06-16T10:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 60.07,
+    "pricePerLitre": 91.25,
+    "totalCost": 5481.39,
+    "odometerKm": 33404.7,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000009",
+    "busId": "BUS0124",
+    "date": "2026-07-22T11:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 34503.4,
+    "fuelStation": {
+      "stationId": "FS007",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000010",
+    "busId": "BUS0076",
+    "date": "2026-07-05T01:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 41.87,
+    "pricePerLitre": 78.5,
+    "totalCost": 3286.79,
+    "odometerKm": 12125.2,
+    "fuelStation": {
+      "stationId": "FS008",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000011",
+    "busId": "BUS0116",
+    "date": "2026-08-19T10:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 68.01,
+    "pricePerLitre": 78.5,
+    "totalCost": 5338.79,
+    "odometerKm": 5492.3,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000012",
+    "busId": "BUS0086",
+    "date": "2026-08-21T13:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 34.41,
+    "pricePerLitre": 78.5,
+    "totalCost": 2701.18,
+    "odometerKm": 47845.1,
+    "fuelStation": {
+      "stationId": "FS011",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000013",
+    "busId": "BUS0080",
+    "date": "2026-07-24T04:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 34.71,
+    "pricePerLitre": 78.5,
+    "totalCost": 2724.74,
+    "odometerKm": 20615,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000014",
+    "busId": "BUS0079",
+    "date": "2026-08-08T05:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 59.74,
+    "pricePerLitre": 91.25,
+    "totalCost": 5451.28,
+    "odometerKm": 15618.8,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000015",
+    "busId": "BUS0091",
+    "date": "2026-08-19T09:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 32840.4,
+    "fuelStation": {
+      "stationId": "FS008",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000016",
+    "busId": "BUS0129",
+    "date": "2026-09-01T07:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 49.35,
+    "pricePerLitre": 78.5,
+    "totalCost": 3873.97,
+    "odometerKm": 12030.8,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000017",
+    "busId": "BUS0145",
+    "date": "2026-09-19T06:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 48.23,
+    "pricePerLitre": 91.25,
+    "totalCost": 4400.99,
+    "odometerKm": 34589.9,
+    "fuelStation": {
+      "stationId": "FS008",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000018",
+    "busId": "BUS0155",
+    "date": "2026-09-20T01:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 9647.6,
+    "fuelStation": {
+      "stationId": "FS013",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000019",
+    "busId": "BUS0150",
+    "date": "2026-06-26T18:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 38.32,
+    "pricePerLitre": 78.5,
+    "totalCost": 3008.12,
+    "odometerKm": 21586.8,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000020",
+    "busId": "BUS0134",
+    "date": "2026-06-07T19:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 68.08,
+    "pricePerLitre": 91.25,
+    "totalCost": 6212.3,
+    "odometerKm": 29218.4,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000021",
+    "busId": "BUS0027",
+    "date": "2026-07-23T19:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 34.84,
+    "pricePerLitre": 91.25,
+    "totalCost": 3179.15,
+    "odometerKm": 28797.6,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000022",
+    "busId": "BUS0074",
+    "date": "2026-06-25T22:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 27.37,
+    "pricePerLitre": 91.25,
+    "totalCost": 2497.51,
+    "odometerKm": 40614.7,
+    "fuelStation": {
+      "stationId": "FS013",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000023",
+    "busId": "BUS0116",
+    "date": "2026-10-08T05:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 56.61,
+    "pricePerLitre": 78.5,
+    "totalCost": 4443.89,
+    "odometerKm": 5621.7,
+    "fuelStation": {
+      "stationId": "FS008",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000024",
+    "busId": "BUS0155",
+    "date": "2026-08-15T10:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 10219.8,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000025",
+    "busId": "BUS0146",
+    "date": "2026-06-24T21:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 25.3,
+    "pricePerLitre": 91.25,
+    "totalCost": 2308.63,
+    "odometerKm": 34411.2,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000026",
+    "busId": "BUS0134",
+    "date": "2026-06-19T09:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 53.01,
+    "pricePerLitre": 91.25,
+    "totalCost": 4837.16,
+    "odometerKm": 48894.4,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000027",
+    "busId": "BUS0141",
+    "date": "2026-06-21T22:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 69.34,
+    "pricePerLitre": 91.25,
+    "totalCost": 6327.28,
+    "odometerKm": 6007.8,
+    "fuelStation": {
+      "stationId": "FS013",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000028",
+    "busId": "BUS0129",
+    "date": "2026-05-17T18:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 44.19,
+    "pricePerLitre": 78.5,
+    "totalCost": 3468.91,
+    "odometerKm": 18631.1,
+    "fuelStation": {
+      "stationId": "FS002",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000029",
+    "busId": "BUS0112",
+    "date": "2026-07-09T19:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 20440.5,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000030",
+    "busId": "BUS0003",
+    "date": "2026-07-28T14:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 60.82,
+    "pricePerLitre": 91.25,
+    "totalCost": 5549.82,
+    "odometerKm": 29097.6,
+    "fuelStation": {
+      "stationId": "FS002",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000031",
+    "busId": "BUS0111",
+    "date": "2026-06-20T13:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 62.09,
+    "pricePerLitre": 91.25,
+    "totalCost": 5665.71,
+    "odometerKm": 3404.8,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000032",
+    "busId": "BUS0080",
+    "date": "2026-04-21T07:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 66.96,
+    "pricePerLitre": 78.5,
+    "totalCost": 5256.36,
+    "odometerKm": 28134.5,
+    "fuelStation": {
+      "stationId": "FS003",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000033",
+    "busId": "BUS0028",
+    "date": "2026-05-08T03:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 32.99,
+    "pricePerLitre": 91.25,
+    "totalCost": 3010.34,
+    "odometerKm": 37847.3,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000034",
+    "busId": "BUS0043",
+    "date": "2026-06-29T03:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 17323.1,
+    "fuelStation": {
+      "stationId": "FS003",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000035",
+    "busId": "BUS0050",
+    "date": "2026-06-04T15:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 51.11,
+    "pricePerLitre": 78.5,
+    "totalCost": 4012.13,
+    "odometerKm": 5376.3,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000036",
+    "busId": "BUS0137",
+    "date": "2026-05-02T09:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 44.32,
+    "pricePerLitre": 91.25,
+    "totalCost": 4044.2,
+    "odometerKm": 4381.6,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000037",
+    "busId": "BUS0017",
+    "date": "2026-06-08T07:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 25226.4,
+    "fuelStation": {
+      "stationId": "FS002",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000038",
+    "busId": "BUS0076",
+    "date": "2026-06-17T20:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 39.05,
+    "pricePerLitre": 78.5,
+    "totalCost": 3065.42,
+    "odometerKm": 12321.5,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000039",
+    "busId": "BUS0160",
+    "date": "2026-06-06T17:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 30.84,
+    "pricePerLitre": 91.25,
+    "totalCost": 2814.15,
+    "odometerKm": 32219.4,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000040",
+    "busId": "BUS0119",
+    "date": "2026-05-07T15:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 66.82,
+    "pricePerLitre": 91.25,
+    "totalCost": 6097.32,
+    "odometerKm": 11846.6,
+    "fuelStation": {
+      "stationId": "FS007",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000041",
+    "busId": "BUS0148",
+    "date": "2026-09-28T07:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 35.16,
+    "pricePerLitre": 91.25,
+    "totalCost": 3208.35,
+    "odometerKm": 29974.6,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000042",
+    "busId": "BUS0062",
+    "date": "2026-08-25T19:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 31.52,
+    "pricePerLitre": 78.5,
+    "totalCost": 2474.32,
+    "odometerKm": 26025.9,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000043",
+    "busId": "BUS0103",
+    "date": "2026-08-12T11:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 68,
+    "pricePerLitre": 91.25,
+    "totalCost": 6205,
+    "odometerKm": 11026.3,
+    "fuelStation": {
+      "stationId": "FS008",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000044",
+    "busId": "BUS0036",
+    "date": "2026-04-29T08:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 54.99,
+    "pricePerLitre": 91.25,
+    "totalCost": 5017.84,
+    "odometerKm": 5013.4,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000045",
+    "busId": "BUS0057",
+    "date": "2026-05-07T17:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 55.77,
+    "pricePerLitre": 78.5,
+    "totalCost": 4377.95,
+    "odometerKm": 11686.8,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000046",
+    "busId": "BUS0148",
+    "date": "2026-06-05T13:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 48.93,
+    "pricePerLitre": 91.25,
+    "totalCost": 4464.86,
+    "odometerKm": 44783,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000047",
+    "busId": "BUS0122",
+    "date": "2026-05-29T01:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 53.61,
+    "pricePerLitre": 78.5,
+    "totalCost": 4208.39,
+    "odometerKm": 40635.6,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000048",
+    "busId": "BUS0044",
+    "date": "2026-09-19T17:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 32.61,
+    "pricePerLitre": 78.5,
+    "totalCost": 2559.88,
+    "odometerKm": 25774.8,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000049",
+    "busId": "BUS0055",
+    "date": "2026-07-02T17:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 68.18,
+    "pricePerLitre": 91.25,
+    "totalCost": 6221.43,
+    "odometerKm": 28922.5,
+    "fuelStation": {
+      "stationId": "FS003",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000050",
+    "busId": "BUS0088",
+    "date": "2026-10-07T04:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 45.76,
+    "pricePerLitre": 91.25,
+    "totalCost": 4175.6,
+    "odometerKm": 8404.4,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000051",
+    "busId": "BUS0115",
+    "date": "2026-09-11T06:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 60.47,
+    "pricePerLitre": 91.25,
+    "totalCost": 5517.89,
+    "odometerKm": 18749.4,
+    "fuelStation": {
+      "stationId": "FS003",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000052",
+    "busId": "BUS0124",
+    "date": "2026-05-16T17:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 22071.7,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000053",
+    "busId": "BUS0029",
+    "date": "2026-08-16T16:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 65.94,
+    "pricePerLitre": 78.5,
+    "totalCost": 5176.29,
+    "odometerKm": 43984.6,
+    "fuelStation": {
+      "stationId": "FS008",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000054",
+    "busId": "BUS0068",
+    "date": "2026-09-06T13:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 27.79,
+    "pricePerLitre": 91.25,
+    "totalCost": 2535.84,
+    "odometerKm": 31277.5,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000055",
+    "busId": "BUS0020",
+    "date": "2026-06-05T10:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 22474,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000056",
+    "busId": "BUS0155",
+    "date": "2026-07-29T07:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 8948.9,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000057",
+    "busId": "BUS0101",
+    "date": "2026-04-26T08:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 56.97,
+    "pricePerLitre": 91.25,
+    "totalCost": 5198.51,
+    "odometerKm": 12453.1,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000058",
+    "busId": "BUS0015",
+    "date": "2026-08-05T16:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 58.95,
+    "pricePerLitre": 78.5,
+    "totalCost": 4627.57,
+    "odometerKm": 26642,
+    "fuelStation": {
+      "stationId": "FS011",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000059",
+    "busId": "BUS0152",
+    "date": "2026-07-05T12:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 43.15,
+    "pricePerLitre": 78.5,
+    "totalCost": 3387.28,
+    "odometerKm": 19964,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000060",
+    "busId": "BUS0052",
+    "date": "2026-08-07T06:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 9809.6,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000061",
+    "busId": "BUS0052",
+    "date": "2026-07-24T04:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 9617.9,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000062",
+    "busId": "BUS0007",
+    "date": "2026-07-06T04:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 48.78,
+    "pricePerLitre": 91.25,
+    "totalCost": 4451.18,
+    "odometerKm": 28860.8,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000063",
+    "busId": "BUS0076",
+    "date": "2026-04-30T10:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 33.29,
+    "pricePerLitre": 78.5,
+    "totalCost": 2613.26,
+    "odometerKm": 9892.7,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000064",
+    "busId": "BUS0090",
+    "date": "2026-04-21T08:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 13032.5,
+    "fuelStation": {
+      "stationId": "FS008",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000065",
+    "busId": "BUS0114",
+    "date": "2026-06-02T03:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 4105.9,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000066",
+    "busId": "BUS0116",
+    "date": "2026-05-10T08:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 40.33,
+    "pricePerLitre": 78.5,
+    "totalCost": 3165.9,
+    "odometerKm": 6784.8,
+    "fuelStation": {
+      "stationId": "FS007",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000067",
+    "busId": "BUS0108",
+    "date": "2026-06-27T21:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 30387.4,
+    "fuelStation": {
+      "stationId": "FS002",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000068",
+    "busId": "BUS0017",
+    "date": "2026-08-23T20:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 32749.7,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000069",
+    "busId": "BUS0082",
+    "date": "2026-07-21T05:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 39.2,
+    "pricePerLitre": 91.25,
+    "totalCost": 3577,
+    "odometerKm": 16715.3,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000070",
+    "busId": "BUS0068",
+    "date": "2026-09-13T02:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 43.93,
+    "pricePerLitre": 91.25,
+    "totalCost": 4008.61,
+    "odometerKm": 37708.7,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000071",
+    "busId": "BUS0056",
+    "date": "2026-07-22T14:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 39.68,
+    "pricePerLitre": 78.5,
+    "totalCost": 3114.88,
+    "odometerKm": 27300.8,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000072",
+    "busId": "BUS0072",
+    "date": "2026-05-13T22:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 53.39,
+    "pricePerLitre": 91.25,
+    "totalCost": 4871.84,
+    "odometerKm": 18168.8,
+    "fuelStation": {
+      "stationId": "FS007",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000073",
+    "busId": "BUS0038",
+    "date": "2026-05-31T14:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 14912.1,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000074",
+    "busId": "BUS0042",
+    "date": "2026-07-11T00:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 20013,
+    "fuelStation": {
+      "stationId": "FS013",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000075",
+    "busId": "BUS0034",
+    "date": "2026-05-03T14:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 60.01,
+    "pricePerLitre": 91.25,
+    "totalCost": 5475.91,
+    "odometerKm": 25524.4,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000076",
+    "busId": "BUS0063",
+    "date": "2026-07-10T08:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 25193.1,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000077",
+    "busId": "BUS0155",
+    "date": "2026-09-12T23:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 11271.4,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000078",
+    "busId": "BUS0022",
+    "date": "2026-07-22T14:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 30.86,
+    "pricePerLitre": 91.25,
+    "totalCost": 2815.97,
+    "odometerKm": 4808.1,
+    "fuelStation": {
+      "stationId": "FS003",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000079",
+    "busId": "BUS0005",
+    "date": "2026-07-17T11:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 24346.9,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000080",
+    "busId": "BUS0133",
+    "date": "2026-09-07T01:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 36.04,
+    "pricePerLitre": 78.5,
+    "totalCost": 2829.14,
+    "odometerKm": 35964.1,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000081",
+    "busId": "BUS0153",
+    "date": "2026-08-13T11:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 36136.7,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000082",
+    "busId": "BUS0011",
+    "date": "2026-10-02T05:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 53.83,
+    "pricePerLitre": 91.25,
+    "totalCost": 4911.99,
+    "odometerKm": 21004.2,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000083",
+    "busId": "BUS0064",
+    "date": "2026-04-14T22:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 31.89,
+    "pricePerLitre": 78.5,
+    "totalCost": 2503.37,
+    "odometerKm": 24066.3,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000084",
+    "busId": "BUS0113",
+    "date": "2026-07-13T23:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 60.94,
+    "pricePerLitre": 78.5,
+    "totalCost": 4783.79,
+    "odometerKm": 42212.4,
+    "fuelStation": {
+      "stationId": "FS003",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000085",
+    "busId": "BUS0117",
+    "date": "2026-08-13T11:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 41.29,
+    "pricePerLitre": 91.25,
+    "totalCost": 3767.71,
+    "odometerKm": 11016.6,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000086",
+    "busId": "BUS0007",
+    "date": "2026-05-14T03:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 40.63,
+    "pricePerLitre": 91.25,
+    "totalCost": 3707.49,
+    "odometerKm": 23145,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000087",
+    "busId": "BUS0026",
+    "date": "2026-06-08T16:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 26.67,
+    "pricePerLitre": 91.25,
+    "totalCost": 2433.64,
+    "odometerKm": 31134.3,
+    "fuelStation": {
+      "stationId": "FS007",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000088",
+    "busId": "BUS0132",
+    "date": "2026-09-07T20:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 41.16,
+    "pricePerLitre": 91.25,
+    "totalCost": 3755.85,
+    "odometerKm": 21825.2,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000089",
+    "busId": "BUS0038",
+    "date": "2026-06-29T03:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 20887.2,
+    "fuelStation": {
+      "stationId": "FS002",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000090",
+    "busId": "BUS0150",
+    "date": "2026-05-28T03:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 44.72,
+    "pricePerLitre": 78.5,
+    "totalCost": 3510.52,
+    "odometerKm": 25053.8,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000091",
+    "busId": "BUS0146",
+    "date": "2026-09-22T11:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 56.25,
+    "pricePerLitre": 91.25,
+    "totalCost": 5132.81,
+    "odometerKm": 29923.9,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000092",
+    "busId": "BUS0142",
+    "date": "2026-09-26T02:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 69,
+    "pricePerLitre": 91.25,
+    "totalCost": 6296.25,
+    "odometerKm": 34290.4,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000093",
+    "busId": "BUS0105",
+    "date": "2026-07-11T22:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 33314.6,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000094",
+    "busId": "BUS0016",
+    "date": "2026-08-17T20:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 46.14,
+    "pricePerLitre": 91.25,
+    "totalCost": 4210.27,
+    "odometerKm": 28622.2,
+    "fuelStation": {
+      "stationId": "FS011",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000095",
+    "busId": "BUS0069",
+    "date": "2026-04-28T22:11:08.580Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 59.32,
+    "pricePerLitre": 91.25,
+    "totalCost": 5412.95,
+    "odometerKm": 11649.8,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000096",
+    "busId": "BUS0062",
+    "date": "2026-09-25T06:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 28.9,
+    "pricePerLitre": 78.5,
+    "totalCost": 2268.65,
+    "odometerKm": 24938.2,
+    "fuelStation": {
+      "stationId": "FS013",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000097",
+    "busId": "BUS0070",
+    "date": "2026-07-25T16:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 18720.7,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000098",
+    "busId": "BUS0093",
+    "date": "2026-05-21T08:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 50.99,
+    "pricePerLitre": 78.5,
+    "totalCost": 4002.72,
+    "odometerKm": 23870.1,
+    "fuelStation": {
+      "stationId": "FS002",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000099",
+    "busId": "BUS0017",
+    "date": "2026-05-22T03:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 27900.7,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000100",
+    "busId": "BUS0107",
+    "date": "2026-06-19T06:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 32207.2,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000101",
+    "busId": "BUS0091",
+    "date": "2026-09-28T12:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 45399.3,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000102",
+    "busId": "BUS0009",
+    "date": "2026-05-27T01:11:08.580Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 27184.9,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000103",
+    "busId": "BUS0131",
+    "date": "2026-06-20T15:11:08.580Z",
+    "fuelType": "CNG",
+    "quantityLitres": 48.05,
+    "pricePerLitre": 78.5,
+    "totalCost": 3771.92,
+    "odometerKm": 12486.1,
+    "fuelStation": {
+      "stationId": "FS003",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000104",
+    "busId": "BUS0131",
+    "date": "2026-05-28T16:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 67.04,
+    "pricePerLitre": 78.5,
+    "totalCost": 5262.64,
+    "odometerKm": 8970.5,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000105",
+    "busId": "BUS0107",
+    "date": "2026-09-07T22:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 38277.4,
+    "fuelStation": {
+      "stationId": "FS008",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000106",
+    "busId": "BUS0005",
+    "date": "2026-06-29T08:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 28059.8,
+    "fuelStation": {
+      "stationId": "FS002",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000107",
+    "busId": "BUS0055",
+    "date": "2026-04-18T09:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 64.6,
+    "pricePerLitre": 91.25,
+    "totalCost": 5894.75,
+    "odometerKm": 36504.5,
+    "fuelStation": {
+      "stationId": "FS007",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000108",
+    "busId": "BUS0160",
+    "date": "2026-05-15T04:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 32.69,
+    "pricePerLitre": 91.25,
+    "totalCost": 2982.96,
+    "odometerKm": 31980.8,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000109",
+    "busId": "BUS0091",
+    "date": "2026-09-11T11:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 32157.1,
+    "fuelStation": {
+      "stationId": "FS011",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000110",
+    "busId": "BUS0107",
+    "date": "2026-06-28T21:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 41159.6,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000111",
+    "busId": "BUS0092",
+    "date": "2026-09-04T02:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 30.05,
+    "pricePerLitre": 91.25,
+    "totalCost": 2742.06,
+    "odometerKm": 16235.9,
+    "fuelStation": {
+      "stationId": "FS003",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000112",
+    "busId": "BUS0035",
+    "date": "2026-04-24T18:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 36.5,
+    "pricePerLitre": 91.25,
+    "totalCost": 3330.63,
+    "odometerKm": 37981.8,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000113",
+    "busId": "BUS0091",
+    "date": "2026-10-07T16:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 38073.8,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000114",
+    "busId": "BUS0097",
+    "date": "2026-06-05T20:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 35.65,
+    "pricePerLitre": 78.5,
+    "totalCost": 2798.53,
+    "odometerKm": 31509,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000115",
+    "busId": "BUS0036",
+    "date": "2026-04-25T04:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 44.74,
+    "pricePerLitre": 91.25,
+    "totalCost": 4082.53,
+    "odometerKm": 2692.6,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000116",
+    "busId": "BUS0042",
+    "date": "2026-06-22T04:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 17041.1,
+    "fuelStation": {
+      "stationId": "FS008",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000117",
+    "busId": "BUS0019",
+    "date": "2026-05-01T23:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 43.44,
+    "pricePerLitre": 91.25,
+    "totalCost": 3963.9,
+    "odometerKm": 41459.2,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000118",
+    "busId": "BUS0002",
+    "date": "2026-08-01T07:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 53.26,
+    "pricePerLitre": 78.5,
+    "totalCost": 4180.91,
+    "odometerKm": 36671.3,
+    "fuelStation": {
+      "stationId": "FS011",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000119",
+    "busId": "BUS0078",
+    "date": "2026-08-25T02:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 44.71,
+    "pricePerLitre": 91.25,
+    "totalCost": 4079.79,
+    "odometerKm": 15961.4,
+    "fuelStation": {
+      "stationId": "FS002",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000120",
+    "busId": "BUS0090",
+    "date": "2026-08-13T14:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 15340.6,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000121",
+    "busId": "BUS0036",
+    "date": "2026-09-15T22:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 52.11,
+    "pricePerLitre": 91.25,
+    "totalCost": 4755.04,
+    "odometerKm": 3020.6,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000122",
+    "busId": "BUS0055",
+    "date": "2026-06-15T22:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 33.96,
+    "pricePerLitre": 91.25,
+    "totalCost": 3098.85,
+    "odometerKm": 32757.5,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000123",
+    "busId": "BUS0134",
+    "date": "2026-09-27T02:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 41.15,
+    "pricePerLitre": 91.25,
+    "totalCost": 3754.94,
+    "odometerKm": 41154.5,
+    "fuelStation": {
+      "stationId": "FS011",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000124",
+    "busId": "BUS0025",
+    "date": "2026-06-03T05:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 26.05,
+    "pricePerLitre": 91.25,
+    "totalCost": 2377.06,
+    "odometerKm": 42969.7,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000125",
+    "busId": "BUS0032",
+    "date": "2026-06-14T10:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 64.95,
+    "pricePerLitre": 91.25,
+    "totalCost": 5926.69,
+    "odometerKm": 42229.6,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000126",
+    "busId": "BUS0141",
+    "date": "2026-07-15T09:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 49.18,
+    "pricePerLitre": 91.25,
+    "totalCost": 4487.68,
+    "odometerKm": 7909.4,
+    "fuelStation": {
+      "stationId": "FS013",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000127",
+    "busId": "BUS0034",
+    "date": "2026-09-15T20:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 65.18,
+    "pricePerLitre": 91.25,
+    "totalCost": 5947.68,
+    "odometerKm": 20919.5,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000128",
+    "busId": "BUS0002",
+    "date": "2026-05-22T01:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 68.72,
+    "pricePerLitre": 78.5,
+    "totalCost": 5394.52,
+    "odometerKm": 45372,
+    "fuelStation": {
+      "stationId": "FS011",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000129",
+    "busId": "BUS0017",
+    "date": "2026-04-19T12:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 29456.8,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000130",
+    "busId": "BUS0112",
+    "date": "2026-09-11T15:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 19720.1,
+    "fuelStation": {
+      "stationId": "FS008",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000131",
+    "busId": "BUS0147",
+    "date": "2026-10-09T09:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 26.92,
+    "pricePerLitre": 78.5,
+    "totalCost": 2113.22,
+    "odometerKm": 42557.8,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000132",
+    "busId": "BUS0105",
+    "date": "2026-04-20T15:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 19365.1,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000133",
+    "busId": "BUS0033",
+    "date": "2026-05-31T17:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 65.5,
+    "pricePerLitre": 91.25,
+    "totalCost": 5976.88,
+    "odometerKm": 10609.3,
+    "fuelStation": {
+      "stationId": "FS003",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000134",
+    "busId": "BUS0115",
+    "date": "2026-04-24T08:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 37.35,
+    "pricePerLitre": 91.25,
+    "totalCost": 3408.19,
+    "odometerKm": 20885.6,
+    "fuelStation": {
+      "stationId": "FS007",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000135",
+    "busId": "BUS0023",
+    "date": "2026-05-15T00:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 34.33,
+    "pricePerLitre": 78.5,
+    "totalCost": 2694.9,
+    "odometerKm": 25211.9,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000136",
+    "busId": "BUS0114",
+    "date": "2026-10-02T15:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 4873.2,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000137",
+    "busId": "BUS0074",
+    "date": "2026-09-06T18:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 56.17,
+    "pricePerLitre": 91.25,
+    "totalCost": 5125.51,
+    "odometerKm": 27915.9,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000138",
+    "busId": "BUS0038",
+    "date": "2026-04-29T21:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 15760,
+    "fuelStation": {
+      "stationId": "FS011",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000139",
+    "busId": "BUS0147",
+    "date": "2026-07-20T11:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 47.94,
+    "pricePerLitre": 78.5,
+    "totalCost": 3763.29,
+    "odometerKm": 31672.7,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000140",
+    "busId": "BUS0102",
+    "date": "2026-08-22T08:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 13592.3,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000141",
+    "busId": "BUS0157",
+    "date": "2026-08-29T08:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 30548.9,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000142",
+    "busId": "BUS0148",
+    "date": "2026-04-27T11:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 37.14,
+    "pricePerLitre": 91.25,
+    "totalCost": 3389.03,
+    "odometerKm": 33777.5,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000143",
+    "busId": "BUS0066",
+    "date": "2026-08-06T00:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 8360.4,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000144",
+    "busId": "BUS0153",
+    "date": "2026-08-18T20:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 39737.4,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000145",
+    "busId": "BUS0046",
+    "date": "2026-07-22T23:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 48.64,
+    "pricePerLitre": 91.25,
+    "totalCost": 4438.4,
+    "odometerKm": 23836.8,
+    "fuelStation": {
+      "stationId": "FS013",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000146",
+    "busId": "BUS0086",
+    "date": "2026-06-30T15:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 35.48,
+    "pricePerLitre": 78.5,
+    "totalCost": 2785.18,
+    "odometerKm": 34338.6,
+    "fuelStation": {
+      "stationId": "FS007",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000147",
+    "busId": "BUS0156",
+    "date": "2026-06-27T15:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 50,
+    "pricePerLitre": 78.5,
+    "totalCost": 3925,
+    "odometerKm": 8939.7,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000148",
+    "busId": "BUS0099",
+    "date": "2026-08-15T22:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 44.78,
+    "pricePerLitre": 91.25,
+    "totalCost": 4086.18,
+    "odometerKm": 12990.9,
+    "fuelStation": {
+      "stationId": "FS008",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000149",
+    "busId": "BUS0118",
+    "date": "2026-07-13T14:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 34.93,
+    "pricePerLitre": 91.25,
+    "totalCost": 3187.36,
+    "odometerKm": 12313.4,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000150",
+    "busId": "BUS0102",
+    "date": "2026-09-20T03:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 12287.9,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000151",
+    "busId": "BUS0025",
+    "date": "2026-08-25T06:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 38.5,
+    "pricePerLitre": 91.25,
+    "totalCost": 3513.13,
+    "odometerKm": 30765,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000152",
+    "busId": "BUS0120",
+    "date": "2026-08-14T10:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 61.89,
+    "pricePerLitre": 91.25,
+    "totalCost": 5647.46,
+    "odometerKm": 8012.3,
+    "fuelStation": {
+      "stationId": "FS003",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000153",
+    "busId": "BUS0158",
+    "date": "2026-06-09T21:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 53.03,
+    "pricePerLitre": 91.25,
+    "totalCost": 4838.99,
+    "odometerKm": 20488.2,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000154",
+    "busId": "BUS0143",
+    "date": "2026-09-06T06:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 49.38,
+    "pricePerLitre": 91.25,
+    "totalCost": 4505.93,
+    "odometerKm": 22496.5,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000155",
+    "busId": "BUS0134",
+    "date": "2026-07-28T14:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 55.63,
+    "pricePerLitre": 91.25,
+    "totalCost": 5076.24,
+    "odometerKm": 27926.1,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000156",
+    "busId": "BUS0125",
+    "date": "2026-09-22T17:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 11793.7,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000157",
+    "busId": "BUS0096",
+    "date": "2026-06-17T22:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 35718.1,
+    "fuelStation": {
+      "stationId": "FS002",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000158",
+    "busId": "BUS0081",
+    "date": "2026-06-10T17:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 29.93,
+    "pricePerLitre": 91.25,
+    "totalCost": 2731.11,
+    "odometerKm": 23907.2,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000159",
+    "busId": "BUS0070",
+    "date": "2026-09-05T06:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 27582.5,
+    "fuelStation": {
+      "stationId": "FS002",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000160",
+    "busId": "BUS0059",
+    "date": "2026-06-16T04:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 27.04,
+    "pricePerLitre": 91.25,
+    "totalCost": 2467.4,
+    "odometerKm": 37196.3,
+    "fuelStation": {
+      "stationId": "FS007",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000161",
+    "busId": "BUS0001",
+    "date": "2026-08-02T22:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 40.7,
+    "pricePerLitre": 91.25,
+    "totalCost": 3713.88,
+    "odometerKm": 25768,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000162",
+    "busId": "BUS0054",
+    "date": "2026-09-25T11:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 25.56,
+    "pricePerLitre": 78.5,
+    "totalCost": 2006.46,
+    "odometerKm": 47802.2,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000163",
+    "busId": "BUS0022",
+    "date": "2026-09-02T11:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 30.3,
+    "pricePerLitre": 91.25,
+    "totalCost": 2764.88,
+    "odometerKm": 3849.1,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000164",
+    "busId": "BUS0103",
+    "date": "2026-08-24T08:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 47.2,
+    "pricePerLitre": 91.25,
+    "totalCost": 4307,
+    "odometerKm": 10320.5,
+    "fuelStation": {
+      "stationId": "FS013",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000165",
+    "busId": "BUS0064",
+    "date": "2026-08-01T16:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 52.33,
+    "pricePerLitre": 78.5,
+    "totalCost": 4107.9,
+    "odometerKm": 29875.6,
+    "fuelStation": {
+      "stationId": "FS013",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000166",
+    "busId": "BUS0145",
+    "date": "2026-08-15T04:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 25.96,
+    "pricePerLitre": 91.25,
+    "totalCost": 2368.85,
+    "odometerKm": 37080.8,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000167",
+    "busId": "BUS0010",
+    "date": "2026-06-29T14:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 43.43,
+    "pricePerLitre": 91.25,
+    "totalCost": 3962.99,
+    "odometerKm": 24898.3,
+    "fuelStation": {
+      "stationId": "FS013",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000168",
+    "busId": "BUS0075",
+    "date": "2026-09-16T05:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 14003.7,
+    "fuelStation": {
+      "stationId": "FS002",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000169",
+    "busId": "BUS0099",
+    "date": "2026-07-28T13:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 47.73,
+    "pricePerLitre": 91.25,
+    "totalCost": 4355.36,
+    "odometerKm": 9265,
+    "fuelStation": {
+      "stationId": "FS003",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000170",
+    "busId": "BUS0092",
+    "date": "2026-04-20T05:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 35.11,
+    "pricePerLitre": 91.25,
+    "totalCost": 3203.79,
+    "odometerKm": 19824.5,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000171",
+    "busId": "BUS0096",
+    "date": "2026-09-26T21:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 25109.4,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000172",
+    "busId": "BUS0005",
+    "date": "2026-06-25T19:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 40243.6,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000173",
+    "busId": "BUS0147",
+    "date": "2026-07-10T09:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 65.75,
+    "pricePerLitre": 78.5,
+    "totalCost": 5161.38,
+    "odometerKm": 34543.4,
+    "fuelStation": {
+      "stationId": "FS011",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000174",
+    "busId": "BUS0036",
+    "date": "2026-04-16T18:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 52.14,
+    "pricePerLitre": 91.25,
+    "totalCost": 4757.77,
+    "odometerKm": 3667.3,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000175",
+    "busId": "BUS0004",
+    "date": "2026-10-08T16:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 25.27,
+    "pricePerLitre": 78.5,
+    "totalCost": 1983.69,
+    "odometerKm": 34056.6,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000176",
+    "busId": "BUS0131",
+    "date": "2026-06-02T11:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 63.42,
+    "pricePerLitre": 78.5,
+    "totalCost": 4978.47,
+    "odometerKm": 7349.3,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000177",
+    "busId": "BUS0009",
+    "date": "2026-09-06T02:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 27288.9,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000178",
+    "busId": "BUS0004",
+    "date": "2026-09-17T01:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 61.79,
+    "pricePerLitre": 78.5,
+    "totalCost": 4850.52,
+    "odometerKm": 32371.8,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000179",
+    "busId": "BUS0112",
+    "date": "2026-09-27T08:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 19164.5,
+    "fuelStation": {
+      "stationId": "FS003",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000180",
+    "busId": "BUS0132",
+    "date": "2026-07-25T22:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 52.58,
+    "pricePerLitre": 91.25,
+    "totalCost": 4797.93,
+    "odometerKm": 17636.6,
+    "fuelStation": {
+      "stationId": "FS007",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000181",
+    "busId": "BUS0042",
+    "date": "2026-06-05T17:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 19048.2,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000182",
+    "busId": "BUS0148",
+    "date": "2026-04-26T05:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 39.05,
+    "pricePerLitre": 91.25,
+    "totalCost": 3563.31,
+    "odometerKm": 26871.5,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000183",
+    "busId": "BUS0076",
+    "date": "2026-09-15T08:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 61.89,
+    "pricePerLitre": 78.5,
+    "totalCost": 4858.36,
+    "odometerKm": 12569.2,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000184",
+    "busId": "BUS0155",
+    "date": "2026-07-12T14:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 12456.4,
+    "fuelStation": {
+      "stationId": "FS008",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000185",
+    "busId": "BUS0111",
+    "date": "2026-04-20T13:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 37.63,
+    "pricePerLitre": 91.25,
+    "totalCost": 3433.74,
+    "odometerKm": 3364.5,
+    "fuelStation": {
+      "stationId": "FS002",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000186",
+    "busId": "BUS0078",
+    "date": "2026-05-14T13:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 53.1,
+    "pricePerLitre": 91.25,
+    "totalCost": 4845.38,
+    "odometerKm": 27797.2,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000187",
+    "busId": "BUS0062",
+    "date": "2026-05-02T01:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 57.83,
+    "pricePerLitre": 78.5,
+    "totalCost": 4539.65,
+    "odometerKm": 26335.8,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000188",
+    "busId": "BUS0038",
+    "date": "2026-08-13T21:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 21031,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000189",
+    "busId": "BUS0042",
+    "date": "2026-08-14T08:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 14518.5,
+    "fuelStation": {
+      "stationId": "FS007",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000190",
+    "busId": "BUS0145",
+    "date": "2026-06-05T08:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 27.77,
+    "pricePerLitre": 91.25,
+    "totalCost": 2534.01,
+    "odometerKm": 40988.9,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000191",
+    "busId": "BUS0077",
+    "date": "2026-08-26T07:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 44.38,
+    "pricePerLitre": 91.25,
+    "totalCost": 4049.68,
+    "odometerKm": 13860.3,
+    "fuelStation": {
+      "stationId": "FS013",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000192",
+    "busId": "BUS0064",
+    "date": "2026-09-25T10:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 51.95,
+    "pricePerLitre": 78.5,
+    "totalCost": 4078.08,
+    "odometerKm": 25758.5,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000193",
+    "busId": "BUS0152",
+    "date": "2026-06-04T21:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 63.16,
+    "pricePerLitre": 78.5,
+    "totalCost": 4958.06,
+    "odometerKm": 11757,
+    "fuelStation": {
+      "stationId": "FS007",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000194",
+    "busId": "BUS0144",
+    "date": "2026-06-20T12:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 29.36,
+    "pricePerLitre": 91.25,
+    "totalCost": 2679.1,
+    "odometerKm": 32860.9,
+    "fuelStation": {
+      "stationId": "FS002",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000195",
+    "busId": "BUS0054",
+    "date": "2026-07-04T23:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 38.64,
+    "pricePerLitre": 78.5,
+    "totalCost": 3033.24,
+    "odometerKm": 48425.5,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000196",
+    "busId": "BUS0104",
+    "date": "2026-09-12T19:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 55.34,
+    "pricePerLitre": 91.25,
+    "totalCost": 5049.78,
+    "odometerKm": 45099.2,
+    "fuelStation": {
+      "stationId": "FS011",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000197",
+    "busId": "BUS0079",
+    "date": "2026-07-17T07:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 56.23,
+    "pricePerLitre": 91.25,
+    "totalCost": 5130.99,
+    "odometerKm": 15766.8,
+    "fuelStation": {
+      "stationId": "FS007",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000198",
+    "busId": "BUS0141",
+    "date": "2026-06-08T18:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 68.25,
+    "pricePerLitre": 91.25,
+    "totalCost": 6227.81,
+    "odometerKm": 8616.7,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000199",
+    "busId": "BUS0048",
+    "date": "2026-06-11T11:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 62.7,
+    "pricePerLitre": 91.25,
+    "totalCost": 5721.38,
+    "odometerKm": 28105.4,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000200",
+    "busId": "BUS0145",
+    "date": "2026-04-21T20:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 66.13,
+    "pricePerLitre": 91.25,
+    "totalCost": 6034.36,
+    "odometerKm": 34680,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000201",
+    "busId": "BUS0120",
+    "date": "2026-08-12T09:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 37.71,
+    "pricePerLitre": 91.25,
+    "totalCost": 3441.04,
+    "odometerKm": 12908.8,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000202",
+    "busId": "BUS0023",
+    "date": "2026-04-17T07:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 53.18,
+    "pricePerLitre": 78.5,
+    "totalCost": 4174.63,
+    "odometerKm": 27994.6,
+    "fuelStation": {
+      "stationId": "FS007",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000203",
+    "busId": "BUS0156",
+    "date": "2026-09-07T01:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 30.41,
+    "pricePerLitre": 78.5,
+    "totalCost": 2387.18,
+    "odometerKm": 5913.4,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000204",
+    "busId": "BUS0034",
+    "date": "2026-06-19T20:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 31.4,
+    "pricePerLitre": 91.25,
+    "totalCost": 2865.25,
+    "odometerKm": 38037.2,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000205",
+    "busId": "BUS0055",
+    "date": "2026-09-14T03:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 60.99,
+    "pricePerLitre": 91.25,
+    "totalCost": 5565.34,
+    "odometerKm": 27613.9,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000206",
+    "busId": "BUS0158",
+    "date": "2026-09-05T05:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 37.06,
+    "pricePerLitre": 91.25,
+    "totalCost": 3381.73,
+    "odometerKm": 20686.9,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000207",
+    "busId": "BUS0078",
+    "date": "2026-05-21T22:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 67.26,
+    "pricePerLitre": 91.25,
+    "totalCost": 6137.48,
+    "odometerKm": 28167.9,
+    "fuelStation": {
+      "stationId": "FS011",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000208",
+    "busId": "BUS0102",
+    "date": "2026-08-01T06:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 10022.5,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000209",
+    "busId": "BUS0053",
+    "date": "2026-09-15T07:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 42.89,
+    "pricePerLitre": 78.5,
+    "totalCost": 3366.87,
+    "odometerKm": 20337,
+    "fuelStation": {
+      "stationId": "FS003",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000210",
+    "busId": "BUS0002",
+    "date": "2026-08-23T12:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 57.89,
+    "pricePerLitre": 78.5,
+    "totalCost": 4544.36,
+    "odometerKm": 27511.7,
+    "fuelStation": {
+      "stationId": "FS011",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000211",
+    "busId": "BUS0150",
+    "date": "2026-05-20T23:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 46.16,
+    "pricePerLitre": 78.5,
+    "totalCost": 3623.56,
+    "odometerKm": 31875.2,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000212",
+    "busId": "BUS0142",
+    "date": "2026-05-04T20:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 36.77,
+    "pricePerLitre": 91.25,
+    "totalCost": 3355.26,
+    "odometerKm": 23853.7,
+    "fuelStation": {
+      "stationId": "FS013",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000213",
+    "busId": "BUS0079",
+    "date": "2026-05-02T09:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 50.5,
+    "pricePerLitre": 91.25,
+    "totalCost": 4608.13,
+    "odometerKm": 17440.7,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000214",
+    "busId": "BUS0145",
+    "date": "2026-09-04T16:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 57.63,
+    "pricePerLitre": 91.25,
+    "totalCost": 5258.74,
+    "odometerKm": 44786.3,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000215",
+    "busId": "BUS0131",
+    "date": "2026-05-07T13:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 28.73,
+    "pricePerLitre": 78.5,
+    "totalCost": 2255.3,
+    "odometerKm": 7725,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000216",
+    "busId": "BUS0126",
+    "date": "2026-09-08T04:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 46533.2,
+    "fuelStation": {
+      "stationId": "FS003",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000217",
+    "busId": "BUS0098",
+    "date": "2026-10-08T21:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 64.04,
+    "pricePerLitre": 91.25,
+    "totalCost": 5843.65,
+    "odometerKm": 28261.5,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000218",
+    "busId": "BUS0016",
+    "date": "2026-08-13T09:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 50.7,
+    "pricePerLitre": 91.25,
+    "totalCost": 4626.38,
+    "odometerKm": 26978.7,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000219",
+    "busId": "BUS0124",
+    "date": "2026-09-21T06:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 21352.3,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000220",
+    "busId": "BUS0144",
+    "date": "2026-04-22T17:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 53.03,
+    "pricePerLitre": 91.25,
+    "totalCost": 4838.99,
+    "odometerKm": 34554.6,
+    "fuelStation": {
+      "stationId": "FS007",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000221",
+    "busId": "BUS0013",
+    "date": "2026-05-28T20:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 48.29,
+    "pricePerLitre": 91.25,
+    "totalCost": 4406.46,
+    "odometerKm": 6021.9,
+    "fuelStation": {
+      "stationId": "FS007",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000222",
+    "busId": "BUS0029",
+    "date": "2026-07-09T08:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 27.19,
+    "pricePerLitre": 78.5,
+    "totalCost": 2134.41,
+    "odometerKm": 26777.1,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000223",
+    "busId": "BUS0020",
+    "date": "2026-04-18T03:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 18011.7,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000224",
+    "busId": "BUS0127",
+    "date": "2026-09-01T02:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 30584.7,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000225",
+    "busId": "BUS0030",
+    "date": "2026-08-22T00:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 60.35,
+    "pricePerLitre": 91.25,
+    "totalCost": 5506.94,
+    "odometerKm": 21117,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000226",
+    "busId": "BUS0039",
+    "date": "2026-07-07T17:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 38.08,
+    "pricePerLitre": 91.25,
+    "totalCost": 3474.8,
+    "odometerKm": 3873,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000227",
+    "busId": "BUS0008",
+    "date": "2026-08-02T06:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 29.8,
+    "pricePerLitre": 78.5,
+    "totalCost": 2339.3,
+    "odometerKm": 11433.4,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000228",
+    "busId": "BUS0093",
+    "date": "2026-04-16T04:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 59.88,
+    "pricePerLitre": 78.5,
+    "totalCost": 4700.58,
+    "odometerKm": 24014,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000229",
+    "busId": "BUS0028",
+    "date": "2026-06-29T07:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 38.5,
+    "pricePerLitre": 91.25,
+    "totalCost": 3513.13,
+    "odometerKm": 26673.2,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000230",
+    "busId": "BUS0136",
+    "date": "2026-06-12T16:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 66.85,
+    "pricePerLitre": 91.25,
+    "totalCost": 6100.06,
+    "odometerKm": 18280.8,
+    "fuelStation": {
+      "stationId": "FS007",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000231",
+    "busId": "BUS0145",
+    "date": "2026-09-30T14:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 25.23,
+    "pricePerLitre": 91.25,
+    "totalCost": 2302.24,
+    "odometerKm": 37089.7,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000232",
+    "busId": "BUS0135",
+    "date": "2026-06-19T23:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 63.88,
+    "pricePerLitre": 91.25,
+    "totalCost": 5829.05,
+    "odometerKm": 22827.7,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000233",
+    "busId": "BUS0091",
+    "date": "2026-05-15T07:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 46743,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000234",
+    "busId": "BUS0093",
+    "date": "2026-09-08T12:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 68.72,
+    "pricePerLitre": 78.5,
+    "totalCost": 5394.52,
+    "odometerKm": 28637.7,
+    "fuelStation": {
+      "stationId": "FS002",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000235",
+    "busId": "BUS0150",
+    "date": "2026-08-10T03:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 58.68,
+    "pricePerLitre": 78.5,
+    "totalCost": 4606.38,
+    "odometerKm": 39004.2,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000236",
+    "busId": "BUS0114",
+    "date": "2026-06-26T06:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 5365.3,
+    "fuelStation": {
+      "stationId": "FS002",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000237",
+    "busId": "BUS0071",
+    "date": "2026-06-20T23:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 54.82,
+    "pricePerLitre": 91.25,
+    "totalCost": 5002.32,
+    "odometerKm": 23432.1,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000238",
+    "busId": "BUS0141",
+    "date": "2026-08-27T03:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 39.92,
+    "pricePerLitre": 91.25,
+    "totalCost": 3642.7,
+    "odometerKm": 9762.8,
+    "fuelStation": {
+      "stationId": "FS003",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000239",
+    "busId": "BUS0102",
+    "date": "2026-07-30T00:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 11403.6,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000240",
+    "busId": "BUS0091",
+    "date": "2026-07-15T13:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 28507.9,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000241",
+    "busId": "BUS0137",
+    "date": "2026-09-11T16:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 34.67,
+    "pricePerLitre": 91.25,
+    "totalCost": 3163.64,
+    "odometerKm": 5014.1,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000242",
+    "busId": "BUS0023",
+    "date": "2026-09-05T00:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 46.13,
+    "pricePerLitre": 78.5,
+    "totalCost": 3621.21,
+    "odometerKm": 25303.2,
+    "fuelStation": {
+      "stationId": "FS008",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000243",
+    "busId": "BUS0008",
+    "date": "2026-07-16T03:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 34.06,
+    "pricePerLitre": 78.5,
+    "totalCost": 2673.71,
+    "odometerKm": 8431.9,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000244",
+    "busId": "BUS0026",
+    "date": "2026-06-17T23:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 34.68,
+    "pricePerLitre": 91.25,
+    "totalCost": 3164.55,
+    "odometerKm": 32772.6,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000245",
+    "busId": "BUS0127",
+    "date": "2026-09-05T23:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 27991.1,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000246",
+    "busId": "BUS0064",
+    "date": "2026-06-08T06:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 44.02,
+    "pricePerLitre": 78.5,
+    "totalCost": 3455.57,
+    "odometerKm": 27776.3,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000247",
+    "busId": "BUS0099",
+    "date": "2026-09-05T00:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 41.92,
+    "pricePerLitre": 91.25,
+    "totalCost": 3825.2,
+    "odometerKm": 9166.7,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000248",
+    "busId": "BUS0130",
+    "date": "2026-08-18T08:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 62.04,
+    "pricePerLitre": 91.25,
+    "totalCost": 5661.15,
+    "odometerKm": 37861.9,
+    "fuelStation": {
+      "stationId": "FS011",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000249",
+    "busId": "BUS0110",
+    "date": "2026-05-20T09:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 30.11,
+    "pricePerLitre": 78.5,
+    "totalCost": 2363.63,
+    "odometerKm": 19685,
+    "fuelStation": {
+      "stationId": "FS013",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000250",
+    "busId": "BUS0088",
+    "date": "2026-10-05T01:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 43.34,
+    "pricePerLitre": 91.25,
+    "totalCost": 3954.78,
+    "odometerKm": 9302.5,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000251",
+    "busId": "BUS0152",
+    "date": "2026-09-08T23:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 53.07,
+    "pricePerLitre": 78.5,
+    "totalCost": 4165.99,
+    "odometerKm": 14477.5,
+    "fuelStation": {
+      "stationId": "FS013",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000252",
+    "busId": "BUS0131",
+    "date": "2026-06-26T12:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 56.44,
+    "pricePerLitre": 78.5,
+    "totalCost": 4430.54,
+    "odometerKm": 11757.1,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000253",
+    "busId": "BUS0036",
+    "date": "2026-08-27T03:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 32.14,
+    "pricePerLitre": 91.25,
+    "totalCost": 2932.78,
+    "odometerKm": 3186.9,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000254",
+    "busId": "BUS0110",
+    "date": "2026-08-13T21:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 25.24,
+    "pricePerLitre": 78.5,
+    "totalCost": 1981.34,
+    "odometerKm": 16072.6,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000255",
+    "busId": "BUS0159",
+    "date": "2026-06-15T23:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 66.05,
+    "pricePerLitre": 91.25,
+    "totalCost": 6027.06,
+    "odometerKm": 49572.7,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000256",
+    "busId": "BUS0107",
+    "date": "2026-05-29T20:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 30165.9,
+    "fuelStation": {
+      "stationId": "FS007",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000257",
+    "busId": "BUS0090",
+    "date": "2026-04-24T21:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 13945.1,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000258",
+    "busId": "BUS0041",
+    "date": "2026-08-24T13:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 48.76,
+    "pricePerLitre": 91.25,
+    "totalCost": 4449.35,
+    "odometerKm": 40746.6,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000259",
+    "busId": "BUS0130",
+    "date": "2026-07-12T19:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 45.46,
+    "pricePerLitre": 91.25,
+    "totalCost": 4148.23,
+    "odometerKm": 26779.6,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000260",
+    "busId": "BUS0054",
+    "date": "2026-07-09T18:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 34.63,
+    "pricePerLitre": 78.5,
+    "totalCost": 2718.46,
+    "odometerKm": 41951.8,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000261",
+    "busId": "BUS0102",
+    "date": "2026-08-30T18:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 8901.4,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000262",
+    "busId": "BUS0120",
+    "date": "2026-05-17T15:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 25.74,
+    "pricePerLitre": 91.25,
+    "totalCost": 2348.77,
+    "odometerKm": 12540.5,
+    "fuelStation": {
+      "stationId": "FS008",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000263",
+    "busId": "BUS0053",
+    "date": "2026-08-01T16:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 30.08,
+    "pricePerLitre": 78.5,
+    "totalCost": 2361.28,
+    "odometerKm": 20204.8,
+    "fuelStation": {
+      "stationId": "FS002",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000264",
+    "busId": "BUS0147",
+    "date": "2026-07-18T20:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 56.55,
+    "pricePerLitre": 78.5,
+    "totalCost": 4439.18,
+    "odometerKm": 51260.4,
+    "fuelStation": {
+      "stationId": "FS008",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000265",
+    "busId": "BUS0142",
+    "date": "2026-07-20T07:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 53,
+    "pricePerLitre": 91.25,
+    "totalCost": 4836.25,
+    "odometerKm": 19612.3,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000266",
+    "busId": "BUS0057",
+    "date": "2026-08-23T07:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 58.72,
+    "pricePerLitre": 78.5,
+    "totalCost": 4609.52,
+    "odometerKm": 13587,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000267",
+    "busId": "BUS0113",
+    "date": "2026-05-25T12:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 25.95,
+    "pricePerLitre": 78.5,
+    "totalCost": 2037.08,
+    "odometerKm": 31686.3,
+    "fuelStation": {
+      "stationId": "FS002",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000268",
+    "busId": "BUS0075",
+    "date": "2026-07-04T06:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 12710.4,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000269",
+    "busId": "BUS0015",
+    "date": "2026-06-02T23:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 45.47,
+    "pricePerLitre": 78.5,
+    "totalCost": 3569.39,
+    "odometerKm": 37709.8,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000270",
+    "busId": "BUS0003",
+    "date": "2026-07-07T06:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 36.76,
+    "pricePerLitre": 91.25,
+    "totalCost": 3354.35,
+    "odometerKm": 25723.9,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000271",
+    "busId": "BUS0137",
+    "date": "2026-05-31T22:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 26.93,
+    "pricePerLitre": 91.25,
+    "totalCost": 2457.36,
+    "odometerKm": 5057.9,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000272",
+    "busId": "BUS0083",
+    "date": "2026-08-17T09:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 53.21,
+    "pricePerLitre": 91.25,
+    "totalCost": 4855.41,
+    "odometerKm": 18641.2,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000273",
+    "busId": "BUS0099",
+    "date": "2026-05-28T15:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 66.64,
+    "pricePerLitre": 91.25,
+    "totalCost": 6080.9,
+    "odometerKm": 14204.6,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000274",
+    "busId": "BUS0149",
+    "date": "2026-06-11T14:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 14478.7,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000275",
+    "busId": "BUS0119",
+    "date": "2026-07-26T01:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 47.78,
+    "pricePerLitre": 91.25,
+    "totalCost": 4359.93,
+    "odometerKm": 20643.7,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000276",
+    "busId": "BUS0112",
+    "date": "2026-08-11T06:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 22793,
+    "fuelStation": {
+      "stationId": "FS007",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000277",
+    "busId": "BUS0077",
+    "date": "2026-07-17T05:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 62.07,
+    "pricePerLitre": 91.25,
+    "totalCost": 5663.89,
+    "odometerKm": 9984.7,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000278",
+    "busId": "BUS0043",
+    "date": "2026-09-11T08:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 11871.4,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000279",
+    "busId": "BUS0068",
+    "date": "2026-07-03T09:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 53.68,
+    "pricePerLitre": 91.25,
+    "totalCost": 4898.3,
+    "odometerKm": 40261,
+    "fuelStation": {
+      "stationId": "FS003",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000280",
+    "busId": "BUS0009",
+    "date": "2026-08-25T18:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 33648,
+    "fuelStation": {
+      "stationId": "FS008",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000281",
+    "busId": "BUS0152",
+    "date": "2026-05-01T12:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 46.7,
+    "pricePerLitre": 78.5,
+    "totalCost": 3665.95,
+    "odometerKm": 20838.4,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000282",
+    "busId": "BUS0133",
+    "date": "2026-06-09T09:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 63.39,
+    "pricePerLitre": 78.5,
+    "totalCost": 4976.11,
+    "odometerKm": 25160.7,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000283",
+    "busId": "BUS0012",
+    "date": "2026-08-21T19:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 44.26,
+    "pricePerLitre": 78.5,
+    "totalCost": 3474.41,
+    "odometerKm": 15544.3,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000284",
+    "busId": "BUS0029",
+    "date": "2026-08-25T02:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 49.38,
+    "pricePerLitre": 78.5,
+    "totalCost": 3876.33,
+    "odometerKm": 23320.6,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000285",
+    "busId": "BUS0097",
+    "date": "2026-07-19T12:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 63.66,
+    "pricePerLitre": 78.5,
+    "totalCost": 4997.31,
+    "odometerKm": 29750.7,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000286",
+    "busId": "BUS0080",
+    "date": "2026-07-29T13:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 67.65,
+    "pricePerLitre": 78.5,
+    "totalCost": 5310.53,
+    "odometerKm": 14895.5,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000287",
+    "busId": "BUS0002",
+    "date": "2026-05-12T14:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 32.32,
+    "pricePerLitre": 78.5,
+    "totalCost": 2537.12,
+    "odometerKm": 45756.7,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000288",
+    "busId": "BUS0023",
+    "date": "2026-08-23T06:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 62.95,
+    "pricePerLitre": 78.5,
+    "totalCost": 4941.57,
+    "odometerKm": 31829.3,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000289",
+    "busId": "BUS0030",
+    "date": "2026-06-24T12:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 62.08,
+    "pricePerLitre": 91.25,
+    "totalCost": 5664.8,
+    "odometerKm": 20971.1,
+    "fuelStation": {
+      "stationId": "FS002",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000290",
+    "busId": "BUS0110",
+    "date": "2026-05-15T13:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 36.5,
+    "pricePerLitre": 78.5,
+    "totalCost": 2865.25,
+    "odometerKm": 26166.5,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000291",
+    "busId": "BUS0003",
+    "date": "2026-05-26T02:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 58.31,
+    "pricePerLitre": 91.25,
+    "totalCost": 5320.79,
+    "odometerKm": 18643.5,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000292",
+    "busId": "BUS0076",
+    "date": "2026-04-29T20:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 60.06,
+    "pricePerLitre": 78.5,
+    "totalCost": 4714.71,
+    "odometerKm": 14221.9,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000293",
+    "busId": "BUS0153",
+    "date": "2026-07-05T23:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 30380.2,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000294",
+    "busId": "BUS0051",
+    "date": "2026-09-05T08:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 25523.1,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000295",
+    "busId": "BUS0020",
+    "date": "2026-09-04T16:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 24057.2,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000296",
+    "busId": "BUS0111",
+    "date": "2026-08-01T19:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 32.03,
+    "pricePerLitre": 91.25,
+    "totalCost": 2922.74,
+    "odometerKm": 3920.4,
+    "fuelStation": {
+      "stationId": "FS013",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000297",
+    "busId": "BUS0135",
+    "date": "2026-09-25T04:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 60.59,
+    "pricePerLitre": 91.25,
+    "totalCost": 5528.84,
+    "odometerKm": 31862.7,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000298",
+    "busId": "BUS0032",
+    "date": "2026-08-28T01:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 41.65,
+    "pricePerLitre": 91.25,
+    "totalCost": 3800.56,
+    "odometerKm": 26628.1,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000299",
+    "busId": "BUS0012",
+    "date": "2026-09-22T06:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 39.88,
+    "pricePerLitre": 78.5,
+    "totalCost": 3130.58,
+    "odometerKm": 19862.1,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000300",
+    "busId": "BUS0057",
+    "date": "2026-06-11T15:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 35.75,
+    "pricePerLitre": 78.5,
+    "totalCost": 2806.38,
+    "odometerKm": 13160.4,
+    "fuelStation": {
+      "stationId": "FS011",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000301",
+    "busId": "BUS0063",
+    "date": "2026-05-03T06:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 25720,
+    "fuelStation": {
+      "stationId": "FS011",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000302",
+    "busId": "BUS0143",
+    "date": "2026-07-24T04:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 31.26,
+    "pricePerLitre": 91.25,
+    "totalCost": 2852.48,
+    "odometerKm": 29150.3,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000303",
+    "busId": "BUS0040",
+    "date": "2026-06-10T06:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 53.56,
+    "pricePerLitre": 91.25,
+    "totalCost": 4887.35,
+    "odometerKm": 37993.5,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000304",
+    "busId": "BUS0042",
+    "date": "2026-05-19T00:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 18399.8,
+    "fuelStation": {
+      "stationId": "FS002",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000305",
+    "busId": "BUS0086",
+    "date": "2026-07-08T04:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 29.8,
+    "pricePerLitre": 78.5,
+    "totalCost": 2339.3,
+    "odometerKm": 43675.1,
+    "fuelStation": {
+      "stationId": "FS007",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000306",
+    "busId": "BUS0157",
+    "date": "2026-09-09T03:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 31805.6,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000307",
+    "busId": "BUS0077",
+    "date": "2026-06-22T06:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 62.14,
+    "pricePerLitre": 91.25,
+    "totalCost": 5670.27,
+    "odometerKm": 12281.1,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000308",
+    "busId": "BUS0006",
+    "date": "2026-07-31T12:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 51.16,
+    "pricePerLitre": 91.25,
+    "totalCost": 4668.35,
+    "odometerKm": 28077.4,
+    "fuelStation": {
+      "stationId": "FS008",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000309",
+    "busId": "BUS0012",
+    "date": "2026-04-16T19:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 58.33,
+    "pricePerLitre": 78.5,
+    "totalCost": 4578.9,
+    "odometerKm": 12751.3,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000310",
+    "busId": "BUS0053",
+    "date": "2026-07-11T18:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 33.01,
+    "pricePerLitre": 78.5,
+    "totalCost": 2591.28,
+    "odometerKm": 22561.5,
+    "fuelStation": {
+      "stationId": "FS011",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000311",
+    "busId": "BUS0088",
+    "date": "2026-07-04T00:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 41.26,
+    "pricePerLitre": 91.25,
+    "totalCost": 3764.97,
+    "odometerKm": 10729.3,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000312",
+    "busId": "BUS0079",
+    "date": "2026-07-17T13:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 42.09,
+    "pricePerLitre": 91.25,
+    "totalCost": 3840.71,
+    "odometerKm": 11685.5,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000313",
+    "busId": "BUS0154",
+    "date": "2026-08-15T12:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 60.06,
+    "pricePerLitre": 91.25,
+    "totalCost": 5480.48,
+    "odometerKm": 21995.9,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000314",
+    "busId": "BUS0155",
+    "date": "2026-09-02T00:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 10497.3,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000315",
+    "busId": "BUS0051",
+    "date": "2026-04-29T08:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 29017.8,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000316",
+    "busId": "BUS0120",
+    "date": "2026-05-18T07:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 35.89,
+    "pricePerLitre": 91.25,
+    "totalCost": 3274.96,
+    "odometerKm": 9251.1,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000317",
+    "busId": "BUS0058",
+    "date": "2026-06-19T22:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 53.71,
+    "pricePerLitre": 78.5,
+    "totalCost": 4216.23,
+    "odometerKm": 24646,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000318",
+    "busId": "BUS0113",
+    "date": "2026-06-09T09:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 65.28,
+    "pricePerLitre": 78.5,
+    "totalCost": 5124.48,
+    "odometerKm": 41293.2,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000319",
+    "busId": "BUS0001",
+    "date": "2026-10-04T06:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 52.99,
+    "pricePerLitre": 91.25,
+    "totalCost": 4835.34,
+    "odometerKm": 25949.7,
+    "fuelStation": {
+      "stationId": "FS011",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000320",
+    "busId": "BUS0009",
+    "date": "2026-07-07T05:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 24853.5,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000321",
+    "busId": "BUS0049",
+    "date": "2026-09-28T15:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 25663.4,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000322",
+    "busId": "BUS0048",
+    "date": "2026-09-25T13:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 29.68,
+    "pricePerLitre": 91.25,
+    "totalCost": 2708.3,
+    "odometerKm": 27503.1,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000323",
+    "busId": "BUS0074",
+    "date": "2026-04-13T00:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 39.49,
+    "pricePerLitre": 91.25,
+    "totalCost": 3603.46,
+    "odometerKm": 29057.7,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000324",
+    "busId": "BUS0105",
+    "date": "2026-08-21T04:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 26702.8,
+    "fuelStation": {
+      "stationId": "FS011",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000325",
+    "busId": "BUS0056",
+    "date": "2026-09-11T04:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 68.32,
+    "pricePerLitre": 78.5,
+    "totalCost": 5363.12,
+    "odometerKm": 35133.1,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000326",
+    "busId": "BUS0033",
+    "date": "2026-05-23T09:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 59.42,
+    "pricePerLitre": 91.25,
+    "totalCost": 5422.07,
+    "odometerKm": 7365,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000327",
+    "busId": "BUS0040",
+    "date": "2026-09-26T11:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 41,
+    "pricePerLitre": 91.25,
+    "totalCost": 3741.25,
+    "odometerKm": 46261,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000328",
+    "busId": "BUS0106",
+    "date": "2026-06-29T21:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 55.66,
+    "pricePerLitre": 91.25,
+    "totalCost": 5078.97,
+    "odometerKm": 7303.2,
+    "fuelStation": {
+      "stationId": "FS015",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000329",
+    "busId": "BUS0038",
+    "date": "2026-09-17T18:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 17988.5,
+    "fuelStation": {
+      "stationId": "FS003",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000330",
+    "busId": "BUS0031",
+    "date": "2026-08-10T12:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 25.07,
+    "pricePerLitre": 91.25,
+    "totalCost": 2287.64,
+    "odometerKm": 15413.9,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000331",
+    "busId": "BUS0140",
+    "date": "2026-09-09T10:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 29.44,
+    "pricePerLitre": 91.25,
+    "totalCost": 2686.4,
+    "odometerKm": 9771.3,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000332",
+    "busId": "BUS0126",
+    "date": "2026-10-03T15:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 29353.9,
+    "fuelStation": {
+      "stationId": "FS007",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000333",
+    "busId": "BUS0138",
+    "date": "2026-08-29T08:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 43.41,
+    "pricePerLitre": 91.25,
+    "totalCost": 3961.16,
+    "odometerKm": 27324.4,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000334",
+    "busId": "BUS0110",
+    "date": "2026-05-11T19:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 64.55,
+    "pricePerLitre": 78.5,
+    "totalCost": 5067.18,
+    "odometerKm": 27076.3,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000335",
+    "busId": "BUS0105",
+    "date": "2026-06-09T07:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 23266.1,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000336",
+    "busId": "BUS0077",
+    "date": "2026-04-29T04:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 64.18,
+    "pricePerLitre": 91.25,
+    "totalCost": 5856.43,
+    "odometerKm": 13735,
+    "fuelStation": {
+      "stationId": "FS010",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000337",
+    "busId": "BUS0010",
+    "date": "2026-09-16T10:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 43.74,
+    "pricePerLitre": 91.25,
+    "totalCost": 3991.28,
+    "odometerKm": 26687.5,
+    "fuelStation": {
+      "stationId": "FS008",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000338",
+    "busId": "BUS0019",
+    "date": "2026-05-31T00:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 56.23,
+    "pricePerLitre": 91.25,
+    "totalCost": 5130.99,
+    "odometerKm": 43644.7,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000339",
+    "busId": "BUS0142",
+    "date": "2026-04-28T07:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 50.74,
+    "pricePerLitre": 91.25,
+    "totalCost": 4630.03,
+    "odometerKm": 28026.3,
+    "fuelStation": {
+      "stationId": "FS002",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000340",
+    "busId": "BUS0046",
+    "date": "2026-09-09T03:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 40.75,
+    "pricePerLitre": 91.25,
+    "totalCost": 3718.44,
+    "odometerKm": 22249.8,
+    "fuelStation": {
+      "stationId": "FS008",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000341",
+    "busId": "BUS0105",
+    "date": "2026-07-05T19:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 25472.6,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000342",
+    "busId": "BUS0104",
+    "date": "2026-07-25T15:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 51.7,
+    "pricePerLitre": 91.25,
+    "totalCost": 4717.63,
+    "odometerKm": 23983.3,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000343",
+    "busId": "BUS0079",
+    "date": "2026-07-10T08:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 61.77,
+    "pricePerLitre": 91.25,
+    "totalCost": 5636.51,
+    "odometerKm": 11317.5,
+    "fuelStation": {
+      "stationId": "FS002",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000344",
+    "busId": "BUS0035",
+    "date": "2026-06-07T17:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 29.74,
+    "pricePerLitre": 91.25,
+    "totalCost": 2713.77,
+    "odometerKm": 28024,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000345",
+    "busId": "BUS0139",
+    "date": "2026-08-16T07:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 38.58,
+    "pricePerLitre": 78.5,
+    "totalCost": 3028.53,
+    "odometerKm": 9700.2,
+    "fuelStation": {
+      "stationId": "FS002",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000346",
+    "busId": "BUS0042",
+    "date": "2026-08-02T07:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 28900.6,
+    "fuelStation": {
+      "stationId": "FS006",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000347",
+    "busId": "BUS0080",
+    "date": "2026-06-30T02:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 69.85,
+    "pricePerLitre": 78.5,
+    "totalCost": 5483.22,
+    "odometerKm": 15882.6,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000348",
+    "busId": "BUS0067",
+    "date": "2026-07-04T10:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 61.35,
+    "pricePerLitre": 91.25,
+    "totalCost": 5598.19,
+    "odometerKm": 15231.2,
+    "fuelStation": {
+      "stationId": "FS013",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000349",
+    "busId": "BUS0022",
+    "date": "2026-06-11T17:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 32.27,
+    "pricePerLitre": 91.25,
+    "totalCost": 2944.64,
+    "odometerKm": 4298.7,
+    "fuelStation": {
+      "stationId": "FS009",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000350",
+    "busId": "BUS0009",
+    "date": "2026-08-30T22:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 33963,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000351",
+    "busId": "BUS0112",
+    "date": "2026-06-10T03:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 17660.2,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000352",
+    "busId": "BUS0124",
+    "date": "2026-09-10T22:11:08.581Z",
+    "fuelType": "ELECTRIC",
+    "quantityLitres": 0,
+    "pricePerLitre": 0,
+    "totalCost": 0,
+    "odometerKm": 30434.2,
+    "fuelStation": {
+      "stationId": "FS003",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000353",
+    "busId": "BUS0159",
+    "date": "2026-09-20T20:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 41.04,
+    "pricePerLitre": 91.25,
+    "totalCost": 3744.9,
+    "odometerKm": 35020.7,
+    "fuelStation": {
+      "stationId": "FS014",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000354",
+    "busId": "BUS0024",
+    "date": "2026-10-09T22:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 33,
+    "pricePerLitre": 91.25,
+    "totalCost": 3011.25,
+    "odometerKm": 35915,
+    "fuelStation": {
+      "stationId": "FS005",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000355",
+    "busId": "BUS0036",
+    "date": "2026-06-20T07:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 60.38,
+    "pricePerLitre": 91.25,
+    "totalCost": 5509.68,
+    "odometerKm": 4459.4,
+    "fuelStation": {
+      "stationId": "FS011",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000356",
+    "busId": "BUS0136",
+    "date": "2026-08-05T19:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 45.95,
+    "pricePerLitre": 91.25,
+    "totalCost": 4192.94,
+    "odometerKm": 18145.3,
+    "fuelStation": {
+      "stationId": "FS011",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000357",
+    "busId": "BUS0036",
+    "date": "2026-07-29T06:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 56.66,
+    "pricePerLitre": 91.25,
+    "totalCost": 5170.22,
+    "odometerKm": 5257.9,
+    "fuelStation": {
+      "stationId": "FS012",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  },
+  {
+    "fuelRecordId": "FUEL000358",
+    "busId": "BUS0036",
+    "date": "2026-06-29T11:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 57.64,
+    "pricePerLitre": 91.25,
+    "totalCost": 5259.65,
+    "odometerKm": 3417.2,
+    "fuelStation": {
+      "stationId": "FS004",
+      "name": "BPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000359",
+    "busId": "BUS0109",
+    "date": "2026-09-17T12:11:08.581Z",
+    "fuelType": "CNG",
+    "quantityLitres": 29.02,
+    "pricePerLitre": 78.5,
+    "totalCost": 2278.07,
+    "odometerKm": 17467,
+    "fuelStation": {
+      "stationId": "FS001",
+      "name": "IOCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "ACCOUNT"
+  },
+  {
+    "fuelRecordId": "FUEL000360",
+    "busId": "BUS0016",
+    "date": "2026-08-14T10:11:08.581Z",
+    "fuelType": "DIESEL",
+    "quantityLitres": 40.54,
+    "pricePerLitre": 91.25,
+    "totalCost": 3699.28,
+    "odometerKm": 28210.8,
+    "fuelStation": {
+      "stationId": "FS011",
+      "name": "HPCL Fleet Station",
+      "city": "Bengaluru"
+    },
+    "paymentMode": "FLEET_CARD"
+  }
+]
