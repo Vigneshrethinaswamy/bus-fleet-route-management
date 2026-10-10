@@ -5,7 +5,7 @@
 The following results were observed during project validation. Re-run the relevant scripts in your own environment to reproduce them.
 
 - The primary database, `bus_fleet_management`, contains **2,010 synthetic documents across 10 collections**.
-- The final audit completed **42 checks with 0 failures** against the validated source database and migration target.
+- The last recorded final audit completed **42 checks with 0 failures** against the source database and migration target. Re-run it after syncing if the local database has changed.
 - Unique business-key indexes were checked by the final audit.
 - Trip, maintenance, and fuel-record references to buses, drivers, and routes were checked.
 - The earlier Node.js transaction demonstration passed commit and rollback checks. The transaction script has since been strengthened to update bus, driver, and trip state atomically; its revised version still needs a fresh local run.
@@ -22,13 +22,13 @@ Run these from the repository root after completing the database setup and impor
 | Database validation | `mongosh validate_database.js` |
 | CRUD operations | `mongosh crud_demo.js` |
 | Query operators | `mongosh query_operators_demo.js` |
-| Aggregation pipelines | `mongosh aggregation_demo.js` |
+| Aggregation pipelines (16 current pipelines) | `mongosh aggregation_demo.js` |
 | Aggregation screenshot/interpretation guide | `docs/aggregation_results_and_interpretation.md` |
 | Atomic assignment transaction and rollback | `node transaction_demo.cjs` |
 | Simulated relational-style JSON migration | `node migration_demo.cjs` |
 | Final database audit | `mongosh final_project_audit.js` |
 
-The migration demonstration creates a new timestamped target database on each successful run. The final audit checks the latest matching migration target, so run the migration demonstration before the final audit. The scripts print their validation results to the terminal; run logs are not required for the project to function.
+The migration demonstration creates a new timestamped target database on each successful run. The final audit checks the latest matching migration target, so run the migration demonstration before the final audit. The aggregation script and transaction demo have been updated since earlier successful runs. Re-run both locally and capture the current output for submission. The scripts print their validation results to the terminal; saved screenshots are still required as submission evidence.
 
 ## Claims and limitations
 
