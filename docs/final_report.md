@@ -63,7 +63,7 @@ The project defines unique business-key indexes and supporting sparse, compound,
 
 ## 7. Mandatory business transaction
 
-The transaction demonstration uses MongoDB sessions and a replica-set connection to demonstrate a committed operation and an aborted operation. It validates the presence of test references and removes temporary records afterward, then verifies that collection counts return to their initial values. The main assignment transaction is designed around bus/trip assignment, with related status and transaction/audit records intended to be handled atomically. The demo's exact writes and limitations should be explained using `transaction_demo.cjs` and its actual output.
+The revised transaction demonstration uses MongoDB sessions and a replica-set connection to select an available bus, available driver, scheduled trip, and active user. Its commit transaction updates bus status/driver assignment, driver status, and trip status/assignment, and inserts the transaction record and audit activity together. A second transaction performs the same kind of writes and aborts; the script verifies that the updates and inserted records do not persist. It restores the original operational state, removes temporary records, and checks that collection counts return to their initial values. The revised script must be run locally before these results are claimed as freshly verified.
 
 ## 8. RDBMS-to-MongoDB migration
 
@@ -90,7 +90,7 @@ The recorded final audit checked:
 - Preservation of 709 embedded route stops.
 - Migration trip references.
 
-The latest run reported **42 checks executed, 0 failed**, and 2,010 source documents. Separate prior runs of CRUD, query, aggregation, transaction, and migration demonstrations also passed. Re-run the scripts before submission and retain screenshots/logs of the current results.
+The latest run reported **42 checks executed, 0 failed**, and 2,010 source documents. Separate prior runs of CRUD, query, aggregation, and migration demonstrations passed. The transaction script has since been strengthened, so its revised version still needs a fresh local run. Re-run the scripts before submission and retain screenshots/logs of the current results.
 
 ## 12. Limitations and future work
 
