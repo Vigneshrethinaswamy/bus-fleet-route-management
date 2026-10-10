@@ -95,7 +95,7 @@ The project benchmarks a compound index against a collection scan for a trip-sta
 
 ## Architecture and project evidence
 
-- `docs/architecture.md` — database design
+- `docs/architecture.md` — database design and Mermaid schema/relationship diagram
 - `docs/requirement_matrix.md` — requirement coverage
 - `docs/database_comparison_cap_migration.md` — database comparison, CAP, replica sets, sharding, and migration discussion
 - `docs/EVIDENCE.md` — implementation and validation evidence
