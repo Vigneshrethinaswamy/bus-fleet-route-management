@@ -135,7 +135,7 @@ print("\n=== MIGRATION DATABASE ===");
 const databaseNames = admin.runCommand({ listDatabases: 1, nameOnly: true })
   .databases.map(item => item.name);
 const migrationTargets = databaseNames
-  .filter(name => /^bus_fleet_migration_demo_\\d{14}$/.test(name))
+  .filter(name => /^bus_fleet_migration_demo_[0-9]{14}$/.test(name))
   .sort()
   .reverse();
 const migrationTargetName = migrationTargets[0];
