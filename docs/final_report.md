@@ -53,9 +53,9 @@ The project includes create, read, update, and delete examples, along with query
 
 ## 5. Aggregation and analytical reporting
 
-The aggregation demonstration contains 14 pipelines, including trip counts by status, largest status group, average passengers by trip type, top routes by revenue, revenue statistics, joins with buses/routes/drivers, bus utilization, fuel cost, maintenance cost, grouped lists with `$push` and `$addToSet`, paginated trip reporting with `$skip` and `$limit`, and route-stop analysis with `$unwind`.
+The aggregation demonstration contains 16 pipelines, including trip counts by status, largest status group, average passengers by trip type, top routes by revenue, revenue statistics, joins with buses/routes/drivers, bus utilization, fuel cost, maintenance cost, grouped lists with `$push` and `$addToSet`, paginated trip reporting with `$skip` and `$limit`, and route-stop analysis with `$unwind`.
 
-The actual outputs and interpretations should be recorded from a local run. See [aggregation_results_and_interpretation.md](aggregation_results_and_interpretation.md) for the rubric mapping and screenshot checklist.
+The actual outputs and interpretations should be recorded from a fresh local run of the current 16-pipeline version. See [aggregation_results_and_interpretation.md](aggregation_results_and_interpretation.md) for the rubric mapping and screenshot checklist.
 
 ## 6. Indexing and execution statistics
 
@@ -90,7 +90,7 @@ The recorded final audit checked:
 - Preservation of 709 embedded route stops.
 - Migration trip references.
 
-The latest run reported **42 checks executed, 0 failed**, and 2,010 source documents. Separate prior runs of CRUD, query, aggregation, and migration demonstrations passed. The transaction script has since been strengthened, so its revised version still needs a fresh local run. Re-run the scripts before submission and retain screenshots/logs of the current results.
+The latest run reported **42 checks executed, 0 failed**, and 2,010 source documents. Separate prior runs of CRUD, query, aggregation, transaction, and migration demonstrations passed. The aggregation script and transaction script have since been strengthened, so both revised versions still need fresh local runs. Re-run the scripts before submission and retain screenshots/logs of the current results.
 
 ## 12. Limitations and future work
 
