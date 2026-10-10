@@ -132,7 +132,23 @@ print("\n=== SOURCE REFERENCE INTEGRITY ===");
 
 print("\n=== MIGRATION DATABASE ===");
 
-const migration = db.getSiblingDB("bus_fleet_migration_demo_20261010064605");
+const databaseNames = admin.runCommand({ listDatabases: 1, nameOnly: true })
+  .databases.map(item => item.name);
+const migrationTargets = databaseNames
+  .filter(name => /^bus_fleet_migration_demo_\\d{14}$/.test(name))
+  .sort()
+  .reverse();
+const migrationTargetName = migrationTargets[0];
+
+check(
+  Boolean(migrationTargetName),
+  "A timestamped migration demo database exists"
+);
+
+const migration = db.getSiblingDB(
+  migrationTargetName || "bus_fleet_migration_demo_unavailable"
+);
+print("Auditing migration target: " + (migrationTargetName || "not found"));
 const migrationNames = migration.getCollectionNames().sort();
 
 check(
