@@ -25,7 +25,7 @@
 | `$avg` | Passenger/stop/fuel metrics |
 | `$min` / `$max` | Revenue/distance ranges |
 | `$push` | Grouped route lists |
-| `$addToSet` | Unique bus types |
+| `$addToSet` | Distinct trip statuses by route in aggregation pipeline 11 |
 | `$unwind` | Route stops / maintenance parts |
 | Unique index | Bus registration |
 | Sparse index | Optional GPS device |
