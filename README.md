@@ -14,7 +14,7 @@ A MongoDB and Node.js academic project for managing a synthetic bus fleet, drive
 
 `users`, `masterData`, `buses`, `drivers`, `routes`, `trips`, `maintenance`, `fuelRecords`, `transactions`, and `activities`.
 
-The design demonstrates referenced documents, embedded arrays, validation, unique and compound indexes, CRUD operations, aggregation, and transaction handling.
+The design demonstrates referenced documents, embedded arrays, validation, unique and supporting indexes, CRUD operations, 16 analytical aggregation pipelines, and atomic transaction handling.
 
 ## Requirements
 
