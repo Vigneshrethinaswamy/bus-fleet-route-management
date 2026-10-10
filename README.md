@@ -87,7 +87,7 @@ mongosh final_project_audit.js
 
 The transaction example uses the official MongoDB Node.js driver. Transactions require replica-set support.
 
-The migration demonstration uses relational-style JSON source tables and reconstructs MongoDB documents with embedded route stops. It is a **simulated export-and-migration workflow**, not a live migration from a running SQL Server or MySQL database.
+The migration demonstration uses relational-style JSON source tables and reconstructs MongoDB documents with embedded route stops. It is a **simulated export-and-migration workflow**, not a live migration from a running SQL Server or MySQL database. Each successful run creates a new timestamped target database. Run `node migration_demo.cjs` before `mongosh final_project_audit.js`; the audit locates the latest timestamped migration target automatically.
 
 ## Indexing evidence
 
