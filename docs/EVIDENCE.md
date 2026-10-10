@@ -47,3 +47,10 @@ Before publishing future changes:
 - [ ] Confirm any new dataset is synthetic or otherwise appropriate to publish.
 - [ ] Verify changed setup commands and script paths.
 - [ ] Keep the repository's licensing choice intentional and consistent with the project's intended use.
+
+## Additional aggregation evidence
+
+- `23-paginated-trip-report.png` — demonstrates page 2 of a trip report using `$sort`, `$skip: 10`, and `$limit: 10`. The query returned 10 records.
+- `24-push-addToSet-by-route.png` — demonstrates grouping trips by route with `$push` to collect trip IDs and `$addToSet` to collect distinct statuses. The displayed route contains 12 trips and five distinct statuses.
+
+Both queries are read-only and completed successfully.

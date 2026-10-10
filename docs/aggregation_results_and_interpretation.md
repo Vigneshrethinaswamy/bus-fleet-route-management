@@ -154,3 +154,9 @@ Save genuine screenshots from the local run under `screenshots/`.
 - [ ] Final aggregation summary showing `Passed: 16`, `Failed: 0`, and `AGGREGATION DEMONSTRATION PASSED.`
 
 Capture the actual terminal output; do not fabricate or manually alter result screenshots.
+
+## Pagination and array accumulator evidence
+
+- **Pagination:** trips are sorted by `tripId`, then `$skip: 10` and `$limit: 10` return the second page of 10 records.
+- **`$push` and `$addToSet`:** trips are grouped by `routeId`. `$push` collects trip IDs, while `$addToSet` collects distinct statuses. The evidence query returned route `RT0054` with 12 trips and the five statuses `IN_PROGRESS`, `ASSIGNED`, `COMPLETED`, `SCHEDULED`, and `CANCELLED`.
+- Screenshots: `23-paginated-trip-report.png` and `24-push-addToSet-by-route.png`.
