@@ -100,8 +100,6 @@ The project benchmarks a compound index against a collection scan for a trip-sta
 - [Database comparison, CAP, replication, sharding, and migration](docs/database_comparison_cap_migration.md)
 - [Evidence and validation](docs/EVIDENCE.md)
 - [Aggregation results and interpretation](docs/aggregation_results_and_interpretation.md)
-- [Viva preparation — 40 questions and answers](docs/viva_questions.md)
-- [Presentation outline — 10-slide structure](docs/presentation_outline.md)
 - `migration/source_tables/` — relational-style JSON extracts used by the migration demonstration
 
 ## Verified results and scope
