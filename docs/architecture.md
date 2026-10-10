@@ -33,6 +33,10 @@ Referenced:
 
 These entities are shared and independently updated.
 
+## Collections and reporting
+
+The database contains the five suggested core collections `users`, `masterData`, `transactions`, `activities`, and the operational collections needed for fleet management. Reports are generated on demand by aggregation pipelines rather than stored as duplicate snapshots in a separate `reports` collection. This avoids stale copies of analytical results; a persistent `reports` collection can be added later if the application needs saved report definitions or report snapshots.
+
 ## Mandatory transaction
 
 Assign an available bus and driver to a scheduled trip. The operation atomically:
